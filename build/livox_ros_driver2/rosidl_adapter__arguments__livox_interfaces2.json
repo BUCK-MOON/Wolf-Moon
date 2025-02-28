@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_ros_driver2",
+  "non_idl_tuples": [
+    "/home/sentry/Wolf-Moon/src/livox_ros_driver2-master:msg/CustomPoint.msg",
+    "/home/sentry/Wolf-Moon/src/livox_ros_driver2-master:msg/CustomMsg.msg"
+  ]
+}

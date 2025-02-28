@@ -1,0 +1,3 @@
+[console_scripts]
+rosbag_record_helper = rosbag_record.rosbag_record_helper:main
+

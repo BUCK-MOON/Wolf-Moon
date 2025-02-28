@@ -1,0 +1,1700 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "liblivox_ros_driver2.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ament_auto_add_library",
+			"install",
+			"ament_auto_package",
+			"link_directories",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"include",
+			"find_package",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"set_property",
+			"find_external_library",
+			"target_include_directories",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/galactic/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/galactic/share/ament_cmake_auto/cmake/ament_auto_package.cmake",
+			"/opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/galactic/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake",
+			"/opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"/usr/lib/cmake/vtk-7.1/UseVTK.cmake",
+			"/usr/local/share/pcl-1.14/PCLConfig.cmake",
+			"/usr/lib/cmake/eigen3/UseEigen3.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 331,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 71,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 257,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 145,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 151,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 306,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 207,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 258,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 241,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 286,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 15
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 15,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 41,
+				"parent" : 19
+			},
+			{
+				"file" : 4,
+				"parent" : 20
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 25,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 226,
+				"parent" : 0
+			},
+			{
+				"file" : 10,
+				"parent" : 23
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 561,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 354,
+				"parent" : 25
+			},
+			{
+				"file" : 9,
+				"parent" : 26
+			},
+			{
+				"command" : 14,
+				"file" : 9,
+				"line" : 23,
+				"parent" : 27
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 564,
+				"parent" : 24
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 354,
+				"parent" : 30
+			},
+			{
+				"file" : 11,
+				"parent" : 31
+			},
+			{
+				"command" : 17,
+				"file" : 11,
+				"line" : 6,
+				"parent" : 32
+			},
+			{
+				"command" : 17,
+				"file" : 9,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 16,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC  "
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-msse4.2"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-mfpmath=sse"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-mavx2"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOOST_FILESYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOOST_IOSTREAMS_DYN_LINK"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOOST_SERIALIZATION_DYN_LINK"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "BUILDING_ROS2"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "EIGEN_HAS_CXX17_OVERALIGN=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "ROS_PACKAGE_NAME=\"livox_ros_driver2\""
+				},
+				{
+					"define" : "livox_ros_driver2_EXPORTS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "/home/sentry/Wolf-Moon/build/livox_ros_driver2/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/sentry/Wolf-Moon/src/livox_ros_driver2-master/3rdparty"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 34,
+					"isSystem" : true,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 34,
+					"isSystem" : true,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "/opt/ros/galactic/include"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/local/include/pcl-1.14"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/include/ni"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/usr/include/openni2"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "livox_interfaces2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "livox_interfaces2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "livox_ros_driver2::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/sentry/Wolf-Moon/install/livox_ros_driver2"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-L/usr/local/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib:/opt/ros/galactic/lib:/home/sentry/Wolf-Moon/build/livox_ros_driver2:/opt/ros/galactic/lib/x86_64-linux-gnu:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libcomponent_manager.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_fastrtps_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libmessage_filters.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libpcl_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libpcl_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libpcl_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libpcl_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libament_index_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/liblibstatistics_collector.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librcl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librcl_yaml_param_parser.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libtracetools.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/liblivox_lidar_sdk_shared.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "liblivox_ros_driver2__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_surface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_keypoints.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_tracking.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_recognition.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_stereo.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_outofcore.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_people.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libOpenNI.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libusb-1.0.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libOpenNI2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libusb-1.0.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfreetype.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libjpeg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpng.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtiff.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libexpat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libflann_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libqhull_r.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librmw_implementation.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librcl_logging_spdlog.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librcl_logging_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/librmw.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libyaml.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosgraph_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libstatistics_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libclass_loader.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libcomposition_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libcomposition_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/galactic/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcl_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/galactic/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/galactic/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_registration.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_segmentation.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_features.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_filters.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_sample_consensus.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_ml.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_visualization.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_search.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_kdtree.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_io.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_octree.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpcap.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libOpenNI.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libusb-1.0.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libOpenNI2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionImage-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libjpeg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpng.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtiff.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libexpat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfreetype.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkGUISupportQt-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLEW.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libSM.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libICE.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libXext.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libXt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/local/lib/libpcl_common.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llz4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "livox_ros_driver2",
+	"nameOnDisk" : "liblivox_ros_driver2.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/livox_ros_driver2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/lddc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/driver_node.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/lds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/lds_lidar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/comm/comm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/comm/ldq.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/comm/semaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/comm/lidar_imu_data_queue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/comm/cache_index.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/comm/pub_handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/parse_cfg_file/parse_cfg_file.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/parse_cfg_file/parse_livox_lidar_cfg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/call_back/lidar_common_callback.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/call_back/livox_lidar_callback.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

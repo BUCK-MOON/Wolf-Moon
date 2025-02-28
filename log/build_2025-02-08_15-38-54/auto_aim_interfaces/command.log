@@ -1,0 +1,3 @@
+Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/auto_aim_interfaces -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/auto_aim_interfaces
+Invoked command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/auto_aim_interfaces -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/auto_aim_interfaces
+Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/auto_aim_interfaces -- -j12 -l12

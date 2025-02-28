@@ -1,0 +1,286 @@
+[0.254s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']
+[0.254s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb6aad637f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb6aad637f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb6aacb2160>)
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.368s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sentry/Wolf-Moon'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2-master) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2-master' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_tools/src/rosbag_record) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_tools/src/rosbag_record' with type 'ros.ament_python' and name 'rosbag_record'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/shm_video_transmission) by extension 'python'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shm_video_transmission' with type 'cmake' and name 'SharedMemoryVideo'
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.406s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/galactic
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.454s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cv_bridge' is in: /opt/ros/galactic
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cv_bridge
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'SharedMemoryVideo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'SharedMemoryVideo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/SharedMemoryVideo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/SharedMemoryVideo', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/shm_video_transmission', 'symlink_install': False, 'test_result_base': None}
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'auto_aim_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/auto_aim_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/auto_aim_interfaces', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/auto_aim_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/cv_bridge', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/livox_ros_driver2-master', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=']'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'rosbag_record' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'rosbag_record' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/rosbag_record', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS='], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/rosbag_record', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record', 'symlink_install': False, 'test_result_base': None}
+[0.456s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/shm_video_transmission'
+[0.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/auto_aim_interfaces' with build type 'ament_cmake'
+[0.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/auto_aim_interfaces'
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/cv_bridge' with build type 'ament_cmake'
+[0.469s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/cv_bridge'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/livox_ros_driver2-master' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/livox_ros_driver2-master'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record' with build type 'ament_python'
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbag_record', 'ament_prefix_path')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/hook/ament_prefix_path.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/hook/ament_prefix_path.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/hook/ament_prefix_path.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo': /usr/bin/cmake /home/sentry/Wolf-Moon/src/shm_video_transmission -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/SharedMemoryVideo
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/auto_aim_interfaces -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/auto_aim_interfaces
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/cv_bridge -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/cv_bridge
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/livox_ros_driver2-master -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/livox_ros_driver2
+[0.706s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record'
+[0.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record': PYTHONPATH=/home/sentry/Wolf-Moon/build/rosbag_record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rosbag_record build --build-base /home/sentry/Wolf-Moon/build/rosbag_record/build install --record /home/sentry/Wolf-Moon/build/rosbag_record/install.log --single-version-externally-managed install_data
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo' returned '0': /usr/bin/cmake /home/sentry/Wolf-Moon/src/shm_video_transmission -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/SharedMemoryVideo
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12
+[1.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record' returned '0': PYTHONPATH=/home/sentry/Wolf-Moon/build/rosbag_record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rosbag_record build --build-base /home/sentry/Wolf-Moon/build/rosbag_record/build install --record /home/sentry/Wolf-Moon/build/rosbag_record/install.log --single-version-externally-managed install_data
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record' for CMake module files
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record' for CMake config files
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record/lib'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record/lib/pkgconfig/rosbag_record.pc'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages'
+[1.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbag_record', 'pythonpath')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/hook/pythonpath.ps1'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/hook/pythonpath.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/hook/pythonpath.sh'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/rosbag_record/bin'
+[1.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbag_record)
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/package.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/package.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/package.sh'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/package.bash'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record/package.zsh'
+[1.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/rosbag_record/share/colcon-core/packages/rosbag_record)
+[2.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/auto_aim_interfaces -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/auto_aim_interfaces
+[2.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/auto_aim_interfaces -- -j12 -l12
+[4.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[4.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[4.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo' returned '-2': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12
+[4.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[4.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.474s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.483s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.484s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.494s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.494s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.ps1'
+[4.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sentry/Wolf-Moon/install/_local_setup_util_ps1.py'
+[4.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.ps1'
+[4.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.sh'
+[4.500s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sentry/Wolf-Moon/install/_local_setup_util_sh.py'
+[4.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.sh'
+[4.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.bash'
+[4.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.bash'
+[4.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.zsh'
+[4.505s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.zsh'

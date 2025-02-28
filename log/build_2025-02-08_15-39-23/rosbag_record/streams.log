@@ -1,0 +1,21 @@
+[0.932s] Invoking command in '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record': PYTHONPATH=/home/sentry/Wolf-Moon/build/rosbag_record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rosbag_record build --build-base /home/sentry/Wolf-Moon/build/rosbag_record/build install --record /home/sentry/Wolf-Moon/build/rosbag_record/install.log --single-version-externally-managed install_data
+[1.094s] running egg_info
+[1.094s] writing ../../../../build/rosbag_record/rosbag_record.egg-info/PKG-INFO
+[1.094s] writing dependency_links to ../../../../build/rosbag_record/rosbag_record.egg-info/dependency_links.txt
+[1.094s] writing entry points to ../../../../build/rosbag_record/rosbag_record.egg-info/entry_points.txt
+[1.094s] writing requirements to ../../../../build/rosbag_record/rosbag_record.egg-info/requires.txt
+[1.094s] writing top-level names to ../../../../build/rosbag_record/rosbag_record.egg-info/top_level.txt
+[1.115s] reading manifest file '../../../../build/rosbag_record/rosbag_record.egg-info/SOURCES.txt'
+[1.115s] writing manifest file '../../../../build/rosbag_record/rosbag_record.egg-info/SOURCES.txt'
+[1.116s] running build
+[1.116s] running build_py
+[1.116s] running install
+[1.116s] running install_lib
+[1.117s] running install_data
+[1.117s] running install_egg_info
+[1.119s] removing '/home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record-0.0.0-py3.8.egg-info' (and everything under it)
+[1.119s] Copying ../../../../build/rosbag_record/rosbag_record.egg-info to /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record-0.0.0-py3.8.egg-info
+[1.119s] running install_scripts
+[1.131s] Installing rosbag_record_helper script to /home/sentry/Wolf-Moon/install/rosbag_record/lib/rosbag_record
+[1.131s] writing list of installed files to '/home/sentry/Wolf-Moon/build/rosbag_record/install.log'
+[1.147s] Invoked command in '/home/sentry/Wolf-Moon/src/ros2_tools/src/rosbag_record' returned '0': PYTHONPATH=/home/sentry/Wolf-Moon/build/rosbag_record/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/rosbag_record build --build-base /home/sentry/Wolf-Moon/build/rosbag_record/build install --record /home/sentry/Wolf-Moon/build/rosbag_record/install.log --single-version-externally-managed install_data

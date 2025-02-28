@@ -1,0 +1,135 @@
+[0.044s] Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/cv_bridge
+[0.383s] -- The C compiler identification is GNU 9.4.0
+[0.383s] -- The CXX compiler identification is GNU 9.4.0
+[0.383s] -- Check for working C compiler: /usr/bin/cc
+[0.383s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.384s] -- Detecting C compiler ABI info
+[0.535s] -- Detecting C compiler ABI info - done
+[0.553s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.557s] -- Check for working CXX compiler: /usr/bin/c++
+[0.672s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.673s] -- Detecting CXX compiler ABI info
+[0.789s] -- Detecting CXX compiler ABI info - done
+[0.812s] -- Detecting CXX compile features
+[0.813s] -- Detecting CXX compile features - done
+[0.815s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[0.854s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.854s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.972s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[0.980s] -- Boost_VERSION_STRING: 1.71.0
+[0.987s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python38 
+[0.989s] -- Found rcpputils: 2.2.2 (/opt/ros/galactic/share/rcpputils/cmake)
+[1.008s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.030s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.132s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.172s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.433s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.529s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.530s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.658s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.658s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.790s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.825s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.828s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.8") 
+[2.055s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.113s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.117s] -- Looking for pthread.h
+[2.180s] -- Looking for pthread.h - found
+[2.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.244s] -- Check if compiler accepts -pthread
+[2.300s] -- Check if compiler accepts -pthread - yes
+[2.301s] -- Found Threads: TRUE  
+[3.398s] -- Configuring done
+[3.423s] -- Generating done
+[3.434s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/cv_bridge
+[3.444s] Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/cv_bridge
+[3.446s] Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/cv_bridge -- -j12 -l12
+[3.472s] [35m[1mScanning dependencies of target ament_cmake_python_copy_cv_bridge[0m
+[3.472s] [35m[1mScanning dependencies of target gtest[0m
+[3.479s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.479s] [35m[1mScanning dependencies of target cv_bridge[0m
+[3.485s] [  0%] Built target ament_cmake_python_copy_cv_bridge
+[3.496s] [35m[1mScanning dependencies of target ament_cmake_python_build_cv_bridge_egg[0m
+[3.503s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.504s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.535s] [ 18%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[3.547s] [ 25%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[3.717s] running egg_info
+[3.717s] creating cv_bridge.egg-info
+[3.723s] writing cv_bridge.egg-info/PKG-INFO
+[3.723s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[3.723s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[3.725s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.772s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.772s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.816s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[4.410s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.454s] [ 31%] Built target gtest_main
+[7.052s] [ 37%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[7.260s] [ 37%] Built target cv_bridge
+[7.301s] [35m[1mScanning dependencies of target cv_bridge_boost[0m
+[7.423s] [ 43%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[7.441s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[7.614s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.829s] [ 56%] Built target gtest
+[7.916s] [35m[1mScanning dependencies of target cv_bridge-utest[0m
+[8.082s] [ 62%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[8.084s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[8.113s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[8.116s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[8.165s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[10.962s] [ 93%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[11.215s] [ 93%] Built target cv_bridge-utest
+[12.500s] [100%] [32m[1mLinking CXX shared library boost/cv_bridge_boost.so[0m
+[12.590s] [100%] Built target cv_bridge_boost
+[12.598s] Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/cv_bridge -- -j12 -l12
+[12.602s] Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/cv_bridge
+[12.607s] -- Install configuration: ""
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/SOURCES.txt
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/top_level.txt
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/dependency_links.txt
+[12.607s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/PKG-INFO
+[12.608s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge
+[12.608s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[12.608s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[12.629s] Listing '/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[12.630s] Compiling '/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py'...
+[12.630s] Compiling '/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py'...
+[12.632s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[12.633s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[12.633s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge
+[12.633s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[12.633s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[12.633s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/libcv_bridge.so
+[12.635s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/cv_bridge/lib/libcv_bridge.so" to ""
+[12.636s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[12.636s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[12.636s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[12.636s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[12.636s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/path.sh
+[12.636s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.bash
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.sh
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/package.dsv
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[12.637s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[12.638s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.638s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.638s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[12.638s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[12.638s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[12.638s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/package.xml
+[12.639s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/libcv_bridge.so
+[12.639s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[12.639s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[12.640s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so" to ""
+[12.644s] Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/cv_bridge

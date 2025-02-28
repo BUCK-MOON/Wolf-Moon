@@ -1,0 +1,23 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr/local/opencv4 (found version "4.6.0") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sentry/Wolf-Moon/build/SharedMemoryVideo
+[35m[1mScanning dependencies of target receiver[0m
+[35m[1mScanning dependencies of target sender[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/receiver.dir/demo_receiver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/demo_sender.cpp.o[0m

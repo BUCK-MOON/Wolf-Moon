@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auto_aim_interfaces/msg/Gimbal.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module auto_aim_interfaces {
+  module msg {
+    struct Gimbal {
+      std_msgs::msg::Header header;
+
+      float pitch;
+
+      float yaw;
+
+      float distance;
+
+      boolean is_switched;
+
+      boolean is_target;
+
+      boolean is_spinning;
+
+      boolean is_spinning_switched;
+
+      boolean is_shooting;
+
+      boolean is_prediction;
+
+      geometry_msgs::msg::Point meas_point_cam;
+
+      geometry_msgs::msg::Point pred_point_cam;
+    };
+  };
+};

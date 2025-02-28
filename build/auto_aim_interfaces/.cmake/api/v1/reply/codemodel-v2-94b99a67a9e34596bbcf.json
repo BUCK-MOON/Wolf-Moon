@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "auto_aim_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sentry/Wolf-Moon/build/auto_aim_interfaces/auto_aim_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "auto_aim_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces-084970864e4d2a34b5cb.json",
+					"name" : "auto_aim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__cpp-9f537961cc677c49744c.json",
+					"name" : "auto_aim_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "auto_aim_interfaces__py::@7d42394fc9c2e1d152d7",
+					"jsonFile" : "target-auto_aim_interfaces__py-0400b54865b4c0bb4253.json",
+					"name" : "auto_aim_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__python-259dfadb2ccd9935e88f.json",
+					"name" : "auto_aim_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_generator_c-f7946ba7ef0542633edd.json",
+					"name" : "auto_aim_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_c-2e5a63cd8f53c0a2bc21.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_c__pyext-7c7d3919c662c0692ed2.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_cpp-87eb59572ec34e738d7a.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_c-4319966f9375da54a8be.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext-fe5bef7275b2cb2d7ac6.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp-c4eb11d88fab074bca92.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_c-f97d9b0295b51c41d7f6.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext-8d70d510b610869e60fb.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_cpp-89381ac1716b671e6240.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces_uninstall-e0d3baebf11b1a3b3335.json",
+					"name" : "auto_aim_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a4023d16a11fc4287893.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sentry/Wolf-Moon/build/auto_aim_interfaces",
+		"source" : "/home/sentry/Wolf-Moon/src/auto_aim_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

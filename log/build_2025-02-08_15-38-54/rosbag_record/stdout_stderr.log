@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../../build/rosbag_record/rosbag_record.egg-info
+writing ../../../../build/rosbag_record/rosbag_record.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/rosbag_record/rosbag_record.egg-info/dependency_links.txt
+writing entry points to ../../../../build/rosbag_record/rosbag_record.egg-info/entry_points.txt
+writing requirements to ../../../../build/rosbag_record/rosbag_record.egg-info/requires.txt
+writing top-level names to ../../../../build/rosbag_record/rosbag_record.egg-info/top_level.txt
+writing manifest file '../../../../build/rosbag_record/rosbag_record.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/rosbag_record/rosbag_record.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/rosbag_record/rosbag_record.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sentry/Wolf-Moon/build/rosbag_record/build
+creating /home/sentry/Wolf-Moon/build/rosbag_record/build/lib
+creating /home/sentry/Wolf-Moon/build/rosbag_record/build/lib/rosbag_record
+copying rosbag_record/__init__.py -> /home/sentry/Wolf-Moon/build/rosbag_record/build/lib/rosbag_record
+copying rosbag_record/rosbag_record_helper.py -> /home/sentry/Wolf-Moon/build/rosbag_record/build/lib/rosbag_record
+running install
+running install_lib
+creating /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record
+copying /home/sentry/Wolf-Moon/build/rosbag_record/build/lib/rosbag_record/__init__.py -> /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record
+copying /home/sentry/Wolf-Moon/build/rosbag_record/build/lib/rosbag_record/rosbag_record_helper.py -> /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record
+byte-compiling /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record/rosbag_record_helper.py to rosbag_record_helper.cpython-38.pyc
+running install_data
+creating /home/sentry/Wolf-Moon/install/rosbag_record/share/ament_index
+creating /home/sentry/Wolf-Moon/install/rosbag_record/share/ament_index/resource_index
+creating /home/sentry/Wolf-Moon/install/rosbag_record/share/ament_index/resource_index/packages
+copying resource/rosbag_record -> /home/sentry/Wolf-Moon/install/rosbag_record/share/ament_index/resource_index/packages
+copying package.xml -> /home/sentry/Wolf-Moon/install/rosbag_record/share/rosbag_record
+running install_egg_info
+Copying ../../../../build/rosbag_record/rosbag_record.egg-info to /home/sentry/Wolf-Moon/install/rosbag_record/lib/python3.8/site-packages/rosbag_record-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rosbag_record_helper script to /home/sentry/Wolf-Moon/install/rosbag_record/lib/rosbag_record
+writing list of installed files to '/home/sentry/Wolf-Moon/build/rosbag_record/install.log'

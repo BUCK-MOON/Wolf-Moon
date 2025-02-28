@@ -1,0 +1,7 @@
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armor.idl
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armors.idl
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Gimbal.idl
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Serial.idl
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Point2f.idl
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/State.idl
+/home/sentry/Wolf-Moon/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Uart.idl

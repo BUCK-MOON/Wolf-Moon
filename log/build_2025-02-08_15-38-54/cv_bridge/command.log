@@ -1,0 +1,1 @@
+Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/cv_bridge -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/cv_bridge

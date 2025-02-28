@@ -1,0 +1,12 @@
+{
+  "package_name": "auto_aim_interfaces",
+  "non_idl_tuples": [
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/Armor.msg",
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/Armors.msg",
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/Gimbal.msg",
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/Serial.msg",
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/Point2f.msg",
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/State.msg",
+    "/home/sentry/Wolf-Moon/src/auto_aim_interfaces:msg/Uart.msg"
+  ]
+}

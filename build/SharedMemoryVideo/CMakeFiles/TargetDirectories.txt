@@ -1,0 +1,4 @@
+/home/sentry/Wolf-Moon/build/SharedMemoryVideo/CMakeFiles/rebuild_cache.dir
+/home/sentry/Wolf-Moon/build/SharedMemoryVideo/CMakeFiles/edit_cache.dir
+/home/sentry/Wolf-Moon/build/SharedMemoryVideo/CMakeFiles/receiver.dir
+/home/sentry/Wolf-Moon/build/SharedMemoryVideo/CMakeFiles/sender.dir

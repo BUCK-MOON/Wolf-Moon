@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../../build/rosbag_record/rosbag_record.egg-info/PKG-INFO
+../../../../build/rosbag_record/rosbag_record.egg-info/SOURCES.txt
+../../../../build/rosbag_record/rosbag_record.egg-info/dependency_links.txt
+../../../../build/rosbag_record/rosbag_record.egg-info/entry_points.txt
+../../../../build/rosbag_record/rosbag_record.egg-info/requires.txt
+../../../../build/rosbag_record/rosbag_record.egg-info/top_level.txt
+../../../../build/rosbag_record/rosbag_record.egg-info/zip-safe
+resource/rosbag_record
+rosbag_record/__init__.py
+rosbag_record/rosbag_record_helper.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

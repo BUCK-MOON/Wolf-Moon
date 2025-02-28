@@ -1,0 +1,6 @@
+source;share/rosbag_record/hook/pythonpath.ps1
+source;share/rosbag_record/hook/pythonpath.dsv
+source;share/rosbag_record/hook/pythonpath.sh
+source;share/rosbag_record/hook/ament_prefix_path.ps1
+source;share/rosbag_record/hook/ament_prefix_path.dsv
+source;share/rosbag_record/hook/ament_prefix_path.sh

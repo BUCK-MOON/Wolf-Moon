@@ -1,0 +1,403 @@
+[0.044s] Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/livox_ros_driver2-master -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/livox_ros_driver2
+[0.376s] -- The C compiler identification is GNU 9.4.0
+[0.376s] -- The CXX compiler identification is GNU 9.4.0
+[0.377s] -- Check for working C compiler: /usr/bin/cc
+[0.486s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.487s] -- Detecting C compiler ABI info
+[0.621s] -- Detecting C compiler ABI info - done
+[0.632s] -- Detecting C compile features
+[0.633s] -- Detecting C compile features - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++
+[0.744s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.745s] -- Detecting CXX compiler ABI info
+[0.850s] -- Detecting CXX compiler ABI info - done
+[0.866s] -- Detecting CXX compile features
+[0.867s] -- Detecting CXX compile features - done
+[0.868s] -- livox_ros_driver2 version: 1.2.4
+[0.870s] -- Found ament_cmake_auto: 1.1.6 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.905s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.906s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.071s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.193s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.231s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.455s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.458s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.486s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.487s] -- Looking for pthread.h
+[1.587s] -- Looking for pthread.h - found
+[1.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.755s] -- Looking for pthread_create in pthreads
+[1.920s] -- Looking for pthread_create in pthreads - not found
+[1.920s] -- Looking for pthread_create in pthread
+[2.029s] -- Looking for pthread_create in pthread - found
+[2.031s] -- Found Threads: TRUE  
+[2.784s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[2.808s] -- Checking for module 'flann'
+[2.828s] --   Found flann, version 1.9.1
+[2.883s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.883s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.116s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.117s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.202s] -- The imported target "vtkParseOGLExt" references the file
+[3.202s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.202s] but this file does not exist.  Possible reasons include:
+[3.202s] * The file was deleted, renamed, or moved to another location.
+[3.202s] * An install or uninstall procedure did not complete successfully.
+[3.202s] * The installation package was faulty and contained
+[3.202s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.203s] but not all the files it references.
+[3.203s] 
+[3.203s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.203s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.203s] but this file does not exist.  Possible reasons include:
+[3.203s] * The file was deleted, renamed, or moved to another location.
+[3.203s] * An install or uninstall procedure did not complete successfully.
+[3.203s] * The installation package was faulty and contained
+[3.203s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.203s] but not all the files it references.
+[3.203s] 
+[3.204s] -- The imported target "vtk" references the file
+[3.204s]    "/usr/bin/vtk"
+[3.204s] but this file does not exist.  Possible reasons include:
+[3.204s] * The file was deleted, renamed, or moved to another location.
+[3.204s] * An install or uninstall procedure did not complete successfully.
+[3.204s] * The installation package was faulty and contained
+[3.204s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.204s] but not all the files it references.
+[3.204s] 
+[3.204s] -- The imported target "pvtk" references the file
+[3.204s]    "/usr/bin/pvtk"
+[3.205s] but this file does not exist.  Possible reasons include:
+[3.205s] * The file was deleted, renamed, or moved to another location.
+[3.205s] * An install or uninstall procedure did not complete successfully.
+[3.205s] * The installation package was faulty and contained
+[3.205s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.205s] but not all the files it references.
+[3.205s] 
+[3.367s] -- Checking for module 'libusb-1.0'
+[3.386s] --   Found libusb-1.0, version 1.0.23
+[3.428s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.430s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.430s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.503s] -- Found OpenNI2: /usr/lib/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.503s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[3.506s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[3.520s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.552s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.612s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.650s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[3.661s] -- Found Qhull: /usr/lib/x86_64-linux-gnu/libqhull_r.so  
+[3.662s] -- QHULL found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libqhull_r.so)
+[3.684s] -- looking for PCL_COMMON
+[3.684s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[3.684s] -- looking for PCL_KDTREE
+[3.685s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[3.685s] -- looking for PCL_OCTREE
+[3.685s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[3.685s] -- looking for PCL_SEARCH
+[3.686s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[3.686s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.686s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[3.686s] -- looking for PCL_FILTERS
+[3.687s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[3.687s] -- looking for PCL_2D
+[3.687s] -- Found PCL_2D: /usr/local/include/pcl-1.14  
+[3.687s] -- looking for PCL_GEOMETRY
+[3.688s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.14  
+[3.688s] -- looking for PCL_IO
+[3.688s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[3.688s] -- looking for PCL_FEATURES
+[3.689s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[3.689s] -- looking for PCL_ML
+[3.689s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[3.690s] -- looking for PCL_SEGMENTATION
+[3.690s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[3.690s] -- looking for PCL_VISUALIZATION
+[3.690s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[3.691s] -- looking for PCL_SURFACE
+[3.691s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[3.691s] -- looking for PCL_REGISTRATION
+[3.692s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[3.692s] -- looking for PCL_KEYPOINTS
+[3.692s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[3.693s] -- looking for PCL_TRACKING
+[3.693s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[3.693s] -- looking for PCL_RECOGNITION
+[3.694s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[3.695s] -- looking for PCL_STEREO
+[3.695s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[3.695s] -- looking for PCL_OUTOFCORE
+[3.695s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[3.695s] -- looking for PCL_PEOPLE
+[3.696s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[3.697s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/libOpenNI2.so;libusb::libusb;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionImage;vtkImagingColor;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsCore;vtkViewsContext2D;vtkRenderingOpenGL2;vtkRenderingContextOpenGL2;vtkGUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.702s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[3.703s] -- Checking for module 'apr-1'
+[3.708s] --   No package 'apr-1' found
+[3.731s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.837s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[4.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.211s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.214s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.252s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.253s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.253s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.253s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.282s] -- Found PythonExtra: .so  
+[4.460s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.484s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.494s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/3rdparty;/home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src
+[4.495s] -- Configured cppcheck exclude dirs and/or files: 
+[4.499s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.499s] -- Configured cpplint exclude dirs and/or files: 
+[4.500s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.502s] -- Added test 'lint_cmake' to check CMake code style
+[4.503s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.507s] -- Added test 'uncrustify' to check C / C++ code style
+[4.507s] -- Configured uncrustify additional arguments: 
+[4.508s] -- Added test 'xmllint' to check XML markup files
+[4.515s] -- Configuring done
+[4.679s] -- Generating done
+[4.732s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/livox_ros_driver2
+[4.752s] Invoked command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/livox_ros_driver2-master -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/livox_ros_driver2
+[4.755s] Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/livox_ros_driver2 -- -j12 -l12
+[4.802s] [35m[1mScanning dependencies of target livox_ros_driver2_node[0m
+[4.807s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.809s] [35m[1mScanning dependencies of target livox_interfaces2__cpp[0m
+[4.820s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.893s] [  5%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[5.089s] [  5%] Built target livox_interfaces2__cpp
+[5.096s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.109s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.112s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.353s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_generator_c[0m
+[5.372s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[5.372s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[5.400s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[5.428s] [ 15%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[5.434s] [ 17%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[5.440s] [ 19%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[5.481s] [ 19%] Built target livox_interfaces2__rosidl_generator_c
+[5.497s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.497s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.548s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[5.562s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[5.563s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[5.574s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[5.587s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[5.590s] [ 29%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[5.945s] [ 31%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[6.006s] [ 31%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[6.042s] [ 33%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[6.055s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_c[0m
+[6.069s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c[0m
+[6.072s] [ 36%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[6.072s] [ 36%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[6.087s] [ 40%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[6.087s] [ 40%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[6.131s] [ 42%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[6.139s] [ 43%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[6.167s] [ 43%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[6.173s] [ 45%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.176s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[6.181s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_c
+[6.246s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[6.254s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.499s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c[0m
+[6.522s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[6.523s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[6.874s] [ 52%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[6.941s] [ 52%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[6.948s] [35m[1mScanning dependencies of target livox_interfaces2[0m
+[6.956s] [ 52%] Built target livox_interfaces2
+[6.964s] [35m[1mScanning dependencies of target livox_ros_driver2[0m
+[6.969s] [35m[1mScanning dependencies of target livox_interfaces2__py[0m
+[6.980s] [ 54%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.156s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[7.156s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[7.156s] [ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[7.156s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[7.158s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[7.158s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[7.158s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[7.168s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[7.168s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[7.217s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[7.732s] [ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[7.877s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[8.074s] [ 75%] Built target livox_interfaces2__py
+[8.117s] [35m[1mScanning dependencies of target livox_interfaces2__python[0m
+[8.123s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[8.209s] [ 78%] [32mBuilding C object CMakeFiles/livox_interfaces2__python.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[8.398s] [ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[8.438s] [ 82%] [32mBuilding C object CMakeFiles/livox_interfaces2__python.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[8.530s] [ 84%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[8.608s] [ 85%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[8.774s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__python.so[0m
+[8.948s] [ 87%] Built target livox_interfaces2__python
+[9.015s] [ 87%] Built target livox_ros_driver2_node
+[9.029s] [35m[1mScanning dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext[0m
+[9.034s] [35m[1mScanning dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext[0m
+[9.042s] [35m[1mScanning dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.096s] [ 89%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.096s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.122s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[9.322s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.338s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.408s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.461s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[9.490s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[9.614s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[15.050s] [100%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[15.959s] [100%] Built target livox_ros_driver2
+[15.972s] Invoked command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/livox_ros_driver2 -- -j12 -l12
+[15.975s] Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/livox_ros_driver2
+[15.982s] -- Install configuration: ""
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.h
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.h
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.h
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[15.982s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.c
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[15.983s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[15.983s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[15.983s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[15.983s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[15.983s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[15.984s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[15.984s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[15.984s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[15.984s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/dds_fastrtps
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[15.984s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.984s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[15.984s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.984s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[15.984s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[15.984s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[15.984s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[15.985s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[15.985s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.hpp
+[15.985s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[15.985s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[15.985s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[15.985s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[15.985s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[15.985s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[15.985s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[15.986s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[15.986s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[15.986s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py
+[16.006s] Compiling '/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py'...
+[16.008s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg
+[16.008s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/__init__.py
+[16.009s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point.py
+[16.009s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg.py
+[16.009s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[16.009s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point_s.c
+[16.009s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[16.010s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.010s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[16.011s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.011s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[16.012s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.012s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so
+[16.013s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so" to ""
+[16.013s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[16.013s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[16.013s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[16.013s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[16.013s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[16.014s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[16.014s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[16.018s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[16.019s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config
+[16.019s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[16.019s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[16.019s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[16.019s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[16.020s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[16.021s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[16.022s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[16.022s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[16.022s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport.cmake
+[16.022s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[16.022s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[16.023s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.024s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[16.024s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[16.024s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cppExport.cmake
+[16.024s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[16.024s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.025s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[16.025s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[16.025s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[16.025s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[16.025s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[16.026s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[16.027s] Invoked command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/livox_ros_driver2

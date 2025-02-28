@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o"
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o"
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/gimbal__type_support.cpp.o"
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/point2f__type_support.cpp.o"
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/serial__type_support.cpp.o"
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/state__type_support.cpp.o"
+  "CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/uart__type_support.cpp.o"
+  "libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/gimbal__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/point2f__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/serial__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/uart__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/point2f__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/serial__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/uart__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,10 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sentry/Wolf-Moon/build/SharedMemoryVideo
+[ 50%] [32mBuilding CXX object CMakeFiles/receiver.dir/demo_receiver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/demo_sender.cpp.o[0m
+make[2]: *** [CMakeFiles/sender.dir/build.make:63: CMakeFiles/sender.dir/demo_sender.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/receiver.dir/build.make:63: CMakeFiles/receiver.dir/demo_receiver.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sender.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/receiver.dir/all] Interrupt
+make: *** [Makefile:84: all] Interrupt

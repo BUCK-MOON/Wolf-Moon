@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "chrono": "cpp",
+        "future": "cpp",
+        "core": "cpp",
+        "numericaldiff": "cpp",
+        "vector": "cpp",
+        "unordered_map": "cpp",
+        "memory_resource": "cpp"
+    }
+}

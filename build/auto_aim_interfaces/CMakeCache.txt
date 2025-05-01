@@ -252,9 +252,6 @@ FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/galactic/lib/libfastrtps.so
 
-//No help, variable specified on the command line.
-HUMBLE_ROS:UNINITIALIZED=
-
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
@@ -281,9 +278,6 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 //Specify specific Python version to use ('major.minor' or 'major')
 PYTHON_VERSION:STRING=
-
-//No help, variable specified on the command line.
-ROS_EDITION:UNINITIALIZED=ROS2
 
 //Name of the computer/site where compile is being run
 SITE:STRING=sentry

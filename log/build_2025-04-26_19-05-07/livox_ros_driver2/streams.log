@@ -1,0 +1,149 @@
+[0.089s] Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/livox_ros_driver2 -- -j12 -l12
+[0.301s] [  3%] Built target livox_ros_driver2_node
+[0.375s] [ 10%] Built target livox_interfaces2__rosidl_generator_c
+[0.460s] [ 12%] Built target livox_interfaces2__cpp
+[0.527s] [ 19%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[0.615s] [ 26%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.727s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.825s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[0.925s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.969s] [ 54%] Built target livox_interfaces2__rosidl_typesupport_c
+[1.061s] [ 54%] Built target livox_interfaces2
+[1.200s] [ 82%] Built target livox_ros_driver2
+[1.305s] [ 84%] Built target livox_interfaces2__py
+[1.417s] [ 89%] Built target livox_interfaces2__python
+[1.499s] [ 92%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[1.616s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[1.839s] [100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[1.849s] Invoked command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/livox_ros_driver2 -- -j12 -l12
+[1.850s] Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/livox_ros_driver2
+[1.939s] -- Install configuration: ""
+[1.939s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[1.940s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[1.940s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[1.940s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.h
+[1.940s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.h
+[1.940s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[1.940s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.h
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.h
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.c
+[1.941s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[1.942s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/dds_fastrtps
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[1.943s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[1.944s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[1.944s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.946s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.hpp
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.hpp
+[1.947s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[1.948s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg
+[1.949s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[1.950s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py
+[2.015s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg
+[2.015s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/__init__.py
+[2.015s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point.py
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg.py
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point_s.c
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so
+[2.016s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[2.017s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[2.017s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[2.017s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[2.017s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[2.018s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[2.018s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[2.019s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[2.020s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[2.020s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[2.020s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[2.020s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[2.020s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[2.020s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[2.021s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[2.021s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[2.021s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[2.021s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[2.021s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[2.023s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[2.023s] -- Installing: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[2.027s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[2.027s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport.cmake
+[2.027s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[2.028s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[2.028s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.028s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[2.028s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cppExport.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.032s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.033s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.033s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[2.033s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[2.033s] -- Up-to-date: /home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[2.095s] Invoked command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/livox_ros_driver2

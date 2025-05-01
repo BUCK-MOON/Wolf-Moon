@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target color_blending_filter[0m
+[35m[1mScanning dependencies of target set_basic_layers_filter[0m
+[35m[1mScanning dependencies of target color_fill_filter[0m
+[35m[1mScanning dependencies of target light_intensity_filter[0m
+[35m[1mScanning dependencies of target buffer_normalizer_filter[0m
+[35m[1mScanning dependencies of target threshold_filter[0m
+[  3%] [32mBuilding CXX object CMakeFiles/color_blending_filter.dir/src/ColorBlendingFilter.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/threshold_filter.dir/src/ThresholdFilter.cpp.o[0m
+[35m[1mScanning dependencies of target duplication_filter[0m
+[  9%] [32mBuilding CXX object CMakeFiles/set_basic_layers_filter.dir/src/SetBasicLayersFilter.cpp.o[0m
+[35m[1mScanning dependencies of target curvature_filter[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/color_fill_filter.dir/src/ColorFillFilter.cpp.o[0m
+[35m[1mScanning dependencies of target min_in_radius_filter[0m
+[35m[1mScanning dependencies of target normal_vectors_filter[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/light_intensity_filter.dir/src/LightIntensityFilter.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/buffer_normalizer_filter.dir/src/BufferNormalizerFilter.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/min_in_radius_filter.dir/src/MinInRadiusFilter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/normal_vectors_filter.dir/src/NormalVectorsFilter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/duplication_filter.dir/src/DuplicationFilter.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/curvature_filter.dir/src/CurvatureFilter.cpp.o[0m
+[35m[1mScanning dependencies of target normal_color_map_filter[0m
+[35m[1mScanning dependencies of target mean_in_radius_filter[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/normal_color_map_filter.dir/src/NormalColorMapFilter.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/mean_in_radius_filter.dir/src/MeanInRadiusFilter.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libbuffer_normalizer_filter.so[0m
+[ 40%] Built target buffer_normalizer_filter
+[ 43%] [32m[1mLinking CXX shared library libcolor_blending_filter.so[0m
+[ 46%] [32m[1mLinking CXX shared library libduplication_filter.so[0m
+[ 50%] [32m[1mLinking CXX shared library libset_basic_layers_filter.so[0m
+[ 50%] Built target color_blending_filter
+[ 50%] Built target duplication_filter
+[ 53%] [32m[1mLinking CXX shared library libcolor_fill_filter.so[0m
+[ 56%] [32m[1mLinking CXX shared library libnormal_color_map_filter.so[0m
+[ 56%] Built target set_basic_layers_filter
+[ 56%] Built target color_fill_filter
+[ 56%] Built target normal_color_map_filter
+[ 59%] [32m[1mLinking CXX shared library libmin_in_radius_filter.so[0m
+[ 62%] [32m[1mLinking CXX shared library libthreshold_filter.so[0m
+[ 65%] [32m[1mLinking CXX shared library libcurvature_filter.so[0m
+[ 65%] Built target min_in_radius_filter
+[ 65%] Built target threshold_filter
+[ 65%] Built target curvature_filter
+[ 68%] [32m[1mLinking CXX shared library liblight_intensity_filter.so[0m
+[ 68%] Built target light_intensity_filter
+[ 71%] [32m[1mLinking CXX shared library libmean_in_radius_filter.so[0m
+[ 71%] Built target mean_in_radius_filter
+[ 75%] [32m[1mLinking CXX shared library libnormal_vectors_filter.so[0m
+[ 75%] Built target normal_vectors_filter
+[35m[1mScanning dependencies of target deletion_filter[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/deletion_filter.dir/src/DeletionFilter.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library libdeletion_filter.so[0m
+[ 81%] Built target deletion_filter
+[35m[1mScanning dependencies of target sliding_window_math_expression_filter[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sliding_window_math_expression_filter.dir/src/SlidingWindowMathExpressionFilter.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libsliding_window_math_expression_filter.so[0m
+[ 87%] Built target sliding_window_math_expression_filter
+[35m[1mScanning dependencies of target color_map_filter[0m
+[35m[1mScanning dependencies of target math_expression_filter[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/math_expression_filter.dir/src/MathExpressionFilter.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/color_map_filter.dir/src/ColorMapFilter.cpp.o[0m
+[ 96%] [32m[1mLinking CXX shared library libcolor_map_filter.so[0m
+[ 96%] Built target color_map_filter
+[100%] [32m[1mLinking CXX shared library libmath_expression_filter.so[0m
+[100%] Built target math_expression_filter

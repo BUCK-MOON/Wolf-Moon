@@ -1,0 +1,151 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_scans"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"LINK_DIRECTORIES",
+			"TARGET_LINK_LIBRARIES",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"octomap/src/testing/CMakeLists.txt",
+			"octomap/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Werror -Wextra -Wpedantic -O3 -funroll-loops -DNDEBUG -fPIE   -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/octomap/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "octomath::@45d74da8db01ef27986b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "octomap::@1afe789221d1a6b31454"
+		}
+	],
+	"id" : "test_scans::@63f2093e45eef7f00c8c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Werror -Wextra -Wpedantic -O3 -funroll-loops -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.so.1.9.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.so.1.9.8",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_scans",
+	"nameOnDisk" : "test_scans",
+	"paths" : 
+	{
+		"build" : "octomap/src/testing",
+		"source" : "octomap/src/testing"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "octomap/src/testing/test_scans.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

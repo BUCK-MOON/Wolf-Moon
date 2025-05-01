@@ -1,0 +1,2 @@
+make[1]: *** [CMakeFiles/Makefile2:1349: octomap/src/CMakeFiles/bt2vrml.dir/all] Interrupt
+make: *** [Makefile:152: all] Interrupt

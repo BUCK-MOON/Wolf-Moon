@@ -1,0 +1,228 @@
+
+
+-- octomap building as Release
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+
+
+-- Compile octomap using: make
+-- Install octomap using: make install
+--     (be sure to set the correct CMAKE_INSTALL_PREFIX before)
+-- Compile API-documentation using: make docs
+
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sentry/Wolf-Moon/build/octomap_dynamic_map
+[  1%] [32m[1mLinking CXX shared library /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.so[0m
+[  2%] [32m[1mLinking CXX static library /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.a[0m
+[  6%] Built target octomath-static
+[  7%] [32m[1mLinking CXX static library /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.a[0m
+[ 11%] Built target octomath
+[ 23%] Built target octomap-static
+[ 24%] [32m[1mLinking CXX shared library /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.so[0m
+[ 35%] Built target octomap
+[35m[1mScanning dependencies of target graph2tree[0m
+[35m[1mScanning dependencies of target simple_example[0m
+[35m[1mScanning dependencies of target octree2pointcloud[0m
+[35m[1mScanning dependencies of target binvox2bt[0m
+[35m[1mScanning dependencies of target bt2vrml[0m
+[35m[1mScanning dependencies of target log2graph[0m
+[ 37%] [32mBuilding CXX object octomap/src/CMakeFiles/graph2tree.dir/graph2tree.cpp.o[0m
+[ 38%] [32mBuilding CXX object octomap/src/CMakeFiles/simple_example.dir/simple_example.cpp.o[0m
+[35m[1mScanning dependencies of target edit_octree[0m
+[35m[1mScanning dependencies of target eval_octree_accuracy[0m
+[35m[1mScanning dependencies of target intersection_example[0m
+[ 39%] [32mBuilding CXX object octomap/src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o[0m
+[35m[1mScanning dependencies of target convert_octree[0m
+[ 41%] [32mBuilding CXX object octomap/src/CMakeFiles/octree2pointcloud.dir/octree2pointcloud.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/compare_octrees[0m
+[ 43%] [32m[1mLinking CXX shared library /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so[0m
+[ 44%] [32mBuilding CXX object octomap/src/CMakeFiles/log2graph.dir/log2graph.cpp.o[0m
+[ 46%] [32mBuilding CXX object octomap/src/CMakeFiles/binvox2bt.dir/binvox2bt.cpp.o[0m
+[ 47%] [32mBuilding CXX object octomap/src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o[0m
+[ 48%] [32mBuilding CXX object octomap/src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o[0m
+[ 50%] [32mBuilding CXX object octomap/src/CMakeFiles/eval_octree_accuracy.dir/eval_octree_accuracy.cpp.o[0m
+[ 51%] [32mBuilding CXX object octomap/src/CMakeFiles/intersection_example.dir/intersection_example.cpp.o[0m
+[ 52%] Built target compare_octrees
+[ 53%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/normals_example[0m
+[ 55%] Built target normals_example
+[ 56%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_raycasting[0m
+[ 57%] Built target test_raycasting
+[ 58%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_iterators[0m
+[ 60%] Built target test_iterators
+[ 61%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/edit_octree[0m
+[ 62%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/log2graph[0m
+[ 64%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_scans[0m
+[ 65%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/bt2vrml[0m
+[ 66%] Built target dm_lib
+[ 66%] Built target log2graph
+[ 66%] Built target edit_octree
+[ 69%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_pruning[0m
+[ 67%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_io[0m
+[ 69%] Built target bt2vrml
+[ 70%] Built target test_scans
+[ 71%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_bbx[0m
+[ 73%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_changedkeys[0m
+[ 74%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_color_tree[0m
+[ 75%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/binvox2bt[0m
+[ 76%] Built target test_pruning
+[ 78%] Built target test_io
+[ 79%] Built target test_bbx
+[ 80%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/eval_octree_accuracy[0m
+[ 82%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/color_tree_histogram[0m
+[ 83%] Built target test_changedkeys
+[ 84%] Built target test_color_tree
+[ 85%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/unit_tests[0m
+[ 87%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_mapcollection[0m
+[ 88%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/convert_octree[0m
+[ 88%] Built target binvox2bt
+[ 89%] [32m[1mLinking CXX executable octomap_run[0m
+[ 89%] Built target eval_octree_accuracy
+[ 89%] Built target convert_octree
+[ 91%] Built target test_mapcollection
+[ 92%] Built target unit_tests
+[ 93%] Built target color_tree_histogram
+[ 94%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/octree2pointcloud[0m
+[ 94%] Built target octree2pointcloud
+[ 96%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/simple_example[0m
+[ 96%] Built target simple_example
+[ 97%] Built target octomap_run
+[ 98%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/graph2tree[0m
+[ 98%] Built target graph2tree
+[100%] [32m[1mLinking CXX executable /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/intersection_example[0m
+[100%] Built target intersection_example
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/AbstractOcTree.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/AbstractOccupancyOcTree.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/ColorOcTree.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/CountingOcTree.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MCTables.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapCollection.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapCollection.hxx
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapNode.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapNode.hxx
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTree.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeBase.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeBaseImpl.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeBaseImpl.hxx
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeDataNode.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeDataNode.hxx
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeIterator.hxx
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeKey.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeNode.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeStamped.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OccupancyOcTreeBase.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OccupancyOcTreeBase.hxx
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/Pointcloud.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/ScanGraph.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_deprecated.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_timing.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_types.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_utils.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Pose6D.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Quaternion.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Utils.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Vector3.h
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/package.xml
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/ament_index/resource_index/packages/octomap
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-config.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-config-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/pkgconfig/octomap.pc
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so.1.9.8
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so.1.9
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so.1.9.8" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.a
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so.1.9.8
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so.1.9
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so.1.9.8" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.a
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-targets.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-targets-release.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/graph2tree
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/graph2tree" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/log2graph
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/log2graph" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/binvox2bt
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/binvox2bt" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/bt2vrml
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/bt2vrml" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/edit_octree
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/edit_octree" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/convert_octree
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/convert_octree" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/eval_octree_accuracy
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/eval_octree_accuracy" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"
+-- Installing: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/compare_octrees
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/compare_octrees" to "/home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib"

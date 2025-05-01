@@ -27,7 +27,7 @@
 
 #include <tbb/parallel_for.h>
 
-#include "./ig_lio_c/color.h"
+#include "ig_lio_c/color.hpp"
 
 namespace IG_LIO
 {

@@ -1,0 +1,153 @@
+[35m[1mScanning dependencies of target interpolation_demo[0m
+[35m[1mScanning dependencies of target opencv_demo[0m
+[35m[1mScanning dependencies of target simple_demo[0m
+[35m[1mScanning dependencies of target iterator_benchmark[0m
+[35m[1mScanning dependencies of target normal_filter_comparison_demo[0m
+[35m[1mScanning dependencies of target iterators_demo[0m
+[35m[1mScanning dependencies of target tutorial_demo[0m
+[35m[1mScanning dependencies of target octomap_to_gridmap_demo[0m
+[35m[1mScanning dependencies of target move_demo[0m
+[35m[1mScanning dependencies of target resolution_change_demo[0m
+[35m[1mScanning dependencies of target image_to_gridmap_demo[0m
+[35m[1mScanning dependencies of target filters_demo_lib[0m
+[  3%] [32mBuilding CXX object CMakeFiles/iterator_benchmark.dir/src/iterator_benchmark.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/src/opencv_demo_node.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/tutorial_demo.dir/src/tutorial_demo_node.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/simple_demo.dir/src/simple_demo_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/interpolation_demo.dir/src/interpolation_demo_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/move_demo.dir/src/move_demo_node.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/resolution_change_demo.dir/src/resolution_change_demo_node.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/normal_filter_comparison_demo.dir/src/normal_filter_comparison_node.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/octomap_to_gridmap_demo.dir/src/octomap_to_gridmap_demo_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/image_to_gridmap_demo.dir/src/image_to_gridmap_demo_node.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/filters_demo_lib.dir/src/FiltersDemo.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/iterators_demo.dir/src/iterators_demo_node.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable iterator_benchmark[0m
+[ 43%] Built target iterator_benchmark
+[ 46%] [32mBuilding CXX object CMakeFiles/iterators_demo.dir/src/IteratorsDemo.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_to_gridmap_demo.dir/src/ImageToGridmapDemo.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/interpolation_demo.dir/src/InterpolationDemo.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/octomap_to_gridmap_demo.dir/src/OctomapToGridmapDemo.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable resolution_change_demo[0m
+[ 60%] Built target resolution_change_demo
+[ 63%] [32m[1mLinking CXX executable simple_demo[0m
+[ 63%] Built target simple_demo
+[ 66%] [32m[1mLinking CXX executable tutorial_demo[0m
+[ 66%] Built target tutorial_demo
+[ 70%] [32m[1mLinking CXX executable move_demo[0m
+[ 73%] [32m[1mLinking CXX executable opencv_demo[0m
+[ 73%] Built target move_demo
+[ 73%] Built target opencv_demo
+[ 76%] [32m[1mLinking CXX executable iterators_demo[0m
+[ 76%] Built target iterators_demo
+[ 80%] [32m[1mLinking CXX executable interpolation_demo[0m
+[ 80%] Built target interpolation_demo
+[ 83%] [32m[1mLinking CXX executable normal_filter_comparison_demo[0m
+[ 83%] Built target normal_filter_comparison_demo
+[ 86%] [32m[1mLinking CXX executable octomap_to_gridmap_demo[0m
+[ 86%] Built target octomap_to_gridmap_demo
+[ 90%] [32m[1mLinking CXX shared library libfilters_demo_lib.so[0m
+[ 90%] Built target filters_demo_lib
+[ 93%] [32m[1mLinking CXX executable image_to_gridmap_demo[0m
+[ 93%] Built target image_to_gridmap_demo
+[35m[1mScanning dependencies of target filters_demo[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/filters_demo.dir/src/filters_demo_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable filters_demo[0m
+[100%] Built target filters_demo
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/filters_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/filters_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/libfilters_demo_lib.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/libfilters_demo_lib.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/image_to_gridmap_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/image_to_gridmap_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/interpolation_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/interpolation_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/iterator_benchmark
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/iterators_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/iterators_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/move_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/move_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/normal_filter_comparison_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/normal_filter_comparison_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/octomap_to_gridmap_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/octomap_to_gridmap_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/opencv_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/opencv_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/resolution_change_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/resolution_change_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/simple_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/simple_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/tutorial_demo
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/tutorial_demo" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/normal_filter_comparison_visualization.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/filters_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/simple_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/opencv_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/iterators_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/grid_map_loader_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/move_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/interpolation_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/filters_demo_filter_chain.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/image_to_gridmap_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/resolution_change_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/octomap_to_gridmap_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/normal_filter_comparison.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/config/tutorial_demo.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/linearGradient_horizontal.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/freiburg1_360.bt
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/linearGradient_oblique_only.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/linearGradient_vertical.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/radialGradient_ellipse.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/grid_map_bag
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/grid_map_bag/grid_map_bag.db3
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/grid_map_bag/metadata.yaml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/radialGradient_horizontal.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/terrain.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/radialGradient_circle.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/linearGradient_oblique_and_flat.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/data/eth_logo.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/doc
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/doc/filters_demo_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/doc/image_to_grid_map_demo_result.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/doc/filters_demo.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/doc/opencv_demo_result.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/move_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/octomap_to_gridmap_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/tutorial_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/simple_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/image_to_gridmap_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/filters_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/iterators_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/grid_map_loader_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/resolution_change_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/interpolation_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/normal_filter_comparison_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/launch/opencv_demo_launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz/grid_map_iterators_demo.rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz/octomap_to_gridmap_demo.rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz/interpolation_demo.rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz/filters_demo.rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz/grid_map_demo.rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/rviz/normal_filter_comparison_demo.rviz
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/lib/grid_map_demos/image_publisher.py
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/ament_index/resource_index/package_run_dependencies/grid_map_demos
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/ament_index/resource_index/parent_prefix_path/grid_map_demos
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/ament_index/resource_index/packages/grid_map_demos
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/cmake/grid_map_demosConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/cmake/grid_map_demosConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_demos/share/grid_map_demos/package.xml

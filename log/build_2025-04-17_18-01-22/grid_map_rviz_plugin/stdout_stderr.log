@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target grid_map_rviz_plugin_autogen[0m
+[ 14%] [34m[1mAutomatic MOC for target grid_map_rviz_plugin[0m
+[ 14%] Built target grid_map_rviz_plugin_autogen
+[ 28%] [34m[1mGenerating include/grid_map_rviz_plugin/moc_GridMapDisplay.cpp[0m
+[35m[1mScanning dependencies of target grid_map_rviz_plugin[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/grid_map_rviz_plugin.dir/grid_map_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/grid_map_rviz_plugin.dir/src/GridMapDisplay.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/grid_map_rviz_plugin.dir/include/grid_map_rviz_plugin/moc_GridMapDisplay.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/grid_map_rviz_plugin.dir/src/GridMapVisual.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgrid_map_rviz_plugin.so[0m
+[100%] Built target grid_map_rviz_plugin

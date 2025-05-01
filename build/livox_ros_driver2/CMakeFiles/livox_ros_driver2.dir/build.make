@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sentry/Wolf-Moon/src/livox_ros_driver2-master
+CMAKE_SOURCE_DIR = /home/sentry/Wolf-Moon/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/sentry/Wolf-Moon/build/livox_ros_driver2
@@ -58,199 +58,199 @@ include CMakeFiles/livox_ros_driver2.dir/progress.make
 include CMakeFiles/livox_ros_driver2.dir/flags.make
 
 CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/livox_ros_driver2.cpp
+CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/livox_ros_driver2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/livox_ros_driver2.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/livox_ros_driver2.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/livox_ros_driver2.cpp > CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/livox_ros_driver2.cpp > CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/livox_ros_driver2.cpp -o CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/livox_ros_driver2.cpp -o CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lddc.cpp
+CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lddc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lddc.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lddc.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lddc.cpp > CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lddc.cpp > CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lddc.cpp -o CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lddc.cpp -o CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/driver_node.cpp
+CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/driver_node.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/driver_node.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/driver_node.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/driver_node.cpp > CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/driver_node.cpp > CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/driver_node.cpp -o CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/driver_node.cpp -o CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds.cpp
+CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds.cpp > CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds.cpp > CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds.cpp -o CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds.cpp -o CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds_lidar.cpp
+CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds_lidar.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds_lidar.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds_lidar.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds_lidar.cpp > CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds_lidar.cpp > CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/lds_lidar.cpp -o CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/lds_lidar.cpp -o CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/comm.cpp
+CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/comm.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/comm.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/comm.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/comm.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/comm.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/comm.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/comm.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/ldq.cpp
+CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/ldq.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/ldq.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/ldq.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/ldq.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/ldq.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/ldq.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/ldq.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/semaphore.cpp
+CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/semaphore.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/semaphore.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/semaphore.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/semaphore.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/semaphore.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/semaphore.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/semaphore.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/lidar_imu_data_queue.cpp
+CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/lidar_imu_data_queue.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/lidar_imu_data_queue.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/lidar_imu_data_queue.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/cache_index.cpp
+CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/cache_index.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/cache_index.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/cache_index.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/cache_index.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/cache_index.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/cache_index.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/cache_index.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/pub_handler.cpp
+CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/pub_handler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/pub_handler.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/pub_handler.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/pub_handler.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/pub_handler.cpp > CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/comm/pub_handler.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/comm/pub_handler.cpp -o CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_cfg_file.cpp
+CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_cfg_file.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_cfg_file.cpp > CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp > CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_cfg_file.cpp -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_cfg_file.cpp -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_livox_lidar_cfg.cpp
+CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_livox_lidar_cfg.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_livox_lidar_cfg.cpp > CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp > CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/parse_cfg_file/parse_livox_lidar_cfg.cpp -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/parse_cfg_file/parse_livox_lidar_cfg.cpp -o CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/lidar_common_callback.cpp
+CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/lidar_common_callback.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/lidar_common_callback.cpp > CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp > CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/lidar_common_callback.cpp -o CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/lidar_common_callback.cpp -o CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.s
 
 CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o: CMakeFiles/livox_ros_driver2.dir/flags.make
-CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/livox_lidar_callback.cpp
+CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o: /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/livox_lidar_callback.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o -c /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp
 
 CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/livox_lidar_callback.cpp > CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp > CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.i
 
 CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2-master/src/call_back/livox_lidar_callback.cpp -o CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sentry/Wolf-Moon/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp -o CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.s
 
 # Object files for target livox_ros_driver2
 livox_ros_driver2_OBJECTS = \
@@ -357,29 +357,34 @@ liblivox_ros_driver2.so: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_i
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_cpp.so
 liblivox_ros_driver2.so: /usr/local/lib/liblivox_lidar_sdk_shared.so
 liblivox_ros_driver2.so: liblivox_ros_driver2__rosidl_typesupport_cpp.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_surface.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_keypoints.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_tracking.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_recognition.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_stereo.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_outofcore.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_people.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libqhull.so
 liblivox_ros_driver2.so: /usr/lib/libOpenNI.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 liblivox_ros_driver2.so: /usr/lib/libOpenNI2.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libz.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpng.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libtiff.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libexpat.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libqhull_r.so
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/librmw_implementation.so
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/librcl_logging_spdlog.so
@@ -418,38 +423,30 @@ liblivox_ros_driver2.so: /opt/ros/galactic/lib/librosidl_typesupport_c.so
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/librcpputils.so
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/librosidl_runtime_c.so
 liblivox_ros_driver2.so: /opt/ros/galactic/lib/librcutils.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_registration.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_segmentation.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_features.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_filters.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_sample_consensus.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_ml.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_visualization.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_search.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_kdtree.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_io.so
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_octree.so
-liblivox_ros_driver2.so: /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcap.so
-liblivox_ros_driver2.so: /usr/lib/libOpenNI.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
-liblivox_ros_driver2.so: /usr/lib/libOpenNI2.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpng.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libtiff.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libexpat.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
+liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
@@ -460,17 +457,9 @@ liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkGUISupportQt-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
@@ -497,14 +486,6 @@ liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libICE.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libX11.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libXext.so
 liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libXt.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-liblivox_ros_driver2.so: /usr/local/lib/libpcl_common.so
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
-liblivox_ros_driver2.so: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.71.0
 liblivox_ros_driver2.so: CMakeFiles/livox_ros_driver2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library liblivox_ros_driver2.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/livox_ros_driver2.dir/link.txt --verbose=$(VERBOSE)
@@ -519,6 +500,6 @@ CMakeFiles/livox_ros_driver2.dir/clean:
 .PHONY : CMakeFiles/livox_ros_driver2.dir/clean
 
 CMakeFiles/livox_ros_driver2.dir/depend:
-	cd /home/sentry/Wolf-Moon/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sentry/Wolf-Moon/src/livox_ros_driver2-master /home/sentry/Wolf-Moon/src/livox_ros_driver2-master /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sentry/Wolf-Moon/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sentry/Wolf-Moon/src/livox_ros_driver2 /home/sentry/Wolf-Moon/src/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/livox_ros_driver2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/livox_ros_driver2.dir/depend
 

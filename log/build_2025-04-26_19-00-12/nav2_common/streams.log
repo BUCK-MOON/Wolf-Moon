@@ -1,0 +1,47 @@
+[0.094s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_common -- -j12 -l12
+[0.297s] Built target ament_cmake_python_copy_nav2_common
+[0.891s] running egg_info
+[0.901s] writing nav2_common.egg-info/PKG-INFO
+[0.901s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.901s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.001s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.005s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.078s] Built target ament_cmake_python_build_nav2_common_egg
+[1.196s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_common -- -j12 -l12
+[1.197s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_common
+[1.234s] -- Install configuration: ""
+[1.234s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[1.235s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[1.235s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info
+[1.235s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/SOURCES.txt
+[1.235s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/top_level.txt
+[1.242s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/dependency_links.txt
+[1.243s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages//nav2_common.egg-info/PKG-INFO
+[1.243s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[1.244s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[1.244s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[1.244s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[1.244s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[1.245s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[1.245s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[1.317s] Listing '/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[1.317s] Listing '/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[1.325s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[1.326s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[1.327s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[1.328s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[1.329s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/environment/path.sh
+[1.330s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/environment/path.dsv
+[1.335s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/local_setup.bash
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/local_setup.sh
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/local_setup.zsh
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/local_setup.dsv
+[1.336s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.dsv
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.xml
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake
+[1.336s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.344s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_common

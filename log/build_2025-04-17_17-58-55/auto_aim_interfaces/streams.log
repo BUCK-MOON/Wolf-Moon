@@ -1,0 +1,332 @@
+[0.031s] Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/auto_aim_interfaces -- -j12 -l12
+[0.065s] [35m[1mScanning dependencies of target auto_aim_interfaces__cpp[0m
+[0.072s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.074s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.715s] [  2%] Built target auto_aim_interfaces__cpp
+[1.801s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.802s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.841s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.271s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_generator_c[0m
+[2.396s] [  7%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/serial__functions.c.o[0m
+[2.413s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/gimbal__functions.c.o[0m
+[2.416s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[2.416s] [ 10%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[2.457s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/point2f__functions.c.o[0m
+[2.488s] [ 13%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/state__functions.c.o[0m
+[2.674s] [ 15%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/uart__functions.c.o[0m
+[2.935s] [ 16%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[3.187s] [ 16%] Built target auto_aim_interfaces__rosidl_generator_c
+[3.299s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.323s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.158s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_cpp[0m
+[4.299s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[4.302s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[4.344s] [ 22%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/gimbal__type_support.cpp.o[0m
+[4.345s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.380s] [ 24%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/serial__type_support.cpp.o[0m
+[4.409s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/point2f__type_support.cpp.o[0m
+[4.460s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[4.460s] [ 27%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/state__type_support.cpp.o[0m
+[4.471s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[4.493s] [ 30%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/uart__type_support.cpp.o[0m
+[4.795s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.962s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[5.413s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_c[0m
+[5.515s] [ 32%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/gimbal__type_support.cpp.o[0m
+[5.515s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[5.823s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[5.940s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/serial__type_support.cpp.o[0m
+[6.041s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/gimbal__type_support.cpp.o[0m
+[6.055s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/point2f__type_support.cpp.o[0m
+[6.067s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/serial__type_support.cpp.o[0m
+[6.214s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/point2f__type_support.cpp.o[0m
+[6.222s] [ 43%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/state__type_support.cpp.o[0m
+[6.233s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/state__type_support.cpp.o[0m
+[6.283s] [ 45%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[6.283s] [ 46%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/uart__type_support.cpp.o[0m
+[6.415s] [ 48%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/gimbal__type_support.cpp.o[0m
+[6.523s] [ 49%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[6.550s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/serial__type_support.cpp.o[0m
+[6.607s] [ 51%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/uart__type_support.cpp.o[0m
+[6.867s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c[0m
+[6.867s] [ 53%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[6.915s] [ 53%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[6.978s] [ 54%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[7.254s] [ 55%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[7.263s] [ 55%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[7.508s] [ 56%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/gimbal__type_support.c.o[0m
+[7.691s] [ 58%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/serial__type_support.c.o[0m
+[7.874s] [ 59%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/point2f__type_support.c.o[0m
+[8.059s] [ 60%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/uart__type_support.c.o[0m
+[8.282s] [ 62%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/state__type_support.c.o[0m
+[8.298s] [ 63%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.462s] [ 64%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.594s] [ 65%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/uart__type_support.cpp.o[0m
+[8.618s] [ 65%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[8.705s] [ 65%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[9.911s] [ 67%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[10.708s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/point2f__type_support.cpp.o[0m
+[11.246s] [ 69%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.380s] [ 69%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.394s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.155s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c[0m
+[12.185s] [ 72%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[12.681s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/uart__type_support_c.cpp.o[0m
+[13.182s] [ 74%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/state__type_support_c.cpp.o[0m
+[13.691s] [ 75%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/point2f__type_support_c.cpp.o[0m
+[14.193s] [ 77%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/serial__type_support_c.cpp.o[0m
+[14.698s] [ 78%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/gimbal__type_support_c.cpp.o[0m
+[15.194s] [ 79%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[15.700s] [ 81%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.826s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[15.839s] [35m[1mScanning dependencies of target auto_aim_interfaces[0m
+[15.854s] [ 81%] Built target auto_aim_interfaces
+[15.870s] [35m[1mScanning dependencies of target auto_aim_interfaces__py[0m
+[15.886s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.277s] [ 82%] Built target auto_aim_interfaces__py
+[17.284s] [35m[1mScanning dependencies of target auto_aim_interfaces__python[0m
+[17.309s] [ 83%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[17.429s] [ 84%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_uart_s.c.o[0m
+[17.556s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_state_s.c.o[0m
+[17.690s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_point2f_s.c.o[0m
+[17.805s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_serial_s.c.o[0m
+[17.873s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_gimbal_s.c.o[0m
+[17.940s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__python.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[18.007s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__python.so[0m
+[18.045s] [ 92%] Built target auto_aim_interfaces__python
+[18.053s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_c__pyext[0m
+[18.072s] [ 93%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.141s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.194s] [ 94%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[18.208s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[18.233s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.361s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.417s] [ 97%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[18.431s] [35m[1mScanning dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.460s] [ 98%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.536s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.589s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[18.631s] Invoked command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/auto_aim_interfaces -- -j12 -l12
+[18.770s] Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/auto_aim_interfaces
+[18.783s] -- Install configuration: ""
+[18.783s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/uart.h
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/serial.h
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/state.h
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/point2f.h
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/armor.h
+[18.784s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__functions.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__type_support.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__functions.c
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__type_support.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__type_support.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__struct.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__functions.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__struct.h
+[18.785s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__type_support.h
+[18.786s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__functions.c
+[18.786s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__type_support.h
+[18.786s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__type_support.h
+[18.786s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__struct.h
+[18.786s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__functions.c
+[18.786s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__functions.h
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__functions.h
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__functions.c
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__functions.c
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__functions.h
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__functions.c
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__struct.h
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__functions.h
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__functions.c
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__functions.h
+[18.787s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__struct.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__struct.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__type_support.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__struct.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/gimbal.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/armors.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[18.788s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[18.789s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[18.789s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces
+[18.789s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg
+[18.789s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail
+[18.789s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[18.789s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__rosidl_typesupport_fastrtps_c.h
+[18.789s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[18.789s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_c.h
+[18.789s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__rosidl_typesupport_fastrtps_c.h
+[18.790s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__rosidl_typesupport_fastrtps_c.h
+[18.790s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[18.790s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.790s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.790s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.791s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces
+[18.791s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg
+[18.791s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail
+[18.791s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__rosidl_typesupport_fastrtps_cpp.hpp
+[18.791s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__rosidl_typesupport_fastrtps_cpp.hpp
+[18.791s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__rosidl_typesupport_fastrtps_cpp.hpp
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__rosidl_typesupport_fastrtps_cpp.hpp
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/dds_fastrtps
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.792s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.793s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces
+[18.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg
+[18.793s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail
+[18.793s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__type_support.c
+[18.793s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__type_support.c
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__type_support.c
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__rosidl_typesupport_introspection_c.h
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__rosidl_typesupport_introspection_c.h
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__type_support.c
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_c.h
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__rosidl_typesupport_introspection_c.h
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[18.794s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__rosidl_typesupport_introspection_c.h
+[18.795s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__type_support.c
+[18.795s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__type_support.c
+[18.795s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__type_support.c
+[18.795s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[18.795s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[18.795s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.795s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[18.796s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[18.796s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces
+[18.796s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg
+[18.796s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/gimbal.hpp
+[18.796s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/point2f.hpp
+[18.796s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/armors.hpp
+[18.796s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/serial.hpp
+[18.796s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__struct.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__struct.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__traits.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__struct.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__traits.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__struct.hpp
+[18.797s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__traits.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__builder.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__traits.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__traits.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__builder.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__struct.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__builder.hpp
+[18.798s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__builder.hpp
+[18.799s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[18.799s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__builder.hpp
+[18.799s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/state.hpp
+[18.799s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/uart.hpp
+[18.799s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/armor.hpp
+[18.799s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces
+[18.799s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg
+[18.799s] -- Up-to-date: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail
+[18.799s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__rosidl_typesupport_introspection_cpp.hpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__rosidl_typesupport_introspection_cpp.hpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__rosidl_typesupport_introspection_cpp.hpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/gimbal__type_support.cpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/point2f__type_support.cpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__rosidl_typesupport_introspection_cpp.hpp
+[18.800s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__type_support.cpp
+[18.801s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/uart__type_support.cpp
+[18.801s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[18.801s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[18.801s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/include/auto_aim_interfaces/msg/detail/serial__type_support.cpp
+[18.801s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.802s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.802s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[18.802s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[18.802s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[18.802s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[18.803s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/__init__.py
+[18.846s] Compiling '/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/__init__.py'...
+[18.851s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg
+[18.851s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_gimbal.py
+[18.851s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_state_s.c
+[18.851s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_armors.py
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/__init__.py
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_state.py
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_serial.py
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_point2f.py
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_gimbal_s.c
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_armor.py
+[18.852s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_armors_s.c
+[18.853s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_serial_s.c
+[18.853s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_point2f_s.c
+[18.853s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_armor_s.c
+[18.853s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_uart_s.c
+[18.853s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/msg/_uart.py
+[18.853s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[18.854s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[18.854s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[18.855s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[18.855s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[18.856s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[18.856s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__python.so
+[18.857s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/libauto_aim_interfaces__python.so" to ""
+[18.857s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[18.857s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[18.857s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Gimbal.idl
+[18.857s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Serial.idl
+[18.857s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Point2f.idl
+[18.857s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/State.idl
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Uart.idl
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Gimbal.msg
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Serial.msg
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Point2f.msg
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/State.msg
+[18.858s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Uart.msg
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[18.859s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_generator_cExport.cmake
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[18.860s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.861s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.862s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.862s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.863s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.863s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.863s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[18.863s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[18.863s] -- Installing: /home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[18.864s] Invoked command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/auto_aim_interfaces

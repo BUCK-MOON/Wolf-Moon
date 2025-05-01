@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o"
+  "libnav2_controller_selector_bt_node.pdb"
+  "libnav2_controller_selector_bt_node.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nav2_controller_selector_bt_node.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,84 @@
+[0.059s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_lifecycle_manager -- -j12 -l12
+[0.123s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.320s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found lifecycle_msgs: 1.0.3 (/opt/ros/galactic/share/lifecycle_msgs/cmake)
+[0.579s] -- Found nav2_common: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake)
+[0.579s] -- Found nav2_msgs: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.890s] -- Found nav2_util: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_util/share/nav2_util/cmake)
+[0.949s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.950s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.965s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.326s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.450s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.894s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.951s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.715s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.716s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.717s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_lifecycle_manager/include
+[2.717s] -- Configured cppcheck exclude dirs and/or files: 
+[2.718s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.718s] -- Configured cpplint exclude dirs and/or files: 
+[2.719s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.719s] -- Added test 'lint_cmake' to check CMake code style
+[2.719s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.721s] -- Added test 'uncrustify' to check C / C++ code style
+[2.721s] -- Configured uncrustify additional arguments: 
+[2.721s] -- Added test 'xmllint' to check XML markup files
+[2.727s] -- Configuring done
+[2.864s] -- Generating done
+[2.930s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/nav2_lifecycle_manager
+[2.969s] [35m[1mScanning dependencies of target nav2_lifecycle_manager_core[0m
+[2.978s] [ 30%] Built target gtest_main
+[2.978s] [ 30%] Built target gtest
+[3.028s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[3.030s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[7.307s] [ 53%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[7.461s] [ 53%] Built target nav2_lifecycle_manager_core
+[7.471s] [35m[1mScanning dependencies of target test_bond_gtest[0m
+[7.476s] [35m[1mScanning dependencies of target lifecycle_manager[0m
+[7.477s] [35m[1mScanning dependencies of target test_lifecycle_gtest[0m
+[7.500s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_bond_gtest.dir/test_bond.cpp.o[0m
+[7.518s] [ 69%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[7.528s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_gtest.dir/test_lifecycle_manager.cpp.o[0m
+[9.968s] [ 84%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[10.168s] [ 84%] Built target lifecycle_manager
+[10.927s] [ 92%] [32m[1mLinking CXX executable test_lifecycle_gtest[0m
+[11.167s] [ 92%] Built target test_lifecycle_gtest
+[11.849s] [100%] [32m[1mLinking CXX executable test_bond_gtest[0m
+[12.045s] [100%] Built target test_bond_gtest
+[12.058s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_lifecycle_manager -- -j12 -l12
+[12.061s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_lifecycle_manager
+[12.072s] -- Install configuration: "Release"
+[12.072s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[12.073s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so" to ""
+[12.073s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[12.073s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager" to ""
+[12.074s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/include/
+[12.074s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager
+[12.074s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[12.074s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[12.074s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[12.075s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[12.075s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[12.075s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[12.075s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[12.075s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[12.076s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[12.076s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[12.078s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_lifecycle_manager

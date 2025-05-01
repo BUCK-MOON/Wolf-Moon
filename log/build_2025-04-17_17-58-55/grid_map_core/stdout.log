@@ -1,0 +1,107 @@
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/SubmapGeometry.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/Polygon.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMapMath.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/CircleIterator.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/PolygonIterator.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SpiralIterator.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/EllipseIterator.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/LineIterator.cpp.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SlidingWindowIterator.cpp.o[0m
+[ 40%] Built target gtest_main
+[ 42%] [32m[1mLinking CXX static library libgrid_map_core.a[0m
+[ 51%] Built target grid_map_core
+[ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 54%] Built target gtest
+[35m[1mScanning dependencies of target grid_map_core-test[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_grid_map_core.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonTest.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EigenPluginsTest.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SpiralIteratorTest.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SlidingWindowIteratorTest.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonIteratorTest.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SubmapIteratorTest.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EllipseIteratorTest.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/LineIteratorTest.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapIteratorTest.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapTest.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapMathTest.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicInterpolationTest.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicConvolutionInterpolationTest.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_helpers.cpp.o[0m
+[100%] [32m[1mLinking CXX executable grid_map_core-test[0m
+[100%] Built target grid_map_core-test
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/lib/libgrid_map_core.a
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/Polygon.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/grid_map_core.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/CubicInterpolation.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/GridMapMath.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/gtest_eigen.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/eigen_plugins
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/eigen_plugins/FunctorsPlugin.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/eigen_plugins/Functors.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/eigen_plugins/DenseBasePlugin.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/GridMap.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/BufferRegion.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/SubmapGeometry.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/EllipseIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/LineIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/SpiralIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/PolygonIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/CircleIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/GridMapIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/SubmapIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/iterators.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/iterators/SlidingWindowIterator.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/include/grid_map_core/TypeDefs.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.pdf
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.pdf
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/interpolationSineWorld.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/setposition_method.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.png
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/interpolationGaussWorld.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator_preview.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/doc/move_method.gif
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/environment/library_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/environment/library_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/ament_index/resource_index/package_run_dependencies/grid_map_core
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/ament_index/resource_index/parent_prefix_path/grid_map_core
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/ament_index/resource_index/packages/grid_map_core
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake/grid_map_core-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/package.xml

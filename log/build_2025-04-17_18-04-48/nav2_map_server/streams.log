@@ -1,0 +1,65 @@
+[0.070s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_map_server': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_map_server -- -j12 -l12
+[0.232s] [35m[1mScanning dependencies of target gtest[0m
+[0.232s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.232s] [35m[1mScanning dependencies of target map_io[0m
+[0.232s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.232s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.275s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[0.285s] [ 11%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[1.501s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.538s] [ 13%] Built target gtest_main
+[3.856s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[4.090s] [ 16%] Built target map_io
+[4.105s] [35m[1mScanning dependencies of target map_server_core[0m
+[4.105s] [35m[1mScanning dependencies of target test_map_saver_publisher[0m
+[4.160s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[4.161s] [ 22%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[4.180s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[4.192s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[4.196s] [ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[10.208s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.254s] [ 33%] Built target gtest
+[10.268s] [35m[1mScanning dependencies of target test_map_saver_cli[0m
+[10.268s] [35m[1mScanning dependencies of target test_map_io[0m
+[10.323s] [ 38%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[10.323s] [ 38%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[10.329s] [ 41%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[10.332s] [ 44%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[10.835s] [ 47%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[11.082s] [ 47%] Built target test_map_saver_publisher
+[14.770s] [ 50%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[14.884s] [ 50%] Built target test_map_saver_cli
+[15.138s] [ 52%] [32m[1mLinking CXX executable test_map_io[0m
+[15.408s] [ 52%] Built target test_map_io
+[16.614s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[16.864s] [ 55%] Built target map_server_core
+[16.871s] [35m[1mScanning dependencies of target map_server[0m
+[16.878s] [35m[1mScanning dependencies of target map_saver_cli[0m
+[16.878s] [35m[1mScanning dependencies of target map_saver_server[0m
+[16.878s] [35m[1mScanning dependencies of target costmap_filter_info_server[0m
+[16.878s] [35m[1mScanning dependencies of target test_map_server_node[0m
+[16.878s] [35m[1mScanning dependencies of target test_map_saver_node[0m
+[16.878s] [35m[1mScanning dependencies of target test_costmap_filter_info_server[0m
+[16.902s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[16.930s] [ 61%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[16.932s] [ 63%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[16.932s] [ 66%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[16.939s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[16.941s] [ 72%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[16.941s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[16.944s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[16.944s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[18.759s] [ 83%] [32m[1mLinking CXX executable map_server[0m
+[18.962s] [ 83%] Built target map_server
+[19.509s] [ 86%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[20.321s] [ 86%] Built target costmap_filter_info_server
+[21.326s] [ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[21.573s] [ 91%] [32m[1mLinking CXX executable map_saver_cli[0m
+[21.805s] [ 91%] Built target map_saver_server
+[22.047s] [ 91%] Built target map_saver_cli
+[26.152s] [ 94%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[26.671s] [ 94%] Built target test_map_saver_node
+[27.297s] [ 97%] [32m[1mLinking CXX executable test_map_server_node[0m
+[27.623s] [ 97%] Built target test_map_server_node
+[32.493s] [100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[32.966s] [100%] Built target test_costmap_filter_info_server

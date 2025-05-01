@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ig_lio_c_msgs/srv/CovertMap.srv
+// generated code does not contain a copyright notice
+
+
+module ig_lio_c_msgs {
+  module srv {
+    struct CovertMap_Request {
+      string pcd_path;
+
+      string map_file_name;
+
+      string image_format;
+
+      string map_mode;
+
+      float free_thresh;
+
+      float occupied_thresh;
+    };
+    struct CovertMap_Response {
+      int32 status;
+
+      string message;
+    };
+  };
+};

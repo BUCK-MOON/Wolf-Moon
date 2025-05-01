@@ -1,0 +1,42 @@
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/localization_mapping/src/map_builder_node.cpp' has modification time 75218 s in the future
+In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/map_builder_node.hpp:40[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/map_builder_node.cpp:1[m[K:
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:[m[K In constructor ‘[01m[KIG_LIO::IcpLocalizer::IcpLocalizer()[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   30 |         double [01;35m[Krefine_resolution_[m[K;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:29:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IG_LIO::IcpLocalizer::rough_resolution_[m[K’ [[01;35m[K-Wreorder[m[K]
+   29 |         double [01;35m[Krough_resolution_[m[K;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:36:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   36 |         [01;35m[KIcpLocalizer[m[K()
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_iter_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   32 |         int [01;35m[Krefine_iter_[m[K;
+      |             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:31:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IcpLocalizer::rough_iter_[m[K’ [[01;35m[K-Wreorder[m[K]
+   31 |         int [01;35m[Krough_iter_[m[K;
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:36:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   36 |         [01;35m[KIcpLocalizer[m[K()
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:[m[K In constructor ‘[01m[KIG_LIO::IcpLocalizer::IcpLocalizer(double, double, int, int, double)[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   30 |         double [01;35m[Krefine_resolution_[m[K;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:29:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IG_LIO::IcpLocalizer::rough_resolution_[m[K’ [[01;35m[K-Wreorder[m[K]
+   29 |         double [01;35m[Krough_resolution_[m[K;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:46:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   46 |         [01;35m[KIcpLocalizer[m[K(double refine_resolution, double rough_resolution, int refine_iter, int rough_iter, double thresh)
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_iter_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   32 |         int [01;35m[Krefine_iter_[m[K;
+      |             [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:31:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IcpLocalizer::rough_iter_[m[K’ [[01;35m[K-Wreorder[m[K]
+   31 |         int [01;35m[Krough_iter_[m[K;
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:46:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   46 |         [01;35m[KIcpLocalizer[m[K(double refine_resolution, double rough_resolution, int refine_iter, int rough_iter, double thresh)
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,43 @@
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.a' has modification time 345342 s in the future
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.so' has modification time 345342 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.a' has modification time 345361 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.so' has modification time 345357 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so' has modification time 345410 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/compare_octrees' has modification time 345337 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/normals_example' has modification time 345343 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_raycasting' has modification time 345348 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_iterators' has modification time 345349 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_scans' has modification time 345359 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_pruning' has modification time 345365 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_io' has modification time 345348 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_bbx' has modification time 345362 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_changedkeys' has modification time 345345 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_color_tree' has modification time 345350 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/color_tree_histogram' has modification time 345350 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_mapcollection' has modification time 345351 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/unit_tests' has modification time 345355 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so' has modification time 345367 s in the future
+/usr/bin/ld: warning: libglog.so.2, needed by /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so: undefined reference to `google::LogMessage::LogMessage(char const*, int, google::LogSeverity)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/octomap_run.dir/build.make:179: octomap_run] Error 1
+make[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/octomap_run.dir/all] Error 2
+make: *** [Makefile:152: all] Error 2

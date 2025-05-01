@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/ros/galactic/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+  File "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_cmake import generate_files
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 22, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    import em
+  File "/usr/lib/python3/dist-packages/em.py", line 1145, in <module>
+    from lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/__init__.py", line 6, in <module>
+    from .lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 7, in <module>
+    class CommentToken(ExpansionToken):
+KeyboardInterrupt
+    from .load_grammar import load_grammar
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 856, in <module>
+make[2]: *** [CMakeFiles/ig_lio_c_msgs__cpp.dir/build.make:150: rosidl_generator_cpp/ig_lio_c_msgs/srv/covert_map.hpp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:442: CMakeFiles/ig_lio_c_msgs__cpp.dir/all] Interrupt
+    load_grammar = GrammarLoader().load_grammar
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 693, in __init__
+    self.parser = LALR_TraditionalLexer(lexer_conf, parser_conf)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 96, in __init__
+    self.parser = LALR_Parser(parser_conf, debug=debug)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 17, in __init__
+    analysis.compute_lalr()
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 286, in compute_lalr
+    self.compute_includes_lookback()
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 234, in compute_includes_lookback
+    if (rp2.rule == rp.rule) and rp2.is_satisfied:
+  File "/usr/lib/python3/dist-packages/lark/grammar.py", line 100, in __eq__
+    if not isinstance(other, Rule):
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/build.make:138: rosidl_generator_c/ig_lio_c_msgs/srv/covert_map.h] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:498: CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

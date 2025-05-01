@@ -1,2 +1,0 @@
-Invoking command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12
-Invoked command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo' returned '0': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12

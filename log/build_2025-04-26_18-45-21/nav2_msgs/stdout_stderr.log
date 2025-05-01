@@ -1,0 +1,12 @@
+[ 12%] Built target nav2_msgs__rosidl_generator_c
+[ 12%] Built target nav2_msgs__cpp
+[ 25%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[ 37%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[ 62%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target nav2_msgs__rosidl_typesupport_cpp
+make[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/build.make:718: CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:495: CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/all] Interrupt
+make: *** wait: No child processes.  Stop.
+make: *** Waiting for unfinished jobs....
+make: *** wait: No child processes.  Stop.

@@ -1,0 +1,34 @@
+[0.075s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_voxel_grid -- -j12 -l12
+[0.095s] [ 20%] Built target voxel_grid
+[0.099s] [ 40%] Built target gtest
+[0.108s] [ 60%] Built target gtest_main
+[0.137s] [100%] Built target voxel_grid_tests
+[0.137s] [100%] Built target voxel_grid_bresenham_3d
+[0.147s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_voxel_grid -- -j12 -l12
+[0.149s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_voxel_grid
+[0.160s] -- Install configuration: "Release"
+[0.160s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.160s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/include
+[0.160s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/include/nav2_voxel_grid
+[0.160s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.161s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.162s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.162s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.163s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.163s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.163s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.164s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_voxel_grid

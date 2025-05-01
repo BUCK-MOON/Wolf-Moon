@@ -1,0 +1,577 @@
+[0.099s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_behavior_tree -- -j12 -l12
+[0.148s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.197s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.321s] -- Found nav2_common: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake)
+[0.321s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.549s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.572s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.713s] -- Found rclcpp_action: 9.2.2 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[0.764s] -- Found rclcpp_lifecycle: 9.2.2 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)
+[0.786s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.827s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.871s] -- Found nav2_msgs: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.091s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.272s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[1.276s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.297s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.303s] -- Found nav2_util: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_util/share/nav2_util/cmake)
+[7.461s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.623s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.718s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.721s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.723s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/include
+[16.723s] -- Configured cppcheck exclude dirs and/or files: 
+[16.726s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.726s] -- Configured cpplint exclude dirs and/or files: 
+[16.727s] -- Added test 'lint_cmake' to check CMake code style
+[16.731s] -- Added test 'uncrustify' to check C / C++ code style
+[16.731s] -- Configured uncrustify additional arguments: 
+[16.732s] -- Added test 'xmllint' to check XML markup files
+[16.738s] -- Configuring done
+[18.178s] -- Generating done
+[18.760s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/nav2_behavior_tree
+[18.799s] [35m[1mScanning dependencies of target nav2_pipeline_sequence_bt_node[0m
+[18.800s] [35m[1mScanning dependencies of target nav2_controller_selector_bt_node[0m
+[18.802s] [35m[1mScanning dependencies of target nav2_goal_checker_selector_bt_node[0m
+[18.803s] [35m[1mScanning dependencies of target nav2_single_trigger_bt_node[0m
+[18.804s] [35m[1mScanning dependencies of target nav2_goal_updated_controller_bt_node[0m
+[18.804s] [35m[1mScanning dependencies of target nav2_wait_action_bt_node[0m
+[18.807s] [35m[1mScanning dependencies of target nav2_goal_updated_condition_bt_node[0m
+[18.807s] [35m[1mScanning dependencies of target nav2_planner_selector_bt_node[0m
+[18.810s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/decorator/single_trigger_node.cpp' has modification time 177587 s in the future
+[18.812s] [35m[1mScanning dependencies of target nav2_compute_path_to_pose_action_bt_node[0m
+[18.820s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o[0m
+[18.823s] [35m[1mScanning dependencies of target nav2_spin_action_bt_node[0m
+[18.825s] [35m[1mScanning dependencies of target nav2_compute_path_through_poses_action_bt_node[0m
+[18.825s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/control/pipeline_sequence.cpp' has modification time 177587 s in the future
+[18.830s] [35m[1mScanning dependencies of target nav2_transform_available_condition_bt_node[0m
+[18.838s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/controller_selector_node.cpp' has modification time 177587 s in the future
+[18.839s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/goal_updated_condition.cpp' has modification time 177587 s in the future
+[18.840s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/goal_checker_selector_node.cpp' has modification time 177587 s in the future
+[18.857s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[18.859s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[18.860s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[18.863s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/decorator/goal_updated_controller.cpp' has modification time 177587 s in the future
+[18.865s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/planner_selector_node.cpp' has modification time 177587 s in the future
+[18.870s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/spin_action.cpp' has modification time 177587 s in the future
+[18.871s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o[0m
+[18.875s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/wait_action.cpp' has modification time 177587 s in the future
+[18.880s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/compute_path_to_pose_action.cpp' has modification time 177587 s in the future
+[18.891s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/compute_path_through_poses_action.cpp' has modification time 177587 s in the future
+[18.897s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o[0m
+[18.901s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[18.906s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[18.911s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/transform_available_condition.cpp' has modification time 177587 s in the future
+[18.911s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o[0m
+[18.925s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[18.934s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o[0m
+[18.974s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[21.096s] [ 11%] [32m[1mLinking CXX shared library libnav2_single_trigger_bt_node.so[0m
+[21.302s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.333s] [ 11%] Built target nav2_single_trigger_bt_node
+[21.367s] [35m[1mScanning dependencies of target nav2_is_stuck_condition_bt_node[0m
+[21.397s] [ 11%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[21.424s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/is_stuck_condition.cpp' has modification time 177585 s in the future
+[21.453s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[21.657s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[21.669s] [ 11%] Built target nav2_pipeline_sequence_bt_node
+[21.689s] [35m[1mScanning dependencies of target nav2_behavior_tree[0m
+[21.721s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/src/behavior_tree_engine.cpp' has modification time 177585 s in the future
+[21.748s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[23.178s] [ 13%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[23.561s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[23.602s] [ 13%] Built target nav2_goal_updated_condition_bt_node
+[23.723s] [35m[1mScanning dependencies of target nav2_goal_updater_node_bt_node[0m
+[23.791s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/decorator/goal_updater_node.cpp' has modification time 177582 s in the future
+[23.817s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[26.405s] [ 14%] [32m[1mLinking CXX shared library libnav2_goal_updated_controller_bt_node.so[0m
+[26.783s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[26.835s] [ 14%] Built target nav2_goal_updated_controller_bt_node
+[26.912s] [35m[1mScanning dependencies of target nav2_follow_path_action_bt_node[0m
+[26.992s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/follow_path_action.cpp' has modification time 177579 s in the future
+[27.053s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[27.481s] [ 15%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[27.649s] [ 15%] [32m[1mLinking CXX shared library libnav2_behavior_tree.so[0m
+[27.776s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[27.796s] [ 15%] Built target nav2_transform_available_condition_bt_node
+[27.825s] [35m[1mScanning dependencies of target nav2_goal_reached_condition_bt_node[0m
+[27.883s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/goal_reached_condition.cpp' has modification time 177578 s in the future
+[27.905s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[28.009s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[28.023s] [ 16%] Built target nav2_behavior_tree
+[28.046s] [35m[1mScanning dependencies of target nav2_round_robin_node_bt_node[0m
+[28.056s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/control/round_robin_node.cpp' has modification time 177578 s in the future
+[28.080s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[29.654s] [ 17%] [32m[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so[0m
+[29.893s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[29.908s] [ 17%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[29.936s] [ 17%] Built target nav2_compute_path_through_poses_action_bt_node
+[29.971s] [35m[1mScanning dependencies of target nav2_navigate_through_poses_action_bt_node[0m
+[30.059s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/navigate_through_poses_action.cpp' has modification time 177576 s in the future
+[30.134s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o[0m
+[30.483s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[30.533s] [ 18%] Built target nav2_spin_action_bt_node
+[30.605s] [35m[1mScanning dependencies of target nav2_remove_passed_goals_action_bt_node[0m
+[30.649s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/remove_passed_goals_action.cpp' has modification time 177576 s in the future
+[30.682s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o[0m
+[31.142s] [ 19%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[31.170s] [ 20%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[31.408s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[31.428s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[31.434s] [ 20%] Built target nav2_round_robin_node_bt_node
+[31.446s] [ 20%] Built target nav2_wait_action_bt_node
+[31.452s] [35m[1mScanning dependencies of target nav2_initial_pose_received_condition_bt_node[0m
+[31.459s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/initial_pose_received_condition.cpp' has modification time 177575 s in the future
+[31.467s] [35m[1mScanning dependencies of target nav2_time_expired_condition_bt_node[0m
+[31.500s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/time_expired_condition.cpp' has modification time 177575 s in the future
+[31.516s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[31.530s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[32.797s] [ 22%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[33.156s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[33.182s] [ 22%] Built target nav2_compute_path_to_pose_action_bt_node
+[33.216s] [35m[1mScanning dependencies of target nav2_distance_traveled_condition_bt_node[0m
+[33.257s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/distance_traveled_condition.cpp' has modification time 177573 s in the future
+[33.311s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[34.778s] [ 23%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[34.999s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[35.050s] [ 23%] Built target nav2_initial_pose_received_condition_bt_node
+[35.116s] [35m[1mScanning dependencies of target nav2_is_battery_low_condition_bt_node[0m
+[35.207s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/condition/is_battery_low_condition.cpp' has modification time 177571 s in the future
+[35.254s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[36.113s] [ 25%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[36.610s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[36.633s] [ 25%] Built target nav2_goal_checker_selector_bt_node
+[37.511s] [ 25%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[38.099s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[38.150s] [ 25%] Built target nav2_goal_reached_condition_bt_node
+[38.642s] [ 26%] [32m[1mLinking CXX shared library libnav2_controller_selector_bt_node.so[0m
+[38.991s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[39.006s] [ 26%] Built target nav2_controller_selector_bt_node
+[39.437s] [ 27%] [32m[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so[0m
+[39.498s] [ 28%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[39.786s] [ 28%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[39.787s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[39.789s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[39.797s] [ 28%] Built target nav2_remove_passed_goals_action_bt_node
+[39.803s] [ 28%] Built target nav2_time_expired_condition_bt_node
+[40.054s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[40.067s] [ 28%] Built target nav2_follow_path_action_bt_node
+[40.604s] [ 29%] [32m[1mLinking CXX shared library libnav2_planner_selector_bt_node.so[0m
+[40.876s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[40.888s] [ 29%] Built target nav2_planner_selector_bt_node
+[41.157s] [ 30%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[41.224s] [ 30%] [32m[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so[0m
+[41.368s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[41.375s] [ 30%] Built target nav2_distance_traveled_condition_bt_node
+[41.388s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[41.395s] [ 30%] Built target nav2_navigate_through_poses_action_bt_node
+[41.458s] [ 31%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[41.616s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[41.623s] [ 31%] Built target nav2_is_stuck_condition_bt_node
+[42.145s] [ 32%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[42.377s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[42.388s] [ 32%] Built target nav2_goal_updater_node_bt_node
+[46.304s] [ 33%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[46.431s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[46.436s] [ 33%] Built target nav2_is_battery_low_condition_bt_node
+[46.450s] [ 34%] Built target gtest_main
+[46.471s] [ 35%] Built target gtest
+[46.479s] [35m[1mScanning dependencies of target nav2_recovery_node_bt_node[0m
+[46.482s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/control/recovery_node.cpp' has modification time 177560 s in the future
+[46.493s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[47.962s] [ 37%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[48.042s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[48.048s] [ 37%] Built target nav2_recovery_node_bt_node
+[48.057s] [35m[1mScanning dependencies of target test_condition_time_expired[0m
+[48.082s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_time_expired.cpp' has modification time 177558 s in the future
+[48.101s] [ 38%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[52.098s] [35m[1mScanning dependencies of target test_condition_goal_updated[0m
+[52.134s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_goal_updated.cpp' has modification time 177554 s in the future
+[52.151s] [ 38%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[53.256s] [ 39%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[53.524s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[53.535s] [ 39%] Built target test_condition_time_expired
+[54.555s] [35m[1mScanning dependencies of target test_condition_initial_pose_received[0m
+[54.589s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_initial_pose_received.cpp' has modification time 177552 s in the future
+[54.613s] [ 40%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[56.601s] [35m[1mScanning dependencies of target test_bt_conversions[0m
+[56.603s] [35m[1mScanning dependencies of target test_condition_distance_traveled[0m
+[56.614s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/test_bt_conversions.cpp' has modification time 177550 s in the future
+[56.627s] [ 41%] [32mBuilding CXX object test/CMakeFiles/test_bt_conversions.dir/test_bt_conversions.cpp.o[0m
+[56.640s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_distance_traveled.cpp' has modification time 177550 s in the future
+[56.657s] [ 41%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[57.653s] [35m[1mScanning dependencies of target nav2_back_up_action_bt_node[0m
+[57.684s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/back_up_action.cpp' has modification time 177549 s in the future
+[57.706s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[58.505s] [ 43%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[58.698s] [35m[1mScanning dependencies of target nav2_navigate_to_pose_action_bt_node[0m
+[58.698s] [35m[1mScanning dependencies of target nav2_truncate_path_action_bt_node[0m
+[58.735s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/navigate_to_pose_action.cpp' has modification time 177548 s in the future
+[58.748s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/truncate_path_action.cpp' has modification time 177547 s in the future
+[58.751s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[58.763s] [35m[1mScanning dependencies of target nav2_speed_controller_bt_node[0m
+[58.767s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[58.805s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/decorator/speed_controller.cpp' has modification time 177547 s in the future
+[58.833s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[58.863s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[58.876s] [ 45%] Built target test_condition_goal_updated
+[58.896s] [35m[1mScanning dependencies of target nav2_clear_costmap_service_bt_node[0m
+[58.960s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/clear_costmap_service.cpp' has modification time 177547 s in the future
+[58.977s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[59.968s] [35m[1mScanning dependencies of target test_condition_is_battery_low[0m
+[59.970s] [35m[1mScanning dependencies of target nav2_distance_controller_bt_node[0m
+[60.045s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_is_battery_low.cpp' has modification time 177546 s in the future
+[60.082s] [ 47%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[60.088s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/decorator/distance_controller.cpp' has modification time 177546 s in the future
+[60.109s] [ 48%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[60.868s] [ 49%] [32m[1mLinking CXX executable test_bt_conversions[0m
+[61.135s] [35m[1mScanning dependencies of target nav2_rate_controller_bt_node[0m
+[61.163s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/decorator/rate_controller.cpp' has modification time 177545 s in the future
+[61.186s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[61.245s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[61.259s] [ 50%] Built target test_bt_conversions
+[61.301s] [35m[1mScanning dependencies of target nav2_reinitialize_global_localization_service_bt_node[0m
+[61.346s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.cpp' has modification time 177545 s in the future
+[61.410s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[63.253s] [ 50%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[63.843s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[63.855s] [ 50%] Built target test_condition_initial_pose_received
+[65.223s] [ 50%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[65.421s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[65.436s] [ 50%] Built target nav2_rate_controller_bt_node
+[67.072s] [ 51%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[67.223s] [ 52%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[67.388s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[67.399s] [ 52%] Built target nav2_truncate_path_action_bt_node
+[67.530s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[67.543s] [ 53%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[67.544s] [ 53%] Built target nav2_distance_controller_bt_node
+[67.754s] [ 54%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[67.761s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[67.768s] [ 54%] Built target nav2_speed_controller_bt_node
+[67.978s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[67.985s] [ 54%] Built target test_condition_distance_traveled
+[68.154s] [ 55%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[68.227s] [ 56%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[68.330s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[68.341s] [ 56%] Built target nav2_back_up_action_bt_node
+[68.402s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[68.410s] [ 56%] Built target nav2_reinitialize_global_localization_service_bt_node
+[68.518s] [ 57%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[68.731s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[68.742s] [ 57%] Built target nav2_navigate_to_pose_action_bt_node
+[68.946s] [ 58%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[69.069s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[69.075s] [ 58%] Built target nav2_clear_costmap_service_bt_node
+[70.819s] [ 59%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[70.975s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[70.981s] [ 59%] Built target test_condition_is_battery_low
+[70.990s] [35m[1mScanning dependencies of target test_control_pipeline_sequence[0m
+[71.017s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/control/test_pipeline_sequence.cpp' has modification time 177535 s in the future
+[71.035s] [ 60%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[76.257s] [ 61%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[76.418s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[76.425s] [ 61%] Built target test_control_pipeline_sequence
+[76.435s] [35m[1mScanning dependencies of target test_control_recovery_node[0m
+[76.452s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/control/test_recovery_node.cpp' has modification time 177530 s in the future
+[76.465s] [ 61%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[81.467s] [ 62%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[81.628s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[81.637s] [ 62%] Built target test_control_recovery_node
+[81.638s] [35m[1mScanning dependencies of target test_goal_checker_selector_node[0m
+[81.655s] [35m[1mScanning dependencies of target test_control_round_robin_node[0m
+[81.655s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_goal_checker_selector_node.cpp' has modification time 177525 s in the future
+[81.666s] [ 63%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[81.687s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/control/test_round_robin_node.cpp' has modification time 177525 s in the future
+[81.698s] [ 64%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[82.703s] [35m[1mScanning dependencies of target test_controller_selector_node[0m
+[82.718s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_controller_selector_node.cpp' has modification time 177524 s in the future
+[82.732s] [ 64%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[83.734s] [35m[1mScanning dependencies of target test_decorator_distance_controller[0m
+[83.771s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/decorator/test_distance_controller.cpp' has modification time 177522 s in the future
+[83.783s] [35m[1mScanning dependencies of target test_decorator_speed_controller[0m
+[83.789s] [ 65%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[83.822s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/decorator/test_speed_controller.cpp' has modification time 177522 s in the future
+[83.840s] [ 66%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[84.835s] [35m[1mScanning dependencies of target test_decorator_rate_controller[0m
+[84.883s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/decorator/test_rate_controller.cpp' has modification time 177521 s in the future
+[84.900s] [ 67%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[85.898s] [35m[1mScanning dependencies of target test_goal_updated_controller[0m
+[85.935s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/decorator/test_goal_updated_controller.cpp' has modification time 177520 s in the future
+[85.957s] [ 68%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[87.784s] [ 69%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[88.117s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[88.129s] [ 69%] Built target test_control_round_robin_node
+[88.572s] [ 70%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[88.751s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[88.765s] [ 70%] Built target test_controller_selector_node
+[89.521s] [ 71%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[89.687s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[89.698s] [ 71%] Built target test_goal_checker_selector_node
+[91.858s] [ 71%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[92.046s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[92.053s] [ 71%] Built target test_decorator_distance_controller
+[92.511s] [ 71%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[92.686s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[92.692s] [ 71%] Built target test_decorator_speed_controller
+[93.641s] [ 72%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[93.729s] [ 72%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[93.821s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[93.827s] [ 72%] Built target test_decorator_rate_controller
+[93.896s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[93.902s] [ 72%] Built target test_goal_updated_controller
+[93.910s] [35m[1mScanning dependencies of target test_action_clear_costmap_service[0m
+[93.924s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_clear_costmap_service.cpp' has modification time 177512 s in the future
+[93.937s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[98.729s] [ 73%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[98.879s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[98.885s] [ 73%] Built target test_action_clear_costmap_service
+[98.894s] [35m[1mScanning dependencies of target test_action_reinitialize_global_localization_service[0m
+[98.911s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_reinitialize_global_localization_service.cpp' has modification time 177507 s in the future
+[98.922s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[101.928s] [35m[1mScanning dependencies of target test_action_wait_action[0m
+[101.929s] [35m[1mScanning dependencies of target test_action_compute_path_to_pose_action[0m
+[101.962s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_wait_action.cpp' has modification time 177504 s in the future
+[101.963s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_compute_path_to_pose_action.cpp' has modification time 177504 s in the future
+[101.974s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[101.980s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[102.666s] [ 76%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[102.820s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[102.831s] [ 76%] Built target test_action_reinitialize_global_localization_service
+[102.841s] [35m[1mScanning dependencies of target test_action_back_up_action[0m
+[102.852s] [35m[1mScanning dependencies of target test_bt_action_node[0m
+[102.863s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_back_up_action.cpp' has modification time 177503 s in the future
+[102.876s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[102.886s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_bt_action_node.cpp' has modification time 177503 s in the future
+[102.903s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[103.901s] [35m[1mScanning dependencies of target test_action_compute_path_through_poses_action[0m
+[103.901s] [35m[1mScanning dependencies of target test_action_spin_action[0m
+[103.938s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_spin_action.cpp' has modification time 177502 s in the future
+[103.940s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_compute_path_through_poses_action.cpp' has modification time 177502 s in the future
+[103.956s] [ 78%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[103.958s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[104.955s] [35m[1mScanning dependencies of target test_planner_selector_node[0m
+[104.989s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_planner_selector_node.cpp' has modification time 177501 s in the future
+[105.007s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[106.004s] [35m[1mScanning dependencies of target test_goal_updater_node[0m
+[106.005s] [35m[1mScanning dependencies of target test_single_trigger_node[0m
+[106.046s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/decorator/test_single_trigger_node.cpp' has modification time 177500 s in the future
+[106.057s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/decorator/test_goal_updater_node.cpp' has modification time 177500 s in the future
+[106.076s] [ 79%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[106.085s] [ 80%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[108.097s] [35m[1mScanning dependencies of target test_condition_goal_reached[0m
+[108.148s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_goal_reached.cpp' has modification time 177498 s in the future
+[108.179s] [ 81%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[109.197s] [35m[1mScanning dependencies of target test_condition_is_stuck[0m
+[109.259s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_is_stuck.cpp' has modification time 177497 s in the future
+[109.303s] [ 82%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[109.403s] [ 83%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[109.790s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[109.810s] [ 83%] Built target test_action_wait_action
+[109.820s] [35m[1mScanning dependencies of target test_condition_transform_available[0m
+[109.837s] [35m[1mScanning dependencies of target test_action_follow_path_action[0m
+[109.872s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/condition/test_transform_available.cpp' has modification time 177496 s in the future
+[109.930s] [ 83%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[109.936s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_follow_path_action.cpp' has modification time 177496 s in the future
+[109.998s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[111.957s] [ 85%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[112.417s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[112.428s] [ 85%] Built target test_action_compute_path_to_pose_action
+[113.953s] [ 86%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[114.316s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[114.330s] [ 86%] Built target test_action_compute_path_through_poses_action
+[114.861s] [ 87%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[115.232s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[115.248s] [ 87%] Built target test_action_back_up_action
+[115.855s] [ 87%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[116.239s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[116.255s] [ 87%] Built target test_action_spin_action
+[116.619s] [ 88%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[116.720s] [ 89%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[116.907s] [ 90%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[116.966s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[116.980s] [ 90%] Built target test_bt_action_node
+[117.072s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[117.085s] [ 90%] Built target test_planner_selector_node
+[117.278s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[117.290s] [ 90%] Built target test_single_trigger_node
+[117.958s] [ 91%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[118.262s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[118.274s] [ 91%] Built target test_goal_updater_node
+[118.335s] [ 92%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[118.636s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[118.647s] [ 92%] Built target test_condition_goal_reached
+[119.578s] [ 93%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[119.758s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[119.764s] [ 93%] Built target test_condition_transform_available
+[120.073s] [ 93%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[120.229s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[120.236s] [ 93%] Built target test_action_follow_path_action
+[120.880s] [ 93%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[121.047s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[121.053s] [ 93%] Built target test_condition_is_stuck
+[121.062s] [35m[1mScanning dependencies of target test_remove_passed_goals_action[0m
+[121.079s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_remove_passed_goals_action.cpp' has modification time 177485 s in the future
+[121.093s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[126.407s] [ 95%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[126.579s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[126.584s] [ 95%] Built target test_remove_passed_goals_action
+[126.593s] [35m[1mScanning dependencies of target test_action_navigate_to_pose_action[0m
+[126.594s] [35m[1mScanning dependencies of target test_truncate_path_action[0m
+[126.602s] [35m[1mScanning dependencies of target test_action_navigate_through_poses_action[0m
+[126.611s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_truncate_path_action.cpp' has modification time 177480 s in the future
+[126.611s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_navigate_to_pose_action.cpp' has modification time 177480 s in the future
+[126.622s] [ 96%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[126.624s] [ 97%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[126.634s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree/test/plugins/action/test_navigate_through_poses_action.cpp' has modification time 177480 s in the future
+[126.658s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[131.281s] [ 99%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[131.539s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[131.550s] [ 99%] Built target test_truncate_path_action
+[131.949s] [100%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[132.107s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[132.113s] [100%] Built target test_action_navigate_through_poses_action
+[132.611s] [100%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[132.759s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[132.766s] [100%] Built target test_action_navigate_to_pose_action
+[132.782s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_behavior_tree -- -j12 -l12
+[132.786s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_behavior_tree
+[132.792s] -- Install configuration: "Release"
+[132.792s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[132.793s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so" to ""
+[132.793s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[132.793s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so" to ""
+[132.793s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[132.793s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so" to ""
+[132.794s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[132.794s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so" to ""
+[132.794s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[132.794s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so" to ""
+[132.794s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[132.795s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so" to ""
+[132.795s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[132.795s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so" to ""
+[132.795s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[132.796s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so" to ""
+[132.796s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[132.796s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so" to ""
+[132.797s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[132.797s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so" to ""
+[132.797s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[132.797s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so" to ""
+[132.798s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[132.798s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so" to ""
+[132.798s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[132.799s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so" to ""
+[132.799s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[132.800s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so" to ""
+[132.800s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[132.800s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so" to ""
+[132.801s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[132.802s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so" to ""
+[132.802s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[132.803s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so" to ""
+[132.803s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[132.804s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so" to ""
+[132.804s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[132.804s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so" to ""
+[132.805s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[132.805s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so" to ""
+[132.805s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[132.806s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so" to ""
+[132.806s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[132.807s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so" to ""
+[132.807s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[132.808s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so" to ""
+[132.808s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[132.809s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so" to ""
+[132.809s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[132.810s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so" to ""
+[132.810s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[132.811s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so" to ""
+[132.811s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[132.811s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so" to ""
+[132.811s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[132.812s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so" to ""
+[132.812s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[132.812s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so" to ""
+[132.812s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[132.813s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so" to ""
+[132.813s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[132.814s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so" to ""
+[132.814s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[132.815s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so" to ""
+[132.815s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[132.816s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so" to ""
+[132.816s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include/
+[132.816s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree
+[132.816s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[132.816s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[132.816s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[132.816s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[132.817s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[132.818s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[132.819s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[132.820s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[132.821s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[132.821s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[132.821s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[132.821s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[132.821s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[132.822s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[132.822s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[132.824s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_behavior_tree

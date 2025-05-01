@@ -1,0 +1,137 @@
+[0.021s] Invoking command in '/home/sentry/Wolf-Moon/build/sentry_decision_v2': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib:/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/sentry_decision_v2 -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/sentry_decision_v2
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.135s] -- The CXX compiler identification is GNU 9.4.0
+[0.141s] -- Check for working C compiler: /usr/bin/cc
+[0.187s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.188s] -- Detecting C compiler ABI info
+[0.247s] -- Detecting C compiler ABI info - done
+[0.255s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.309s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.386s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.403s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.461s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.560s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.580s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.692s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.693s] -- Looking for pthread.h
+[0.744s] -- Looking for pthread.h - found
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.794s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.794s] -- Looking for pthread_create in pthreads
+[0.847s] -- Looking for pthread_create in pthreads - not found
+[0.847s] -- Looking for pthread_create in pthread
+[0.896s] -- Looking for pthread_create in pthread - found
+[0.897s] -- Found Threads: TRUE  
+[1.004s] -- Found nav2_util: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_util/share/nav2_util/cmake)
+[1.525s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.527s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.659s] -- Found nav2_lifecycle_manager: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[1.888s] -- Found nav2_behavior_tree: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[2.174s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[2.220s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[2.227s] -- Found auto_aim_interfaces: 0.0.0 (/home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake)
+[2.313s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[4.193s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.247s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.248s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.249s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sentry/Wolf-Moon/src/sentry_decision_v2/include>
+[4.249s] -- Configured cppcheck exclude dirs and/or files: 
+[4.250s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.250s] -- Configured cpplint exclude dirs and/or files: 
+[4.250s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.251s] -- Added test 'lint_cmake' to check CMake code style
+[4.251s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.253s] -- Added test 'uncrustify' to check C / C++ code style
+[4.253s] -- Configured uncrustify additional arguments: 
+[4.253s] -- Added test 'xmllint' to check XML markup files
+[4.256s] -- Configuring done
+[4.289s] -- Generating done
+[4.304s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/sentry_decision_v2
+[4.313s] Invoked command in '/home/sentry/Wolf-Moon/build/sentry_decision_v2' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib:/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/sentry_decision_v2 -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/sentry_decision_v2
+[4.314s] Invoking command in '/home/sentry/Wolf-Moon/build/sentry_decision_v2': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib:/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/sentry_decision_v2 -- -j12 -l12
+[4.332s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[4.349s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.403s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[4.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.429s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[4.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.563s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.565s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.577s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.675s] -- Found nav2_util: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_util/share/nav2_util/cmake)
+[5.174s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[5.296s] -- Found nav2_lifecycle_manager: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[5.523s] -- Found nav2_behavior_tree: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[5.806s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[5.843s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[5.851s] -- Found auto_aim_interfaces: 0.0.0 (/home/sentry/Wolf-Moon/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake)
+[5.933s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[7.849s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[7.903s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.904s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.904s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sentry/Wolf-Moon/src/sentry_decision_v2/include>
+[7.904s] -- Configured cppcheck exclude dirs and/or files: 
+[7.905s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.905s] -- Configured cpplint exclude dirs and/or files: 
+[7.905s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.905s] -- Added test 'lint_cmake' to check CMake code style
+[7.905s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.906s] -- Added test 'uncrustify' to check C / C++ code style
+[7.906s] -- Configured uncrustify additional arguments: 
+[7.906s] -- Added test 'xmllint' to check XML markup files
+[7.908s] -- Configuring done
+[7.939s] -- Generating done
+[7.955s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/sentry_decision_v2
+[7.977s] [35m[1mScanning dependencies of target decision_node[0m
+[8.021s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/sentry_decision_v2/src/decision_node.cpp' has modification time 177731 s in the future
+[8.033s] [ 33%] [32mBuilding CXX object CMakeFiles/decision_node.dir/src/decision_node.cpp.o[0m
+[8.037s] [ 66%] [32mBuilding CXX object CMakeFiles/decision_node.dir/src/Json/jsoncpp.cpp.o[0m
+[23.945s] [100%] [32m[1mLinking CXX executable decision_node[0m
+[24.186s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[24.192s] [100%] Built target decision_node
+[24.200s] Invoked command in '/home/sentry/Wolf-Moon/build/sentry_decision_v2' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib:/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/sentry_decision_v2 -- -j12 -l12
+[24.203s] Invoking command in '/home/sentry/Wolf-Moon/build/sentry_decision_v2': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib:/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/sentry_decision_v2
+[24.210s] -- Install configuration: "Release"
+[24.210s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/lib/sentry_decision_v2/decision_node
+[24.211s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/sentry_decision_v2/lib/sentry_decision_v2/decision_node" to ""
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/launch
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/launch/launch.py
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_decisions_test2.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_decisions_test.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_waypoints.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_decisions_test3.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_decisions_2.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_waypoints.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_waypoints_2.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_decisions.json
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/config
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/config/parameters.yaml
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/ament_index/resource_index/package_run_dependencies/sentry_decision_v2
+[24.211s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/ament_index/resource_index/parent_prefix_path/sentry_decision_v2
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/ament_prefix_path.sh
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/ament_prefix_path.dsv
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/path.sh
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/path.dsv
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.bash
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.sh
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.zsh
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.dsv
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/package.dsv
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/ament_index/resource_index/packages/sentry_decision_v2
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/cmake/sentry_decision_v2Config.cmake
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/cmake/sentry_decision_v2Config-version.cmake
+[24.212s] -- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/package.xml
+[24.217s] Invoked command in '/home/sentry/Wolf-Moon/build/sentry_decision_v2' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager:/home/sentry/Wolf-Moon/install/nav2_behavior_tree:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/auto_aim_interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager/lib:/home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/auto_aim_interfaces/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/sentry_decision_v2

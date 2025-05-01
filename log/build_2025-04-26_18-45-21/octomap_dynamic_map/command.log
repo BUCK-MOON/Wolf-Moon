@@ -1,0 +1,1 @@
+Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/octomap_dynamic_map -- -j12 -l12

@@ -1,1 +1,0 @@
-Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/livox_ros_driver2-master -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/livox_ros_driver2

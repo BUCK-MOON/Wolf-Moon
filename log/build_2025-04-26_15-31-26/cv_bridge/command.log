@@ -1,0 +1,4 @@
+Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/cv_bridge -- -j12 -l12
+Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/cv_bridge -- -j12 -l12
+Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/cv_bridge
+Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/cv_bridge

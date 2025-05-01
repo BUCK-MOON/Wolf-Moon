@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_385f9/fast && /usr/bin/make -f CMakeFiles/cmTC_385f9.dir/build.make CMakeFiles/cmTC_385f9.dir/build
+Run Build Command(s):/usr/bin/make cmTC_499da/fast && /usr/bin/make -f CMakeFiles/cmTC_499da.dir/build.make CMakeFiles/cmTC_499da.dir/build
 make[1]: Entering directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_385f9.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu99 -o CMakeFiles/cmTC_385f9.dir/src.c.o   -c /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_385f9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_385f9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_385f9.dir/src.c.o  -o cmTC_385f9 
-/usr/bin/ld: CMakeFiles/cmTC_385f9.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_499da.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu99 -o CMakeFiles/cmTC_499da.dir/src.c.o   -c /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_499da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_499da.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_499da.dir/src.c.o  -o cmTC_499da 
+/usr/bin/ld: CMakeFiles/cmTC_499da.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_385f9.dir/build.make:87: cmTC_385f9] Error 1
+make[1]: *** [CMakeFiles/cmTC_499da.dir/build.make:87: cmTC_499da] Error 1
 make[1]: Leaving directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_385f9/fast] Error 2
+make: *** [Makefile:121: cmTC_499da/fast] Error 2
 
 
 Source file was:
@@ -41,39 +41,39 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ea233/fast && /usr/bin/make -f CMakeFiles/cmTC_ea233.dir/build.make CMakeFiles/cmTC_ea233.dir/build
+Run Build Command(s):/usr/bin/make cmTC_ad2ff/fast && /usr/bin/make -f CMakeFiles/cmTC_ad2ff.dir/build.make CMakeFiles/cmTC_ad2ff.dir/build
 make[1]: Entering directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea233.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_ea233.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ea233
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea233.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ea233.dir/CheckFunctionExists.c.o  -o cmTC_ea233  -lpthreads 
+Building C object CMakeFiles/cmTC_ad2ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_ad2ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad2ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad2ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ad2ff.dir/CheckFunctionExists.c.o  -o cmTC_ad2ff  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ea233.dir/build.make:87: cmTC_ea233] Error 1
+make[1]: *** [CMakeFiles/cmTC_ad2ff.dir/build.make:87: cmTC_ad2ff] Error 1
 make[1]: Leaving directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ea233/fast] Error 2
+make: *** [Makefile:121: cmTC_ad2ff/fast] Error 2
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_64c8c/fast && /usr/bin/make -f CMakeFiles/cmTC_64c8c.dir/build.make CMakeFiles/cmTC_64c8c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3afbf/fast && /usr/bin/make -f CMakeFiles/cmTC_3afbf.dir/build.make CMakeFiles/cmTC_3afbf.dir/build
 make[1]: Entering directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64c8c.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu99 -o CMakeFiles/cmTC_64c8c.dir/src.c.o   -c /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_64c8c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64c8c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_64c8c.dir/src.c.o  -o cmTC_64c8c 
-/usr/bin/ld: CMakeFiles/cmTC_64c8c.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_3afbf.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu99 -o CMakeFiles/cmTC_3afbf.dir/src.c.o   -c /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3afbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3afbf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_3afbf.dir/src.c.o  -o cmTC_3afbf 
+/usr/bin/ld: CMakeFiles/cmTC_3afbf.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_64c8c.dir/build.make:87: cmTC_64c8c] Error 1
+make[1]: *** [CMakeFiles/cmTC_3afbf.dir/build.make:87: cmTC_3afbf] Error 1
 make[1]: Leaving directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_64c8c/fast] Error 2
+make: *** [Makefile:121: cmTC_3afbf/fast] Error 2
 
 
 Source file was:
@@ -99,76 +99,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_aed93/fast && /usr/bin/make -f CMakeFiles/cmTC_aed93.dir/build.make CMakeFiles/cmTC_aed93.dir/build
+Run Build Command(s):/usr/bin/make cmTC_005b9/fast && /usr/bin/make -f CMakeFiles/cmTC_005b9.dir/build.make CMakeFiles/cmTC_005b9.dir/build
 make[1]: Entering directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aed93.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_aed93.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_aed93
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed93.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aed93.dir/CheckFunctionExists.c.o  -o cmTC_aed93  -lpthreads 
+Building C object CMakeFiles/cmTC_005b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_005b9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_005b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_005b9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_005b9.dir/CheckFunctionExists.c.o  -o cmTC_005b9  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_aed93.dir/build.make:87: cmTC_aed93] Error 1
+make[1]: *** [CMakeFiles/cmTC_005b9.dir/build.make:87: cmTC_005b9] Error 1
 make[1]: Leaving directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_aed93/fast] Error 2
-
-
-
-Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_defb5/fast && /usr/bin/make -f CMakeFiles/cmTC_defb5.dir/build.make CMakeFiles/cmTC_defb5.dir/build
-make[1]: Entering directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_defb5.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu99 -o CMakeFiles/cmTC_defb5.dir/src.c.o   -c /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_defb5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_defb5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_defb5.dir/src.c.o  -o cmTC_defb5 
-/usr/bin/ld: CMakeFiles/cmTC_defb5.dir/src.c.o: in function `main':
-src.c:(.text+0x46): undefined reference to `pthread_create'
-/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
-/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_defb5.dir/build.make:87: cmTC_defb5] Error 1
-make[1]: Leaving directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_defb5/fast] Error 2
-
-
-Source file was:
-#include <pthread.h>
-
-void* test_func(void* data)
-{
-  return data;
-}
-
-int main(void)
-{
-  pthread_t thread;
-  pthread_create(&thread, NULL, test_func, NULL);
-  pthread_detach(thread);
-  pthread_join(thread, NULL);
-  pthread_atfork(NULL, NULL, NULL);
-  pthread_exit(NULL);
-
-  return 0;
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_7a3de/fast && /usr/bin/make -f CMakeFiles/cmTC_7a3de.dir/build.make CMakeFiles/cmTC_7a3de.dir/build
-make[1]: Entering directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a3de.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_7a3de.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7a3de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3de.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7a3de.dir/CheckFunctionExists.c.o  -o cmTC_7a3de  -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_7a3de.dir/build.make:87: cmTC_7a3de] Error 1
-make[1]: Leaving directory '/home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_7a3de/fast] Error 2
+make: *** [Makefile:121: cmTC_005b9/fast] Error 2
 
 
 

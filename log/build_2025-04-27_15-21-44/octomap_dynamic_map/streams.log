@@ -1,0 +1,89 @@
+[0.087s] Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/octomap_dynamic_map -- -j12 -l12
+[0.237s] [  5%] Built target octomath-static
+[0.271s] [ 10%] Built target octomath
+[0.311s] [ 23%] Built target octomap-static
+[0.356s] [ 35%] Built target octomap
+[0.510s] [ 38%] Built target octree2pointcloud
+[0.521s] [ 41%] Built target dm_lib
+[0.541s] [ 43%] Built target intersection_example
+[0.546s] [ 46%] Built target graph2tree
+[0.556s] [ 48%] Built target binvox2bt
+[0.574s] [ 51%] Built target log2graph
+[0.599s] [ 53%] Built target bt2vrml
+[0.600s] [ 56%] Built target simple_example
+[0.656s] [ 58%] Built target edit_octree
+[0.663s] [ 61%] Built target convert_octree
+[0.728s] [ 64%] Built target compare_octrees
+[0.735s] [ 66%] Built target eval_octree_accuracy
+[0.737s] [ 69%] Built target normals_example
+[0.765s] [ 71%] Built target test_raycasting
+[0.771s] [ 74%] Built target test_iterators
+[0.820s] [ 76%] Built target test_scans
+[0.826s] [ 79%] Built target test_pruning
+[0.868s] [ 82%] Built target test_color_tree
+[0.885s] [ 84%] Built target test_changedkeys
+[0.888s] [ 87%] Built target test_bbx
+[0.896s] [ 89%] Built target color_tree_histogram
+[0.897s] [ 92%] Built target test_io
+[0.910s] [ 94%] Built target test_mapcollection
+[0.914s] [ 97%] Built target unit_tests
+[0.935s] [100%] Built target octomap_run
+[0.977s] Invoked command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map' returned '0': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/octomap_dynamic_map -- -j12 -l12
+[0.982s] Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/octomap_dynamic_map
+[1.053s] -- Install configuration: "Release"
+[1.063s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/AbstractOcTree.h
+[1.063s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/AbstractOccupancyOcTree.h
+[1.063s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/ColorOcTree.h
+[1.063s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/CountingOcTree.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MCTables.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapCollection.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapCollection.hxx
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapNode.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/MapNode.hxx
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTree.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeBase.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeBaseImpl.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeBaseImpl.hxx
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeDataNode.h
+[1.064s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeDataNode.hxx
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeIterator.hxx
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeKey.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeNode.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OcTreeStamped.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OccupancyOcTreeBase.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/OccupancyOcTreeBase.hxx
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/Pointcloud.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/ScanGraph.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_deprecated.h
+[1.065s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_timing.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_types.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/octomap_utils.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Pose6D.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Quaternion.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Utils.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/include/octomap/math/Vector3.h
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/package.xml
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/ament_index/resource_index/packages/octomap
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-config.cmake
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-config-version.cmake
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/pkgconfig/octomap.pc
+[1.066s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so.1.9.8
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so.1.9
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.so
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomath.a
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so.1.9.8
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so.1.9
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.so
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/lib/liboctomap.a
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-targets.cmake
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/share/octomap/octomap-targets-release.cmake
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/graph2tree
+[1.067s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/log2graph
+[1.068s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/binvox2bt
+[1.068s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/bt2vrml
+[1.068s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/edit_octree
+[1.068s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/convert_octree
+[1.068s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/eval_octree_accuracy
+[1.068s] -- Up-to-date: /home/sentry/Wolf-Moon/install/octomap_dynamic_map/bin/compare_octrees
+[1.180s] Invoked command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map' returned '0': /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/octomap_dynamic_map

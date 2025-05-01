@@ -1,0 +1,430 @@
+[0.056s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl/lib:/home/sentry/Wolf-Moon/install/grid_map_filters/lib:/home/sentry/Wolf-Moon/install/nav2_map_server/lib:/home/sentry/Wolf-Moon/install/grid_map_ros/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/grid_map_cv/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_core/lib:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib:/home/sentry/Wolf-Moon/install/cv_bridge/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/localization_mapping -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/ig_lio_c
+[0.178s] -- The C compiler identification is GNU 9.4.0
+[0.320s] -- The CXX compiler identification is GNU 9.4.0
+[0.327s] -- Check for working C compiler: /usr/bin/cc
+[0.591s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.592s] -- Detecting C compiler ABI info
+[0.955s] -- Detecting C compiler ABI info - done
+[0.996s] -- Detecting C compile features
+[0.997s] -- Detecting C compile features - done
+[1.006s] -- Check for working CXX compiler: /usr/bin/c++
+[1.389s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.391s] -- Detecting CXX compiler ABI info
+[1.729s] -- Detecting CXX compiler ABI info - done
+[1.760s] -- Detecting CXX compile features
+[1.761s] -- Detecting CXX compile features - done
+[1.770s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.898s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.901s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.170s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.382s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.804s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.905s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.203s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.209s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.241s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.243s] -- Looking for pthread.h
+[3.474s] -- Looking for pthread.h - found
+[3.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.882s] -- Looking for pthread_create in pthreads
+[4.245s] -- Looking for pthread_create in pthreads - not found
+[4.245s] -- Looking for pthread_create in pthread
+[4.613s] -- Looking for pthread_create in pthread - found
+[4.614s] -- Found Threads: TRUE  
+[5.014s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[5.209s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[5.370s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[6.351s] -- Found pcl_ros: 2.3.2 (/opt/ros/galactic/share/pcl_ros/cmake)
+[7.033s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[7.040s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.135s] -- Checking for module 'eigen3'
+[7.230s] --   Found eigen3, version 3.3.7
+[7.533s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.534s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[7.763s] -- Checking for module 'flann'
+[7.858s] --   Found flann, version 1.9.1
+[8.199s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[8.388s] -- The imported target "vtkParseOGLExt" references the file
+[8.388s]    "/usr/bin/vtkParseOGLExt-7.1"
+[8.389s] but this file does not exist.  Possible reasons include:
+[8.389s] * The file was deleted, renamed, or moved to another location.
+[8.389s] * An install or uninstall procedure did not complete successfully.
+[8.389s] * The installation package was faulty and contained
+[8.389s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[8.389s] but not all the files it references.
+[8.389s] 
+[8.390s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[8.390s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[8.390s] but this file does not exist.  Possible reasons include:
+[8.390s] * The file was deleted, renamed, or moved to another location.
+[8.390s] * An install or uninstall procedure did not complete successfully.
+[8.390s] * The installation package was faulty and contained
+[8.390s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[8.390s] but not all the files it references.
+[8.390s] 
+[8.391s] -- The imported target "vtk" references the file
+[8.391s]    "/usr/bin/vtk"
+[8.391s] but this file does not exist.  Possible reasons include:
+[8.391s] * The file was deleted, renamed, or moved to another location.
+[8.391s] * An install or uninstall procedure did not complete successfully.
+[8.391s] * The installation package was faulty and contained
+[8.391s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[8.392s] but not all the files it references.
+[8.392s] 
+[8.392s] -- The imported target "pvtk" references the file
+[8.392s]    "/usr/bin/pvtk"
+[8.392s] but this file does not exist.  Possible reasons include:
+[8.392s] * The file was deleted, renamed, or moved to another location.
+[8.392s] * An install or uninstall procedure did not complete successfully.
+[8.392s] * The installation package was faulty and contained
+[8.392s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[8.393s] but not all the files it references.
+[8.393s] 
+[8.468s] -- Checking for module 'libusb-1.0'
+[8.562s] --   Found libusb-1.0, version 1.0.23
+[8.916s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.119s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[9.388s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[9.438s] -- Found libusb-1.0: /usr/include  
+[9.462s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[9.478s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[9.572s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[9.572s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[9.590s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[9.642s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.645s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.648s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.651s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.654s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.657s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.674s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[9.676s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[9.679s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.682s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.685s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.688s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.691s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.695s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.698s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.701s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.704s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.707s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.711s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.714s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.716s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[9.718s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[9.721s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.724s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[10.087s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[10.212s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[10.332s] -- Found livox_ros_driver2: 1.0.0 (/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[10.626s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[10.651s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[10.659s] -- Found Eigen3: TRUE (found suitable version "3.3.7", minimum required is "3.3.7") 
+[10.698s] -- Found grid_map_msgs: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[10.929s] -- Found grid_map_core: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake)
+[10.942s] -- Found grid_map_ros: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_ros/share/grid_map_ros/cmake)
+[12.267s] -- Found grid_map_pcl: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_pcl/share/grid_map_pcl/cmake)
+[12.270s] -- Found grid_map_filters: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake)
+[13.089s] -- Found ig_lio_c_msgs: 2.0.0 (/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake)
+[13.318s] -- Found nav2_util: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_util/share/nav2_util/cmake)
+[13.957s] -- Found nav2_map_server: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake)
+[15.411s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[26.762s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[26.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.944s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/localization_mapping/include
+[26.944s] -- Configured cppcheck exclude dirs and/or files: 
+[26.947s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[26.948s] -- Configured cpplint exclude dirs and/or files: 
+[26.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.952s] -- Added test 'lint_cmake' to check CMake code style
+[26.954s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[26.957s] -- Added test 'uncrustify' to check C / C++ code style
+[26.958s] -- Configured uncrustify additional arguments: 
+[26.960s] -- Added test 'xmllint' to check XML markup files
+[26.972s] -- Configuring done
+[27.450s] -- Generating done
+[27.657s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/ig_lio_c
+[27.679s] Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl/lib:/home/sentry/Wolf-Moon/install/grid_map_filters/lib:/home/sentry/Wolf-Moon/install/nav2_map_server/lib:/home/sentry/Wolf-Moon/install/grid_map_ros/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/grid_map_cv/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_core/lib:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib:/home/sentry/Wolf-Moon/install/cv_bridge/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/localization_mapping -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/ig_lio_c
+[27.680s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl/lib:/home/sentry/Wolf-Moon/install/grid_map_filters/lib:/home/sentry/Wolf-Moon/install/nav2_map_server/lib:/home/sentry/Wolf-Moon/install/grid_map_ros/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/grid_map_cv/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_core/lib:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib:/home/sentry/Wolf-Moon/install/cv_bridge/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c -- -j12 -l12
+[27.804s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[27.891s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.073s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[28.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.174s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[28.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.629s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[28.633s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[28.668s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[28.930s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[29.035s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[29.119s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[29.642s] -- Found pcl_ros: 2.3.2 (/opt/ros/galactic/share/pcl_ros/cmake)
+[30.370s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[30.378s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[30.512s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[30.746s] -- The imported target "vtkParseOGLExt" references the file
+[30.746s]    "/usr/bin/vtkParseOGLExt-7.1"
+[30.746s] but this file does not exist.  Possible reasons include:
+[30.746s] * The file was deleted, renamed, or moved to another location.
+[30.747s] * An install or uninstall procedure did not complete successfully.
+[30.747s] * The installation package was faulty and contained
+[30.747s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[30.747s] but not all the files it references.
+[30.747s] 
+[30.750s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[30.750s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[30.750s] but this file does not exist.  Possible reasons include:
+[30.750s] * The file was deleted, renamed, or moved to another location.
+[30.751s] * An install or uninstall procedure did not complete successfully.
+[30.751s] * The installation package was faulty and contained
+[30.751s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[30.751s] but not all the files it references.
+[30.751s] 
+[30.751s] -- The imported target "vtk" references the file
+[30.751s]    "/usr/bin/vtk"
+[30.751s] but this file does not exist.  Possible reasons include:
+[30.751s] * The file was deleted, renamed, or moved to another location.
+[30.751s] * An install or uninstall procedure did not complete successfully.
+[30.751s] * The installation package was faulty and contained
+[30.752s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[30.752s] but not all the files it references.
+[30.752s] 
+[30.752s] -- The imported target "pvtk" references the file
+[30.752s]    "/usr/bin/pvtk"
+[30.752s] but this file does not exist.  Possible reasons include:
+[30.758s] * The file was deleted, renamed, or moved to another location.
+[30.758s] * An install or uninstall procedure did not complete successfully.
+[30.758s] * The installation package was faulty and contained
+[30.758s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[30.759s] but not all the files it references.
+[30.759s] 
+[30.803s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[30.828s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[30.891s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[30.912s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[30.950s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[30.961s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[31.375s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[31.501s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[31.630s] -- Found livox_ros_driver2: 1.0.0 (/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[31.954s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[31.954s] -- Found Eigen3: TRUE (found suitable version "3.3.7", minimum required is "3.3.7") 
+[31.976s] -- Found grid_map_msgs: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[32.075s] -- Found grid_map_core: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake)
+[32.079s] -- Found grid_map_ros: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_ros/share/grid_map_ros/cmake)
+[33.046s] -- Found grid_map_pcl: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_pcl/share/grid_map_pcl/cmake)
+[33.052s] -- Found grid_map_filters: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake)
+[33.616s] -- Found ig_lio_c_msgs: 2.0.0 (/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake)
+[33.783s] -- Found nav2_util: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_util/share/nav2_util/cmake)
+[34.221s] -- Found nav2_map_server: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake)
+[47.527s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[47.736s] -- Added test 'copyright' to check source files copyright and LICENSE
+[47.738s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[47.744s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/localization_mapping/include
+[47.744s] -- Configured cppcheck exclude dirs and/or files: 
+[47.746s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[47.746s] -- Configured cpplint exclude dirs and/or files: 
+[47.749s] -- Added test 'flake8' to check Python code syntax and style conventions
+[47.749s] -- Added test 'lint_cmake' to check CMake code style
+[47.750s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[47.752s] -- Added test 'uncrustify' to check C / C++ code style
+[47.752s] -- Configured uncrustify additional arguments: 
+[47.753s] -- Added test 'xmllint' to check XML markup files
+[47.759s] -- Configuring done
+[48.273s] -- Generating done
+[48.495s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/ig_lio_c
+[48.558s] [35m[1mScanning dependencies of target map_converter_node[0m
+[48.807s] [ 10%] [32mBuilding CXX object CMakeFiles/map_converter_node.dir/src/map_converter_node.cpp.o[0m
+[97.395s] [ 20%] [32m[1mLinking CXX executable map_converter_node[0m
+[99.049s] [ 20%] Built target map_converter_node
+[99.070s] [35m[1mScanning dependencies of target map_builder_node[0m
+[99.389s] [ 30%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/ig_lio_c/ieskf.cpp.o[0m
+[99.392s] make[2]: Warning: File '/home/sentry/Wolf-Moon/src/localization_mapping/src/map_builder_node.cpp' has modification time 75822 s in the future
+[110.717s] [ 40%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/map_builder_node.cpp.o[0m
+[121.188s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/map_builder_node.hpp:40[m[K,
+[121.188s]                  from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/map_builder_node.cpp:1[m[K:
+[121.188s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:[m[K In constructor ‘[01m[KIG_LIO::IcpLocalizer::IcpLocalizer()[m[K’:
+[121.188s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[121.188s]    30 |         double [01;35m[Krefine_resolution_[m[K;
+[121.188s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[121.188s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:29:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IG_LIO::IcpLocalizer::rough_resolution_[m[K’ [[01;35m[K-Wreorder[m[K]
+[121.188s]    29 |         double [01;35m[Krough_resolution_[m[K;
+[121.188s]       |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[121.188s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:36:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[121.188s]    36 |         [01;35m[KIcpLocalizer[m[K()
+[121.189s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[121.189s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_iter_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[121.189s]    32 |         int [01;35m[Krefine_iter_[m[K;
+[121.189s]       |             [01;35m[K^~~~~~~~~~~~[m[K
+[121.189s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:31:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IcpLocalizer::rough_iter_[m[K’ [[01;35m[K-Wreorder[m[K]
+[121.189s]    31 |         int [01;35m[Krough_iter_[m[K;
+[121.189s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[121.189s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:36:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[121.189s]    36 |         [01;35m[KIcpLocalizer[m[K()
+[121.189s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[121.190s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:[m[K In constructor ‘[01m[KIG_LIO::IcpLocalizer::IcpLocalizer(double, double, int, int, double)[m[K’:
+[121.190s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[121.190s]    30 |         double [01;35m[Krefine_resolution_[m[K;
+[121.190s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[121.190s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:29:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IG_LIO::IcpLocalizer::rough_resolution_[m[K’ [[01;35m[K-Wreorder[m[K]
+[121.191s]    29 |         double [01;35m[Krough_resolution_[m[K;
+[121.191s]       |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[121.191s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:46:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[121.191s]    46 |         [01;35m[KIcpLocalizer[m[K(double refine_resolution, double rough_resolution, int refine_iter, int rough_iter, double thresh)
+[121.191s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[121.191s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_iter_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[121.191s]    32 |         int [01;35m[Krefine_iter_[m[K;
+[121.191s]       |             [01;35m[K^~~~~~~~~~~~[m[K
+[121.191s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:31:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IcpLocalizer::rough_iter_[m[K’ [[01;35m[K-Wreorder[m[K]
+[121.191s]    31 |         int [01;35m[Krough_iter_[m[K;
+[121.191s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[121.191s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/../include/./ig_lio_c/icp_localizer.hpp:46:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[121.191s]    46 |         [01;35m[KIcpLocalizer[m[K(double refine_resolution, double rough_resolution, int refine_iter, int rough_iter, double thresh)
+[121.191s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[161.476s] [ 50%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/ig_lio_c/commons.cpp.o[0m
+[166.476s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/commons.cpp:[m[K In member function ‘[01m[Kvoid IG_LIO::LivoxData::livox2pcl(livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::SharedPtr, pcl::PointCloud<pcl::PointXYZINormal>::Ptr)[m[K’:
+[166.476s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/commons.cpp:51:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[166.477s]    51 |         for (uint i = 0; [01;35m[Ki < point_num[m[K; i++)
+[166.477s]       |                          [01;35m[K~~^~~~~~~~~~~[m[K
+[166.530s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/commons.cpp:[m[K In function ‘[01m[Kbool IG_LIO::esti_plane(Eigen::Vector4d&, const std::vector<Eigen::Matrix<double, 3, 1> >&, const double&, bool)[m[K’:
+[166.530s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/commons.cpp:152:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[166.530s]   152 |         for (int i = 0; [01;35m[Ki < points.size()[m[K; i++)
+[166.530s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[166.562s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/commons.cpp:166:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[166.562s]   166 |         for (int j = 0; [01;35m[Kj < points.size()[m[K; j++)
+[166.562s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[166.562s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/commons.cpp:141:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knone[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[166.562s]   141 |     bool esti_plane(Eigen::Vector4d &out, const std::vector<Eigen::Vector3d> &points, const double &thresh, [01;35m[Kbool none[m[K)
+[166.562s]       |                                                                                                             [01;35m[K~~~~~^~~~[m[K
+[174.931s] [ 60%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/ig_lio_c/voxel_map.cpp.o[0m
+[176.989s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/voxel_map.cpp:1[m[K:
+[176.989s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/voxel_map.hpp:[m[K In constructor ‘[01m[KIG_LIO::VoxelMap::VoxelMap(double, size_t, size_t, IG_LIO::VoxelMap::MODE)[m[K’:
+[176.989s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/voxel_map.hpp:103:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::VoxelMap::grid_capacity_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[176.989s]   103 |         size_t [01;35m[Kgrid_capacity_[m[K = 20;
+[176.990s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[176.990s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/voxel_map.hpp:99:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KIG_LIO::VoxelMap::MODE IG_LIO::VoxelMap::mode_[m[K’ [[01;35m[K-Wreorder[m[K]
+[176.990s]    99 |         MODE [01;35m[Kmode_[m[K = MODE::NEARBY_7;
+[176.990s]       |              [01;35m[K^~~~~[m[K
+[176.990s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/voxel_map.cpp:133:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[176.990s]   133 |     [01;35m[KVoxelMap[m[K::VoxelMap(double resolution, size_t capacity, size_t grid_capacity, MODE mode)
+[176.990s]       |     [01;35m[K^~~~~~~~[m[K
+[177.025s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/voxel_map.cpp:1[m[K:
+[177.025s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/voxel_map.hpp:[m[K In constructor ‘[01m[KIG_LIO::FastVoxelMap::FastVoxelMap(double)[m[K’:
+[177.025s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/voxel_map.hpp:129:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::FastVoxelMap::resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[177.025s]   129 |         double [01;35m[Kresolution_[m[K;
+[177.025s]       |                [01;35m[K^~~~~~~~~~~[m[K
+[177.026s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/voxel_map.hpp:128:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KIG_LIO::HashUtil IG_LIO::FastVoxelMap::hash_util_[m[K’ [[01;35m[K-Wreorder[m[K]
+[177.026s]   128 |         HashUtil [01;35m[Khash_util_[m[K;
+[177.026s]       |                  [01;35m[K^~~~~~~~~~[m[K
+[177.026s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/voxel_map.cpp:285:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[177.026s]   285 |     [01;35m[KFastVoxelMap[m[K::FastVoxelMap(double resolution) : resolution_(resolution), hash_util_(resolution)
+[177.026s]       |     [01;35m[K^~~~~~~~~~~~[m[K
+[180.293s] [ 70%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/ig_lio_c/iglio_builder.cpp.o[0m
+[194.873s] [ 80%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/ig_lio_c/imu_processor.cpp.o[0m
+[199.747s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/imu_processor.cpp:1[m[K:
+[199.747s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:[m[K In constructor ‘[01m[KIG_LIO::IMUProcessor::IMUProcessor(std::shared_ptr<IG_LIO::IESKF>, std::shared_ptr<IG_LIO::PiontIMU>)[m[K’:
+[199.747s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:170:43:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IMUProcessor::pointIMU_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[199.747s]   170 |         std::shared_ptr<IG_LIO::PiontIMU> [01;35m[KpointIMU_[m[K;
+[199.747s]       |                                           [01;35m[K^~~~~~~~~[m[K
+[199.747s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:164:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IMUProcessor::init_count_[m[K’ [[01;35m[K-Wreorder[m[K]
+[199.747s]   164 |         int [01;35m[Kinit_count_[m[K = 0;
+[199.748s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[199.748s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/imu_processor.cpp:28:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[199.748s]    28 |     [01;35m[KIMUProcessor[m[K::IMUProcessor(std::shared_ptr<IG_LIO::IESKF> kf, std::shared_ptr<IG_LIO::PiontIMU> pointIMU)
+[199.748s]       |     [01;35m[K^~~~~~~~~~~~[m[K
+[199.748s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/imu_processor.cpp:1[m[K:
+[199.748s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:185:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IMUProcessor::last_lidar_time_end_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[199.748s]   185 |         double [01;35m[Klast_lidar_time_end_[m[K;
+[199.748s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[199.748s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:177:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KEigen::Vector3d IG_LIO::IMUProcessor::mean_acc_[m[K’ [[01;35m[K-Wreorder[m[K]
+[199.748s]   177 |         Eigen::Vector3d [01;35m[Kmean_acc_[m[K;
+[199.748s]       |                         [01;35m[K^~~~~~~~~[m[K
+[199.749s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/imu_processor.cpp:28:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[199.749s]    28 |     [01;35m[KIMUProcessor[m[K::IMUProcessor(std::shared_ptr<IG_LIO::IESKF> kf, std::shared_ptr<IG_LIO::PiontIMU> pointIMU)
+[199.749s]       |     [01;35m[K^~~~~~~~~~~~[m[K
+[199.749s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/imu_processor.cpp:1[m[K:
+[199.749s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:181:25:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IMUProcessor::last_gyro_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[199.749s]   181 |         Eigen::Vector3d [01;35m[Klast_gyro_[m[K;
+[199.749s]       |                         [01;35m[K^~~~~~~~~~[m[K
+[199.749s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/imu_processor.hpp:166:25:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KEigen::Matrix3d IG_LIO::IMUProcessor::rot_ext_[m[K’ [[01;35m[K-Wreorder[m[K]
+[199.749s]   166 |         Eigen::Matrix3d [01;35m[Krot_ext_[m[K;
+[199.749s]       |                         [01;35m[K^~~~~~~~[m[K
+[199.749s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/imu_processor.cpp:28:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[199.750s]    28 |     [01;35m[KIMUProcessor[m[K::IMUProcessor(std::shared_ptr<IG_LIO::IESKF> kf, std::shared_ptr<IG_LIO::PiontIMU> pointIMU)
+[199.750s]       |     [01;35m[K^~~~~~~~~~~~[m[K
+[209.659s] [ 90%] [32mBuilding CXX object CMakeFiles/map_builder_node.dir/src/ig_lio_c/icp_localizer.cpp.o[0m
+[215.572s] In file included from [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/icp_localizer.cpp:1[m[K:
+[215.572s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:[m[K In constructor ‘[01m[KIG_LIO::IcpLocalizer::IcpLocalizer()[m[K’:
+[215.573s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[215.573s]    30 |         double [01;35m[Krefine_resolution_[m[K;
+[215.573s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[215.573s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:29:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IG_LIO::IcpLocalizer::rough_resolution_[m[K’ [[01;35m[K-Wreorder[m[K]
+[215.573s]    29 |         double [01;35m[Krough_resolution_[m[K;
+[215.573s]       |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[215.573s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:36:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[215.573s]    36 |         [01;35m[KIcpLocalizer[m[K()
+[215.573s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[215.573s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_iter_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[215.573s]    32 |         int [01;35m[Krefine_iter_[m[K;
+[215.574s]       |             [01;35m[K^~~~~~~~~~~~[m[K
+[215.574s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:31:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IcpLocalizer::rough_iter_[m[K’ [[01;35m[K-Wreorder[m[K]
+[215.574s]    31 |         int [01;35m[Krough_iter_[m[K;
+[215.574s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[215.574s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:36:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[215.574s]    36 |         [01;35m[KIcpLocalizer[m[K()
+[215.574s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[215.574s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:[m[K In constructor ‘[01m[KIG_LIO::IcpLocalizer::IcpLocalizer(double, double, int, int, double)[m[K’:
+[215.574s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_resolution_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[215.574s]    30 |         double [01;35m[Krefine_resolution_[m[K;
+[215.574s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[215.575s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:29:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IG_LIO::IcpLocalizer::rough_resolution_[m[K’ [[01;35m[K-Wreorder[m[K]
+[215.575s]    29 |         double [01;35m[Krough_resolution_[m[K;
+[215.575s]       |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[215.575s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:46:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[215.575s]    46 |         [01;35m[KIcpLocalizer[m[K(double refine_resolution, double rough_resolution, int refine_iter, int rough_iter, double thresh)
+[215.575s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[215.575s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:32:13:[m[K [01;35m[Kwarning: [m[K‘[01m[KIG_LIO::IcpLocalizer::refine_iter_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[215.575s]    32 |         int [01;35m[Krefine_iter_[m[K;
+[215.575s]       |             [01;35m[K^~~~~~~~~~~~[m[K
+[215.575s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:31:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IG_LIO::IcpLocalizer::rough_iter_[m[K’ [[01;35m[K-Wreorder[m[K]
+[215.575s]    31 |         int [01;35m[Krough_iter_[m[K;
+[215.575s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[215.576s] [01m[K/home/sentry/Wolf-Moon/src/localization_mapping/src/ig_lio_c/../../include/ig_lio_c/icp_localizer.hpp:46:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[215.576s]    46 |         [01;35m[KIcpLocalizer[m[K(double refine_resolution, double rough_resolution, int refine_iter, int rough_iter, double thresh)
+[215.576s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[229.106s] [100%] [32m[1mLinking CXX executable map_builder_node[0m
+[231.208s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[231.220s] [100%] Built target map_builder_node
+[231.235s] Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl/lib:/home/sentry/Wolf-Moon/install/grid_map_filters/lib:/home/sentry/Wolf-Moon/install/nav2_map_server/lib:/home/sentry/Wolf-Moon/install/grid_map_ros/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/grid_map_cv/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_core/lib:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib:/home/sentry/Wolf-Moon/install/cv_bridge/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c -- -j12 -l12
+[231.239s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl/lib:/home/sentry/Wolf-Moon/install/grid_map_filters/lib:/home/sentry/Wolf-Moon/install/nav2_map_server/lib:/home/sentry/Wolf-Moon/install/grid_map_ros/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/grid_map_cv/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_core/lib:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib:/home/sentry/Wolf-Moon/install/cv_bridge/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/ig_lio_c
+[231.250s] -- Install configuration: "Release"
+[231.251s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/lib/ig_lio_c/map_builder_node
+[231.254s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c/lib/ig_lio_c/map_builder_node" to ""
+[231.254s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/lib/ig_lio_c/map_converter_node
+[231.256s] -- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c/lib/ig_lio_c/map_converter_node" to ""
+[231.256s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/launch
+[231.257s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/launch/map_mapping_launch.py
+[231.257s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/config
+[231.257s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/config/parameters.yaml
+[231.257s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/config/config_fg.yaml
+[231.257s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ament_index/resource_index/package_run_dependencies/ig_lio_c
+[231.257s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ament_index/resource_index/parent_prefix_path/ig_lio_c
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/ament_prefix_path.sh
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/ament_prefix_path.dsv
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/path.sh
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/path.dsv
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.bash
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.sh
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.zsh
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.dsv
+[231.258s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/package.dsv
+[231.259s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ament_index/resource_index/packages/ig_lio_c
+[231.259s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/cmake/ig_lio_cConfig.cmake
+[231.259s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/cmake/ig_lio_cConfig-version.cmake
+[231.259s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/package.xml
+[231.263s] Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl:/home/sentry/Wolf-Moon/install/grid_map_filters:/home/sentry/Wolf-Moon/install/nav2_map_server:/home/sentry/Wolf-Moon/install/grid_map_ros:/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/grid_map_cv:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/grid_map_msgs:/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/nav2_common:/home/sentry/Wolf-Moon/install/livox_ros_driver2:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/home/sentry/Wolf-Moon/install/cv_bridge:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_pcl/lib:/home/sentry/Wolf-Moon/install/grid_map_filters/lib:/home/sentry/Wolf-Moon/install/nav2_map_server/lib:/home/sentry/Wolf-Moon/install/grid_map_ros/lib:/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/grid_map_cv/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib:/home/sentry/Wolf-Moon/install/grid_map_core/lib:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib:/home/sentry/Wolf-Moon/install/cv_bridge/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/grid_map_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/ig_lio_c

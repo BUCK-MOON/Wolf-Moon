@@ -1,0 +1,25 @@
+-- Found ament_cmake_core: 1.1.6 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers
+-- Install configuration: ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/ament_index/resource_index/package_run_dependencies/grid_map_cmake_helpers
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/ament_index/resource_index/parent_prefix_path/grid_map_cmake_helpers
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/ament_index/resource_index/packages/grid_map_cmake_helpers
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpers-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpersConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpersConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.xml
+-- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_package.cmake

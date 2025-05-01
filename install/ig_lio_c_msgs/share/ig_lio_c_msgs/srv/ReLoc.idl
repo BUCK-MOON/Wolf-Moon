@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ig_lio_c_msgs/srv/ReLoc.srv
+// generated code does not contain a copyright notice
+
+
+module ig_lio_c_msgs {
+  module srv {
+    struct ReLoc_Request {
+      string pcd_path;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float roll;
+
+      float pitch;
+
+      float yaw;
+    };
+    struct ReLoc_Response {
+      int32 status;
+
+      string message;
+    };
+  };
+};

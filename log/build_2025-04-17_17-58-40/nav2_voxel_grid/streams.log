@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_voxel_grid
+[0.323s] -- The C compiler identification is GNU 9.4.0
+[0.323s] -- The CXX compiler identification is GNU 9.4.0
+[0.324s] -- Check for working C compiler: /usr/bin/cc
+[0.325s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.325s] -- Detecting C compiler ABI info
+[0.325s] -- Detecting C compiler ABI info - done
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.352s] -- Detecting CXX compiler ABI info
+[0.437s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Detecting CXX compile features
+[0.448s] -- Detecting CXX compile features - done
+[0.449s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.472s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.473s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.565s] -- Found nav2_common: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake)
+[0.567s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.646s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.043s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.147s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.591s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.594s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.651s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.652s] -- Looking for pthread.h
+[2.024s] -- Looking for pthread.h - found
+[2.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.253s] -- Looking for pthread_create in pthreads
+[2.472s] -- Looking for pthread_create in pthreads - not found
+[2.472s] -- Looking for pthread_create in pthread

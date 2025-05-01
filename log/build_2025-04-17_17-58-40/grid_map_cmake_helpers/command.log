@@ -1,0 +1,6 @@
+Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers
+Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers
+Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers -- -j12 -l12
+Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers -- -j12 -l12
+Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers
+Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers

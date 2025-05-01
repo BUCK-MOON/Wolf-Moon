@@ -1,0 +1,56 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "group": "TEST",
+            "name": "O1",
+            "wayPointID": -1,
+            "weight": 400,
+            "start_time": -1,
+            "end_time": 300,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": 300,
+            "opHPmax": -1,
+            "actions": [
+                "move_0",
+                "move_5",
+                "wait_1"
+            ]
+        },
+        {
+            "id": 1,
+            "group": "2P",
+            "name": "O2",
+            "wayPointID": 5,
+            "weight": 500,
+            "start_time": -1,
+            "end_time": 300,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": 300,
+            "opHPmax": -1,
+            "actions": [
+                "move_6",
+                "wait_1"
+            ]
+        },
+        {
+            "id": 2,
+            "group": "2P",
+            "name": "O3",
+            "wayPointID": 6,
+            "weight": 500,
+            "start_time": -1,
+            "end_time": 300,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": 0,
+            "opHPmax": 300,
+            "actions": [
+                "move_5",
+                "wait_1"
+            ]
+        }
+    ]
+}

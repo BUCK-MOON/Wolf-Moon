@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_octomap -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_octomap
+[0.086s] -- The C compiler identification is GNU 9.4.0
+[0.148s] -- The CXX compiler identification is GNU 9.4.0
+[0.154s] -- Check for working C compiler: /usr/bin/cc
+[0.237s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.238s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.328s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.416s] -- Detecting CXX compiler ABI info
+[0.497s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.545s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.639s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.640s] -- Found grid_map_core: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_core/share/grid_map_core/cmake)
+[0.648s] -- Found Octomap (version ): /usr/include
+[0.652s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.744s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.746s] -- Looking for pthread.h
+[0.833s] -- Looking for pthread.h - found
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.901s] -- Check if compiler accepts -pthread
+[0.969s] -- Check if compiler accepts -pthread - yes
+[0.971s] -- Found Threads: TRUE  
+[0.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.978s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_octomap/include
+[0.978s] -- Configured cppcheck exclude dirs and/or files: 
+[0.979s] -- Added test 'lint_cmake' to check CMake code style
+[0.980s] -- Added test 'uncrustify' to check C / C++ code style
+[0.980s] -- Configured uncrustify additional arguments: 
+[0.981s] -- Added test 'xmllint' to check XML markup files
+[0.986s] -- Configuring done
+[0.995s] -- Generating done
+[0.997s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/grid_map_octomap
+[1.000s] Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_octomap -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_octomap
+[1.003s] Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_octomap -- -j12 -l12
+[1.030s] [35m[1mScanning dependencies of target grid_map_octomap[0m
+[1.052s] [ 11%] [32mBuilding CXX object CMakeFiles/grid_map_octomap.dir/src/GridMapOctomapConverter.cpp.o[0m
+[2.559s] [ 22%] [32m[1mLinking CXX static library libgrid_map_octomap.a[0m
+[2.585s] [ 22%] Built target grid_map_octomap
+[2.593s] [35m[1mScanning dependencies of target gtest[0m
+[2.605s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.970s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.006s] [ 44%] Built target gtest
+[7.014s] [35m[1mScanning dependencies of target gtest_main[0m
+[7.023s] [ 55%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.694s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.718s] [ 66%] Built target gtest_main
+[7.726s] [35m[1mScanning dependencies of target grid_map_octomap-test[0m
+[7.756s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/test_grid_map_octomap.cpp.o[0m
+[8.991s] [ 88%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/OctomapConverterTest.cpp.o[0m
+[11.945s] [100%] [32m[1mLinking CXX executable grid_map_octomap-test[0m
+[12.102s] [100%] Built target grid_map_octomap-test

@@ -1,4 +1,4 @@
-#include "../../include/ig_lio_c/iglio_builder.h"
+#include "../../include/ig_lio_c/iglio_builder.hpp"
 
 namespace IG_LIO
 {

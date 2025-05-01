@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ig_lio_c_msgs/srv/SaveMap.srv
+// generated code does not contain a copyright notice
+
+
+module ig_lio_c_msgs {
+  module srv {
+    struct SaveMap_Request {
+      string save_path;
+
+      float resolution;
+    };
+    struct SaveMap_Response {
+      int32 status;
+
+      string message;
+    };
+  };
+};

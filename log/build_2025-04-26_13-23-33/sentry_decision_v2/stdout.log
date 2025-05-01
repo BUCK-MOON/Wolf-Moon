@@ -1,0 +1,31 @@
+[100%] Built target decision_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/lib/sentry_decision_v2/decision_node
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/launch
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/launch/launch.py
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_decisions_test2.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_decisions_test.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_waypoints.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/rmuc_decisions_test3.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_decisions_2.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_waypoints.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_waypoints_2.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/JsonFiles/default_decisions.json
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/config
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/config/parameters.yaml
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/ament_index/resource_index/package_run_dependencies/sentry_decision_v2
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/ament_index/resource_index/parent_prefix_path/sentry_decision_v2
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/path.sh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/environment/path.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.bash
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.sh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.zsh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/package.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/ament_index/resource_index/packages/sentry_decision_v2
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/cmake/sentry_decision_v2Config.cmake
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/cmake/sentry_decision_v2Config-version.cmake
+-- Up-to-date: /home/sentry/Wolf-Moon/install/sentry_decision_v2/share/sentry_decision_v2/package.xml

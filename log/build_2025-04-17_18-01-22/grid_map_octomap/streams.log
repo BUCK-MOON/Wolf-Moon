@@ -1,0 +1,33 @@
+[0.082s] Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_octomap -- -j12 -l12
+[0.125s] [ 22%] Built target gtest_main
+[0.125s] [ 44%] Built target grid_map_octomap
+[0.125s] [ 66%] Built target gtest
+[0.136s] [100%] Built target grid_map_octomap-test
+[0.211s] Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_octomap -- -j12 -l12
+[0.214s] Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/grid_map_octomap
+[0.248s] -- Install configuration: ""
+[0.248s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/lib/libgrid_map_octomap.a
+[0.248s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/include/grid_map_octomap
+[0.248s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/include/grid_map_octomap/grid_map_octomap.hpp
+[0.248s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/include/grid_map_octomap/GridMapOctomapConverter.hpp
+[0.249s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.sh
+[0.249s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.dsv
+[0.249s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/ament_index/resource_index/package_run_dependencies/grid_map_octomap
+[0.249s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/ament_index/resource_index/parent_prefix_path/grid_map_octomap
+[0.249s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.dsv
+[0.250s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/environment/path.sh
+[0.250s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/environment/path.dsv
+[0.250s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/local_setup.bash
+[0.250s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/local_setup.sh
+[0.250s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/local_setup.zsh
+[0.250s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/local_setup.dsv
+[0.251s] -- Installing: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/package.dsv
+[0.252s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/ament_index/resource_index/packages/grid_map_octomap
+[0.253s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.253s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.253s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_libraries-extras.cmake
+[0.253s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig.cmake
+[0.253s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig-version.cmake
+[0.253s] -- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_octomap/share/grid_map_octomap/package.xml
+[0.282s] Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_core:/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/grid_map_octomap

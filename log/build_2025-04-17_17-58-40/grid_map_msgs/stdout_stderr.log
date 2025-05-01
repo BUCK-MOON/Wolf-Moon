@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found grid_map_cmake_helpers: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Setting build type to Release as none was specified.
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sentry/Wolf-Moon/build/grid_map_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target grid_map_msgs__cpp[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+Traceback (most recent call last):
+  File "/opt/ros/galactic/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+Traceback (most recent call last):
+  File "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import generate_files
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from rosidl_parser.parser import parse_idl_file
+    from lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/__init__.py", line 6, in <module>
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/__init__.py", line 6, in <module>
+    from .lark import Lark
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 640, in _compile_bytecode
+KeyboardInterrupt
+    from .lark import Lark
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 7, in <module>
+    from .load_grammar import load_grammar
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 856, in <module>
+    load_grammar = GrammarLoader().load_grammar
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 693, in __init__
+    self.parser = LALR_TraditionalLexer(lexer_conf, parser_conf)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 96, in __init__
+    self.parser = LALR_Parser(parser_conf, debug=debug)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 17, in __init__
+    analysis.compute_lalr()
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 284, in compute_lalr
+    self.compute_lr0_states()
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 172, in compute_lr0_states
+    for _ in bfs(self.lr0_start_states.values(), step):
+  File "/usr/lib/python3/dist-packages/lark/utils.py", line 30, in bfs
+    for next_node in expand(node):
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 155, in step
+    d = classify(unsat, lambda rp: rp.next)
+  File "/usr/lib/python3/dist-packages/lark/utils.py", line 53, in classify
+    def classify(seq, key=None, value=None):
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/grid_map_msgs__cpp.dir/build.make:165: rosidl_generator_cpp/grid_map_msgs/msg/grid_map_info.hpp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:469: CMakeFiles/grid_map_msgs__cpp.dir/all] Interrupt
+make[2]: *** [CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/build.make:141: rosidl_generator_c/grid_map_msgs/msg/grid_map_info.h] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:441: CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,75 @@
+[0.015s] Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_core': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_core
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.124s] -- The CXX compiler identification is GNU 9.4.0
+[0.130s] -- Check for working C compiler: /usr/bin/cc
+[0.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.213s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.367s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.474s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.474s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.561s] -- Setting build type to Release as none was specified.
+[0.563s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.642s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.646s] -- Looking for pthread.h
+[0.713s] -- Looking for pthread.h - found
+[0.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.773s] -- Check if compiler accepts -pthread
+[0.855s] -- Check if compiler accepts -pthread - yes
+[0.857s] -- Found Threads: TRUE  
+[0.866s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.866s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core/include
+[0.867s] -- Configured cppcheck exclude dirs and/or files: 
+[0.869s] -- Added test 'lint_cmake' to check CMake code style
+[0.873s] -- Added test 'uncrustify' to check C / C++ code style
+[0.873s] -- Configured uncrustify additional arguments: 
+[0.874s] -- Added test 'xmllint' to check XML markup files
+[0.879s] -- Configuring done
+[0.887s] -- Generating done
+[0.890s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/grid_map_core
+[0.894s] Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_core
+[0.899s] Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_core': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_core -- -j12 -l12
+[1.522s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.525s] [35m[1mScanning dependencies of target gtest[0m
+[1.525s] [35m[1mScanning dependencies of target grid_map_core[0m
+[1.525s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.525s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.526s] [  8%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o[0m
+[1.526s] [ 11%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/SubmapGeometry.cpp.o[0m
+[1.526s] [ 14%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o[0m
+[1.526s] [ 17%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/GridMapIterator.cpp.o[0m
+[1.526s] [ 20%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SubmapIterator.cpp.o[0m
+[1.526s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/Polygon.cpp.o[0m
+[1.526s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/BufferRegion.cpp.o[0m
+[1.526s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMapMath.cpp.o[0m
+[1.526s] [ 31%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/CircleIterator.cpp.o[0m
+[1.527s] [ 34%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/EllipseIterator.cpp.o[0m
+[3.041s] [ 37%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SpiralIterator.cpp.o[0m
+[3.065s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/PolygonIterator.cpp.o[0m
+[3.212s] [ 42%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/LineIterator.cpp.o[0m
+[3.252s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:128: CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o] Interrupt
+[3.252s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:76: CMakeFiles/grid_map_core.dir/src/GridMapMath.cpp.o] Interrupt
+[3.252s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:193: CMakeFiles/grid_map_core.dir/src/iterators/SpiralIterator.cpp.o] Interrupt
+[3.252s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:206: CMakeFiles/grid_map_core.dir/src/iterators/PolygonIterator.cpp.o] Interrupt
+[3.253s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:219: CMakeFiles/grid_map_core.dir/src/iterators/LineIterator.cpp.o] Interrupt
+[3.253s] make[2]: *** [gtest/CMakeFiles/gtest_main.dir/build.make:63: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o] Interrupt
+[3.263s] make[1]: *** [CMakeFiles/Makefile2:211: gtest/CMakeFiles/gtest_main.dir/all] Interrupt
+[3.263s] make[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:63: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[3.263s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:63: CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o] Interrupt
+[3.263s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:89: CMakeFiles/grid_map_core.dir/src/SubmapGeometry.cpp.o] Interrupt
+[3.263s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:115: CMakeFiles/grid_map_core.dir/src/Polygon.cpp.o] Interrupt
+[3.263s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:167: CMakeFiles/grid_map_core.dir/src/iterators/CircleIterator.cpp.o] Interrupt
+[3.263s] make[1]: *** [CMakeFiles/Makefile2:238: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[3.263s] make[2]: *** [CMakeFiles/grid_map_core.dir/build.make:180: CMakeFiles/grid_map_core.dir/src/iterators/EllipseIterator.cpp.o] Interrupt
+[3.263s] make[1]: *** [CMakeFiles/Makefile2:130: CMakeFiles/grid_map_core.dir/all] Interrupt
+[3.263s] make: *** [Makefile:141: all] Interrupt

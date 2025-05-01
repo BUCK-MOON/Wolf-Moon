@@ -1,0 +1,25 @@
+[ 20%] Built target map_converter_node
+[100%] Built target map_builder_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/lib/ig_lio_c/map_builder_node
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/lib/ig_lio_c/map_converter_node
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/launch
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/launch/map_mapping_launch.py
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/config
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/config/parameters.yaml
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/config/config_fg.yaml
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ament_index/resource_index/package_run_dependencies/ig_lio_c
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ament_index/resource_index/parent_prefix_path/ig_lio_c
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/path.sh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/environment/path.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.bash
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.sh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.zsh
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/package.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ament_index/resource_index/packages/ig_lio_c
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/cmake/ig_lio_cConfig.cmake
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/cmake/ig_lio_cConfig-version.cmake
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c/share/ig_lio_c/package.xml

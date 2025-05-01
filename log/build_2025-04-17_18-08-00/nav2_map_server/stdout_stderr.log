@@ -1,0 +1,56 @@
+[  5%] Built target gtest_main
+[ 13%] Built target map_io
+[ 19%] Built target gtest
+[ 30%] Built target map_server_core
+[ 47%] Built target test_map_saver_cli
+[ 47%] Built target test_map_io
+[ 55%] Built target test_map_saver_publisher
+[ 61%] Built target test_costmap_filter_info_server
+[ 66%] Built target map_server
+[ 72%] Built target map_saver_cli
+[ 77%] Built target map_saver_server
+[ 86%] Built target test_map_server_node
+[ 94%] Built target test_map_saver_node
+[100%] Built target costmap_filter_info_server
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/lib/libmap_server_core.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_map_server/lib/libmap_server_core.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/lib/libmap_io.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_map_server/lib/libmap_io.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include/
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include//nav2_map_server
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/launch
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/nav2_map_server/share/nav2_map_server/package.xml

@@ -1,0 +1,3 @@
+Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/octomap_dynamic_map
+Invoked command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map' returned '0': /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/octomap_dynamic_map
+Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/octomap_dynamic_map -- -j12 -l12

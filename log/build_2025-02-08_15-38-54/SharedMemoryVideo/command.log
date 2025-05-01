@@ -1,4 +1,0 @@
-Invoking command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo': /usr/bin/cmake /home/sentry/Wolf-Moon/src/shm_video_transmission -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/SharedMemoryVideo
-Invoked command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo' returned '0': /usr/bin/cmake /home/sentry/Wolf-Moon/src/shm_video_transmission -DROS_EDITION=ROS2 -DHUMBLE_ROS= -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/SharedMemoryVideo
-Invoking command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12
-Invoked command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo' returned '-2': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12

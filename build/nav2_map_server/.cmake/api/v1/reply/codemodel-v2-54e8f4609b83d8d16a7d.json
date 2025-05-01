@@ -1,0 +1,290 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						15
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "test/unit",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/unit",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "gtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/galactic/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "test/component",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/component",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "test/map_saver_cli",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/map_saver_cli",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5
+					],
+					"name" : "nav2_map_server",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_filter_info_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_filter_info_server-Release-e9c721b2508307533306.json",
+					"name" : "costmap_filter_info_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-9721afc028d6c8dc5474.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-c1fd430dbd6778600fe9.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_io::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_io-Release-78214016c0f8948e2a55.json",
+					"name" : "map_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_saver_cli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_saver_cli-Release-845a6d2b10e55997a741.json",
+					"name" : "map_saver_cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_saver_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_saver_server-Release-957f8bbfceefc22eafb0.json",
+					"name" : "map_saver_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_server-Release-f9b5a8dd8c03b52f7c1b.json",
+					"name" : "map_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_server_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_server_core-Release-888a5bca51968730111c.json",
+					"name" : "map_server_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_map_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_map_server_uninstall-Release-3e2adecd3fe598937fa4.json",
+					"name" : "nav2_map_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_costmap_filter_info_server::@eef10db73b2f22524f92",
+					"jsonFile" : "target-test_costmap_filter_info_server-Release-c4eed0458ad99b192227.json",
+					"name" : "test_costmap_filter_info_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_map_io::@eef10db73b2f22524f92",
+					"jsonFile" : "target-test_map_io-Release-cc34ff94678fe3688a7a.json",
+					"name" : "test_map_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test_map_saver_cli::@3a480c0dfaa8f09c333f",
+					"jsonFile" : "target-test_map_saver_cli-Release-f734192fb72a0882fbba.json",
+					"name" : "test_map_saver_cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_map_saver_node::@f2300501851289dddd1e",
+					"jsonFile" : "target-test_map_saver_node-Release-98d2f97aa4d91df936a8.json",
+					"name" : "test_map_saver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_map_saver_publisher::@f2300501851289dddd1e",
+					"jsonFile" : "target-test_map_saver_publisher-Release-2cb6c1c851419529784c.json",
+					"name" : "test_map_saver_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_map_server_node::@f2300501851289dddd1e",
+					"jsonFile" : "target-test_map_server_node-Release-49699ba742866c8f4678.json",
+					"name" : "test_map_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f128189188eedccfcf7c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sentry/Wolf-Moon/build/nav2_map_server",
+		"source" : "/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_map_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

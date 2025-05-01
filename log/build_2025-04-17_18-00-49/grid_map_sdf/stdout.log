@@ -1,0 +1,34 @@
+[ 22%] Built target gtest
+[ 44%] Built target gtest_main
+[ 66%] Built target grid_map_sdf
+[100%] Built target grid_map_sdf-test
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/lib/libgrid_map_sdf.a
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform/misc.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform/pnmfile.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform/dt.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imutil.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform/image.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/include/grid_map_sdf/distance_transform/imconv.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/environment/library_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/ament_index/resource_index/package_run_dependencies/grid_map_sdf
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/ament_index/resource_index/parent_prefix_path/grid_map_sdf
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/ament_index/resource_index/packages/grid_map_sdf
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/cmake/grid_map_sdfConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_sdf/share/grid_map_sdf/package.xml

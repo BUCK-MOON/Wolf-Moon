@@ -1,0 +1,58 @@
+[0.119s] Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/cv_bridge -- -j12 -l12
+[0.288s] [  0%] Built target ament_cmake_python_copy_cv_bridge
+[0.392s] [ 12%] Built target gtest_main
+[1.110s] running egg_info
+[1.112s] writing cv_bridge.egg-info/PKG-INFO
+[1.112s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[1.113s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[1.187s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.205s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.288s] [ 12%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.424s] [ 25%] Built target gtest
+[1.546s] [ 43%] Built target cv_bridge
+[1.668s] [ 62%] Built target cv_bridge_boost
+[1.860s] [100%] Built target cv_bridge-utest
+[1.895s] Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/cv_bridge -- -j12 -l12
+[1.896s] Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/cv_bridge
+[2.029s] -- Install configuration: ""
+[2.029s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info
+[2.030s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/SOURCES.txt
+[2.030s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/top_level.txt
+[2.030s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/dependency_links.txt
+[2.030s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/PKG-INFO
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[2.030s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[2.114s] Listing '/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[2.114s] Listing '/home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost'...
+[2.122s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[2.122s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[2.123s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge
+[2.123s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[2.123s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[2.123s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/libcv_bridge.so
+[2.123s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[2.123s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[2.124s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[2.124s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[2.125s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/path.sh
+[2.125s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[2.126s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.bash
+[2.127s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.sh
+[2.128s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[2.129s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[2.129s] -- Installing: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/package.dsv
+[2.129s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[2.129s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[2.129s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.129s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.129s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[2.130s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[2.130s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[2.130s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/share/cv_bridge/package.xml
+[2.130s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/libcv_bridge.so
+[2.130s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[2.130s] -- Up-to-date: /home/sentry/Wolf-Moon/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[2.273s] Invoked command in '/home/sentry/Wolf-Moon/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/cv_bridge

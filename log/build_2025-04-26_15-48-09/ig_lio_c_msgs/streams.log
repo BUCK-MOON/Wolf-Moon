@@ -1,0 +1,161 @@
+[0.087s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c_msgs -- -j12 -l12
+[0.180s] [  2%] Built target ig_lio_c_msgs__cpp
+[0.195s] [ 12%] Built target ig_lio_c_msgs__rosidl_generator_c
+[0.290s] [ 23%] Built target ig_lio_c_msgs__rosidl_typesupport_c
+[0.294s] [ 34%] Built target ig_lio_c_msgs__rosidl_typesupport_cpp
+[0.297s] [ 44%] Built target ig_lio_c_msgs__rosidl_typesupport_introspection_cpp
+[0.306s] [ 55%] Built target ig_lio_c_msgs__rosidl_typesupport_introspection_c
+[0.310s] [ 65%] Built target ig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp
+[0.407s] [ 76%] Built target ig_lio_c_msgs__rosidl_typesupport_fastrtps_c
+[0.465s] [ 76%] Built target ig_lio_c_msgs
+[0.521s] [ 78%] Built target ig_lio_c_msgs__py
+[0.620s] [ 87%] Built target ig_lio_c_msgs__python
+[0.689s] [ 91%] Built target ig_lio_c_msgs__rosidl_typesupport_introspection_c__pyext
+[0.708s] [ 95%] Built target ig_lio_c_msgs__rosidl_typesupport_c__pyext
+[0.723s] [100%] Built target ig_lio_c_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.757s] Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c_msgs -- -j12 -l12
+[0.759s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/ig_lio_c_msgs
+[0.785s] -- Install configuration: "Release"
+[0.785s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/rosidl_interfaces/ig_lio_c_msgs
+[0.785s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+[0.785s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+[0.785s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.785s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+[0.785s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/re_loc.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/save_map.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__type_support.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__functions.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__functions.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__struct.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__struct.h
+[0.786s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__functions.c
+[0.787s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__functions.h
+[0.792s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__functions.c
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__type_support.h
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__functions.c
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__struct.h
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__type_support.h
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/covert_map.h
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/library_path.sh
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/library_path.dsv
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_generator_c.so
+[0.793s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_fastrtps_c.h
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_fastrtps_c.h
+[0.794s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_fastrtps_c.so
+[0.799s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+[0.800s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+[0.800s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.800s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_fastrtps_cpp.hpp
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/dds_fastrtps
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+[0.801s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.802s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+[0.802s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+[0.803s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_introspection_c.h
+[0.803s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[0.804s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_introspection_c.h
+[0.804s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__type_support.c
+[0.809s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__type_support.c
+[0.809s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__type_support.c
+[0.809s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_introspection_c.so
+[0.809s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_c.so
+[0.809s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/re_loc.hpp
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/covert_map.hpp
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/save_map.hpp
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__builder.hpp
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__traits.hpp
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__builder.hpp
+[0.810s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__struct.hpp
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__struct.hpp
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__builder.hpp
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__traits.hpp
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__traits.hpp
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__struct.hpp
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+[0.811s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__type_support.cpp
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__type_support.cpp
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__type_support.cpp
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_introspection_cpp.hpp
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_introspection_cpp.hpp
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_introspection_cpp.so
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_cpp.so
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/pythonpath.sh
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/pythonpath.dsv
+[0.812s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/__init__.py
+[0.847s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv
+[0.847s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/__init__.py
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_save_map_s.c
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_covert_map_s.c
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_save_map.py
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_re_loc.py
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_re_loc_s.c
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_covert_map.py
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.848s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.850s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.850s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__python.so
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap.idl
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap.idl
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc.idl
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap.srv
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap_Request.msg
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap_Response.msg
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap.srv
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap_Request.msg
+[0.851s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap_Response.msg
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc.srv
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc_Request.msg
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc_Response.msg
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/package_run_dependencies/ig_lio_c_msgs
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/parent_prefix_path/ig_lio_c_msgs
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/ament_prefix_path.sh
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/ament_prefix_path.dsv
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/path.sh
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/path.dsv
+[0.852s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.bash
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.sh
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.zsh
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.dsv
+[0.853s] -- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/package.dsv
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/packages/ig_lio_c_msgs
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_generator_cExport.cmake
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_generator_cExport-release.cmake
+[0.853s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.854s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[0.854s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cExport.cmake
+[0.854s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cExport-release.cmake
+[0.854s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_generator_cppExport.cmake
+[0.854s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.855s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cppExport.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cppExport-release.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/rosidl_cmake-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgsConfig.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgsConfig-version.cmake
+[0.856s] -- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/package.xml
+[0.952s] Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sentry/Wolf-Moon/install/fake_msg_publisher:/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/ig_lio_c_msgs

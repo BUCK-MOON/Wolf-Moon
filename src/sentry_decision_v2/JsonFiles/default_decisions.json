@@ -1,0 +1,66 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "group": "ATT",
+            "name": "O1",
+            "wayPointID": -1,
+            "weight": 400,
+            "start_time": -1,
+            "end_time": 420,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": 0,
+            "actions": [
+                "move_0"
+            ]
+        },
+        {
+            "id": 1,
+            "group": "ATT",
+            "name": "F1",
+            "wayPointID": 0,
+            "weight": 500,
+            "start_time": -1,
+            "end_time": 420,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": 0,
+            "actions": [
+                "move_1",
+                "move_2"
+            ]
+        },
+        {
+            "id": 2,
+            "group": "ATT",
+            "name": "F2",
+            "wayPointID": 2,
+            "weight": 500,
+            "start_time": -1,
+            "end_time": 420,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": 0,
+            "actions": [
+                "wait_3"
+            ]
+        },
+        {
+            "id": 3,
+            "group": "ATT",
+            "name": "H1",
+            "wayPointID": -1,
+            "weight": 600,
+            "start_time": -1,
+            "end_time": 240,
+            "minHP": -1,
+            "maxHP": 300,
+            "opHPmin": 0,
+            "actions": [
+                "move_3",
+                "wait_10"
+            ]
+        }
+    ]
+}

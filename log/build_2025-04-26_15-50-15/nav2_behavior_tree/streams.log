@@ -1,0 +1,174 @@
+[0.073s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_behavior_tree -- -j12 -l12
+[0.436s] [  2%] Built target nav2_goal_checker_selector_bt_node
+[0.436s] [  3%] Built target nav2_controller_selector_bt_node
+[0.436s] [  4%] Built target nav2_goal_updated_controller_bt_node
+[0.436s] [  6%] Built target nav2_planner_selector_bt_node
+[0.436s] [  8%] Built target nav2_single_trigger_bt_node
+[0.437s] [  9%] Built target nav2_transform_available_condition_bt_node
+[0.437s] [ 10%] Built target nav2_pipeline_sequence_bt_node
+[0.437s] [ 11%] Built target nav2_spin_action_bt_node
+[0.449s] [ 12%] Built target nav2_wait_action_bt_node
+[0.452s] [ 13%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.485s] [ 14%] Built target nav2_is_stuck_condition_bt_node
+[0.496s] [ 15%] Built target nav2_behavior_tree
+[0.504s] [ 17%] Built target nav2_goal_updated_condition_bt_node
+[0.591s] [ 18%] Built target nav2_follow_path_action_bt_node
+[0.597s] [ 19%] Built target nav2_goal_reached_condition_bt_node
+[0.605s] [ 21%] Built target nav2_goal_updater_node_bt_node
+[0.611s] [ 22%] Built target nav2_round_robin_node_bt_node
+[0.631s] [ 24%] Built target nav2_navigate_through_poses_action_bt_node
+[0.631s] [ 25%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.633s] [ 27%] Built target nav2_remove_passed_goals_action_bt_node
+[0.633s] [ 28%] Built target nav2_initial_pose_received_condition_bt_node
+[0.685s] [ 30%] Built target nav2_is_battery_low_condition_bt_node
+[0.694s] [ 32%] Built target nav2_rate_controller_bt_node
+[0.694s] [ 33%] Built target nav2_time_expired_condition_bt_node
+[0.695s] [ 34%] Built target nav2_reinitialize_global_localization_service_bt_node
+[0.716s] [ 35%] Built target nav2_distance_traveled_condition_bt_node
+[0.718s] [ 37%] Built target nav2_distance_controller_bt_node
+[0.743s] [ 39%] Built target nav2_clear_costmap_service_bt_node
+[0.755s] [ 40%] Built target nav2_speed_controller_bt_node
+[0.755s] [ 42%] Built target nav2_back_up_action_bt_node
+[0.757s] [ 43%] Built target gtest
+[0.762s] [ 45%] Built target gtest_main
+[0.762s] [ 46%] Built target nav2_truncate_path_action_bt_node
+[0.762s] [ 48%] Built target nav2_recovery_node_bt_node
+[0.772s] [ 50%] Built target nav2_navigate_to_pose_action_bt_node
+[0.818s] [ 52%] Built target test_bt_conversions
+[0.829s] [ 53%] Built target test_condition_distance_traveled
+[0.843s] [ 55%] Built target test_condition_time_expired
+[0.843s] [ 57%] Built target test_condition_is_battery_low
+[0.852s] [ 58%] Built target test_condition_transform_available
+[0.854s] [ 59%] Built target test_condition_goal_updated
+[0.854s] [ 60%] Built target test_condition_initial_pose_received
+[0.933s] [ 61%] Built target test_goal_updated_controller
+[0.937s] [ 62%] Built target test_decorator_speed_controller
+[0.937s] [ 64%] Built target test_goal_updater_node
+[0.955s] [ 65%] Built target test_single_trigger_node
+[0.963s] [ 67%] Built target test_condition_goal_reached
+[0.965s] [ 69%] Built target test_decorator_rate_controller
+[0.974s] [ 70%] Built target test_condition_is_stuck
+[1.058s] [ 72%] Built target test_goal_checker_selector_node
+[1.069s] [ 73%] Built target test_decorator_distance_controller
+[1.071s] [ 75%] Built target test_control_round_robin_node
+[1.083s] [ 76%] Built target test_controller_selector_node
+[1.084s] [ 77%] Built target test_planner_selector_node
+[1.086s] [ 79%] Built target test_control_pipeline_sequence
+[1.089s] [ 80%] Built target test_control_recovery_node
+[1.178s] [ 82%] Built target test_action_wait_action
+[1.189s] [ 83%] Built target test_action_clear_costmap_service
+[1.199s] [ 85%] Built target test_action_back_up_action
+[1.199s] [ 87%] Built target test_action_reinitialize_global_localization_service
+[1.200s] [ 88%] Built target test_action_spin_action
+[1.218s] [ 89%] Built target test_bt_action_node
+[1.273s] [ 90%] Built target test_action_compute_path_to_pose_action
+[1.299s] [ 91%] Built target test_action_navigate_to_pose_action
+[1.309s] [ 93%] Built target test_truncate_path_action
+[1.314s] [ 95%] Built target test_action_navigate_through_poses_action
+[1.326s] [ 97%] Built target test_action_compute_path_through_poses_action
+[1.330s] [ 98%] Built target test_action_follow_path_action
+[1.338s] [100%] Built target test_remove_passed_goals_action
+[1.355s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_behavior_tree -- -j12 -l12
+[1.359s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_behavior_tree
+[1.368s] -- Install configuration: "Release"
+[1.368s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[1.368s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[1.369s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[1.369s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[1.369s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[1.369s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[1.369s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[1.370s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[1.370s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[1.370s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[1.370s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[1.371s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[1.371s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[1.371s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[1.372s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[1.372s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[1.372s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[1.372s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[1.373s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[1.373s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[1.373s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[1.374s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[1.374s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[1.374s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[1.374s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[1.376s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[1.376s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[1.376s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[1.376s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[1.376s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[1.377s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[1.377s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[1.377s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[1.378s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include/
+[1.378s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[1.379s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[1.380s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[1.382s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[1.382s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[1.383s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[1.384s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[1.385s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[1.386s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[1.386s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[1.386s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[1.386s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[1.386s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[1.387s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[1.387s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[1.388s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[1.389s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[1.389s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[1.389s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[1.389s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[1.389s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[1.389s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[1.390s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[1.390s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[1.390s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[1.390s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[1.390s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[1.390s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[1.391s] -- Installing: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.391s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[1.393s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.393s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[1.393s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[1.393s] -- Up-to-date: /home/sentry/Wolf-Moon/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[1.394s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_util:/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_util/lib:/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_behavior_tree

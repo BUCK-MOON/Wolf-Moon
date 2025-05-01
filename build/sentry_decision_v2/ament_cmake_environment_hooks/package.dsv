@@ -1,0 +1,4 @@
+source;share/sentry_decision_v2/local_setup.bash
+source;share/sentry_decision_v2/local_setup.dsv
+source;share/sentry_decision_v2/local_setup.sh
+source;share/sentry_decision_v2/local_setup.zsh

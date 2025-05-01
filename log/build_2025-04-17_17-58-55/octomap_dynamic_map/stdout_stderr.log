@@ -1,0 +1,114 @@
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.a' has modification time 345342 s in the future
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomath.so' has modification time 345342 s in the future
+[  1%] [32mBuilding CXX object octomap/src/math/CMakeFiles/octomath-static.dir/Quaternion.cpp.o[0m
+[  2%] [32mBuilding CXX object octomap/src/math/CMakeFiles/octomath.dir/Quaternion.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[  6%] Built target octomath-static
+[35m[1mScanning dependencies of target octomap-static[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.a' has modification time 345361 s in the future
+[  7%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/AbstractOcTree.cpp.o[0m
+[  8%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/AbstractOccupancyOcTree.cpp.o[0m
+[ 10%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/Pointcloud.cpp.o[0m
+[ 11%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/ScanGraph.cpp.o[0m
+[ 12%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/CountingOcTree.cpp.o[0m
+[ 14%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/OcTreeStamped.cpp.o[0m
+[ 15%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/OcTree.cpp.o[0m
+[ 16%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/OcTreeNode.cpp.o[0m
+[ 17%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap-static.dir/ColorOcTree.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 21%] Built target octomath
+[35m[1mScanning dependencies of target octomap[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/lib/liboctomap.so' has modification time 345357 s in the future
+[ 23%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/AbstractOcTree.cpp.o[0m
+[ 24%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/Pointcloud.cpp.o[0m
+[ 25%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/AbstractOccupancyOcTree.cpp.o[0m
+[ 26%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/ScanGraph.cpp.o[0m
+[ 28%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/CountingOcTree.cpp.o[0m
+[ 29%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/OcTree.cpp.o[0m
+[ 30%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/OcTreeNode.cpp.o[0m
+[ 32%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/OcTreeStamped.cpp.o[0m
+[ 33%] [32mBuilding CXX object octomap/src/CMakeFiles/octomap.dir/ColorOcTree.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 34%] Built target octomap-static
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 35%] Built target octomap
+[35m[1mScanning dependencies of target dm_lib[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so' has modification time 345410 s in the future
+[ 37%] [32mBuilding CXX object CMakeFiles/dm_lib.dir/octomap_mapping/src/octomapper.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 38%] Built target dm_lib
+[35m[1mScanning dependencies of target compare_octrees[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/compare_octrees' has modification time 345337 s in the future
+[ 39%] [32mBuilding CXX object octomap/src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 41%] Built target compare_octrees
+[35m[1mScanning dependencies of target normals_example[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/normals_example' has modification time 345343 s in the future
+[ 42%] [32mBuilding CXX object octomap/src/CMakeFiles/normals_example.dir/normals_example.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 43%] Built target normals_example
+[35m[1mScanning dependencies of target test_raycasting[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_raycasting' has modification time 345348 s in the future
+[ 44%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_raycasting.dir/test_raycasting.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 46%] Built target test_raycasting
+[35m[1mScanning dependencies of target test_iterators[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_iterators' has modification time 345349 s in the future
+[ 47%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_iterators.dir/test_iterators.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 48%] Built target test_iterators
+[35m[1mScanning dependencies of target test_scans[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_scans' has modification time 345359 s in the future
+[ 50%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_scans.dir/test_scans.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 51%] Built target test_scans
+[35m[1mScanning dependencies of target test_pruning[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_pruning' has modification time 345365 s in the future
+[ 52%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_pruning.dir/test_pruning.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 53%] Built target test_pruning
+[35m[1mScanning dependencies of target test_io[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_io' has modification time 345348 s in the future
+[ 55%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_io.dir/test_io.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 56%] Built target test_io
+[35m[1mScanning dependencies of target test_bbx[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_bbx' has modification time 345362 s in the future
+[ 57%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_bbx.dir/test_bbx.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 58%] Built target test_bbx
+[35m[1mScanning dependencies of target test_changedkeys[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_changedkeys' has modification time 345345 s in the future
+[ 60%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 61%] Built target test_changedkeys
+[35m[1mScanning dependencies of target test_color_tree[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_color_tree' has modification time 345350 s in the future
+[ 62%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_color_tree.dir/test_color_tree.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 64%] Built target test_color_tree
+[35m[1mScanning dependencies of target color_tree_histogram[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/color_tree_histogram' has modification time 345350 s in the future
+[ 65%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 66%] Built target color_tree_histogram
+[35m[1mScanning dependencies of target test_mapcollection[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/test_mapcollection' has modification time 345351 s in the future
+[ 67%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/test_mapcollection.dir/test_mapcollection.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 69%] Built target test_mapcollection
+[35m[1mScanning dependencies of target unit_tests[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/build/bin/unit_tests' has modification time 345355 s in the future
+[ 70%] [32mBuilding CXX object octomap/src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 71%] Built target unit_tests
+[35m[1mScanning dependencies of target octomap_run[0m
+make[2]: Warning: File '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so' has modification time 345367 s in the future
+[ 73%] [32mBuilding CXX object CMakeFiles/octomap_run.dir/octomap_PCD.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable octomap_run[0m
+/usr/bin/ld: warning: libglog.so.2, needed by /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP/lib/libdm_lib.so: undefined reference to `google::LogMessage::LogMessage(char const*, int, google::LogSeverity)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/octomap_run.dir/build.make:179: octomap_run] Error 1
+make[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/octomap_run.dir/all] Error 2
+make: *** [Makefile:152: all] Error 2

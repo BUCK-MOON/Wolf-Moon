@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target map_io[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 13%] Built target gtest_main
+[ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[ 16%] Built target map_io
+[35m[1mScanning dependencies of target map_server_core[0m
+[35m[1mScanning dependencies of target test_map_saver_publisher[0m
+[ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[ 22%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 33%] Built target gtest
+[35m[1mScanning dependencies of target test_map_saver_cli[0m
+[35m[1mScanning dependencies of target test_map_io[0m
+[ 38%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[ 38%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[ 44%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[ 47%] Built target test_map_saver_publisher
+[ 50%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[ 50%] Built target test_map_saver_cli
+[ 52%] [32m[1mLinking CXX executable test_map_io[0m
+[ 52%] Built target test_map_io
+[ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[ 55%] Built target map_server_core
+[35m[1mScanning dependencies of target map_server[0m
+[35m[1mScanning dependencies of target map_saver_cli[0m
+[35m[1mScanning dependencies of target map_saver_server[0m
+[35m[1mScanning dependencies of target costmap_filter_info_server[0m
+[35m[1mScanning dependencies of target test_map_server_node[0m
+[35m[1mScanning dependencies of target test_map_saver_node[0m
+[35m[1mScanning dependencies of target test_costmap_filter_info_server[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[ 72%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable map_server[0m
+[ 83%] Built target map_server
+[ 86%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[ 86%] Built target costmap_filter_info_server
+[ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[ 91%] [32m[1mLinking CXX executable map_saver_cli[0m
+[ 91%] Built target map_saver_server
+[ 91%] Built target map_saver_cli
+[ 94%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[ 94%] Built target test_map_saver_node
+[ 97%] [32m[1mLinking CXX executable test_map_server_node[0m
+[ 97%] Built target test_map_server_node
+[100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[100%] Built target test_costmap_filter_info_server

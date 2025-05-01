@@ -1,0 +1,57 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/way_planner_node.dir/src/way_planner_node.cpp.o[0m
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:[m[K In member function ‘[01m[Kbool navigation::MapData::loadMapFromFile()[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:81:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   81 |         for (unsigned int y = 0; [01;35m[Ky < map_image.rows[m[K; ++y)
+      |                                  [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:83:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   83 |             for (unsigned int x = 0; [01;35m[Kx < map_image.cols[m[K; ++x)
+      |                                      [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse navigation::WayPlannerNode::handleGoal(const GoalUUID&, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  180 |     rclcpp_action::GoalResponse WayPlannerNode::handleGoal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K,
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:[m[K In member function ‘[01m[Kbool navigation::WayPlannerNode::isGoalValid(const PoseStamped&)[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:196:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  196 |     bool WayPlannerNode::isGoalValid([01;35m[Kconst geometry_msgs::msg::PoseStamped &pose[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse navigation::WayPlannerNode::handleCancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<nav2_msgs::action::NavigateToPose> >)[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:201:154:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  201 | ction::CancelResponse WayPlannerNode::handleCancel([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<nav2_msgs::action::NavigateToPose>> goal_handle[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:[m[K In member function ‘[01m[Kvoid navigation::WayPlannerNode::run()[m[K’:
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:228:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KtransformStamped[m[K’
+  228 |                 tf_listener_
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+  229 |                     [32m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+      |                     [32m[K~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:228:17:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  228 |                 [01;35m[Ktf_listener_[m[K
+      |                 [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:233:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ was not declared in this scope
+  233 |                     start_pos.x() = [01;31m[Ktransform[m[K.transform.translation.x;
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:233:37:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/../include/way_planner_node.hpp:1[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:1[m[K:
+[01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:162:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::transform[m[K’
+  162 | [01;36m[Ktransform[m[K(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2,
+      | [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/local/opencv4/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/install/cv_bridge/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/install/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp:26[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/install/grid_map_ros/include/grid_map_ros/grid_map_ros.hpp:14[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/../include/way_planner_node.hpp:15[m[K,
+                 from [01m[K/home/sentry/Wolf-Moon/src/navigation_planning/src/way_planner_node.cpp:1[m[K:
+[01m[K/usr/local/opencv4/include/opencv4/opencv2/core.hpp:1776:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::transform[m[K’
+ 1776 | CV_EXPORTS_W void [01;36m[Ktransform[m[K(InputArray src, OutputArray dst, InputArray m );
+      |                   [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/way_planner_node.dir/build.make:63: CMakeFiles/way_planner_node.dir/src/way_planner_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/way_planner_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

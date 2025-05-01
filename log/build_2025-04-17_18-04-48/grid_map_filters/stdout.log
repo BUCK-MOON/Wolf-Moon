@@ -1,0 +1,89 @@
+[ 12%] Built target buffer_normalizer_filter
+[ 12%] Built target color_blending_filter
+[ 18%] Built target light_intensity_filter
+[ 25%] Built target set_basic_layers_filter
+[ 31%] Built target color_fill_filter
+[ 37%] Built target threshold_filter
+[ 43%] Built target mean_in_radius_filter
+[ 50%] Built target normal_color_map_filter
+[ 56%] Built target normal_vectors_filter
+[ 62%] Built target duplication_filter
+[ 68%] Built target min_in_radius_filter
+[ 75%] Built target math_expression_filter
+[ 81%] Built target sliding_window_math_expression_filter
+[ 87%] Built target color_map_filter
+[ 93%] Built target deletion_filter
+[100%] Built target curvature_filter
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libthreshold_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libthreshold_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libmin_in_radius_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libmin_in_radius_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libmean_in_radius_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libmean_in_radius_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libnormal_vectors_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libnormal_vectors_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcurvature_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcurvature_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libnormal_color_map_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libnormal_color_map_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/liblight_intensity_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/liblight_intensity_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libmath_expression_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libmath_expression_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libsliding_window_math_expression_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libsliding_window_math_expression_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libduplication_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libduplication_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libdeletion_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libdeletion_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcolor_fill_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcolor_fill_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcolor_map_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcolor_map_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcolor_blending_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libcolor_blending_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libset_basic_layers_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libset_basic_layers_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/lib/libbuffer_normalizer_filter.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/grid_map_filters/lib/libbuffer_normalizer_filter.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/ColorBlendingFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/DuplicationFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/DeletionFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/ThresholdFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/MeanInRadiusFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/CurvatureFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/MathExpressionFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/NormalVectorsFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/NormalColorMapFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/ColorFillFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/ColorMapFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/SetBasicLayersFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/SlidingWindowMathExpressionFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/LightIntensityFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/BufferNormalizerFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/include/grid_map_filters/MinInRadiusFilter.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/filter_plugins.xml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/environment/library_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/environment/library_path.dsv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/filter_plugins.xml
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/ament_index/resource_index/package_run_dependencies/grid_map_filters
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/ament_index/resource_index/parent_prefix_path/grid_map_filters
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/ament_index/resource_index/packages/grid_map_filters
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/ament_index/resource_index/filters__pluginlib__plugin/grid_map_filters
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake/grid_map_filtersConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/cmake/grid_map_filtersConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/grid_map_filters/share/grid_map_filters/package.xml

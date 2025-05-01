@@ -1,0 +1,229 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_generator_c[0m
+[  4%] Built target ig_lio_c_msgs__cpp
+[  6%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/rosidl_generator_c/ig_lio_c_msgs/srv/detail/save_map__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/rosidl_generator_c/ig_lio_c_msgs/srv/detail/re_loc__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/rosidl_generator_c/ig_lio_c_msgs/srv/detail/covert_map__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 19%] [32m[1mLinking C shared library libig_lio_c_msgs__rosidl_generator_c.so[0m
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_cpp[0m
+[ 19%] Built target ig_lio_c_msgs__rosidl_generator_c
+[ 21%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ig_lio_c_msgs/srv/covert_map__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ig_lio_c_msgs/srv/save_map__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ig_lio_c_msgs/srv/detail/re_loc__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ig_lio_c_msgs/srv/detail/covert_map__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ig_lio_c_msgs/srv/re_loc__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ig_lio_c_msgs/srv/detail/save_map__type_support.cpp.o[0m
+[ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ig_lio_c_msgs/srv/detail/dds_fastrtps/covert_map__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ig_lio_c_msgs/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ig_lio_c_msgs/srv/detail/dds_fastrtps/re_loc__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libig_lio_c_msgs__rosidl_typesupport_cpp.so[0m
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_c[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ig_lio_c_msgs/srv/covert_map__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ig_lio_c_msgs/srv/re_loc__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ig_lio_c_msgs/srv/save_map__type_support.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libig_lio_c_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 53%] Built target ig_lio_c_msgs__rosidl_typesupport_cpp
+[ 55%] [32m[1mLinking CXX shared library libig_lio_c_msgs__rosidl_typesupport_c.so[0m
+[ 55%] Built target ig_lio_c_msgs__rosidl_typesupport_introspection_cpp
+[ 55%] Built target ig_lio_c_msgs__rosidl_typesupport_c
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_introspection_c[0m
+[ 57%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ig_lio_c_msgs/srv/detail/covert_map__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ig_lio_c_msgs/srv/detail/save_map__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ig_lio_c_msgs/srv/detail/re_loc__type_support.c.o[0m
+[ 63%] [32m[1mLinking C shared library libig_lio_c_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 63%] Built target ig_lio_c_msgs__rosidl_typesupport_introspection_c
+[ 65%] [32m[1mLinking CXX shared library libig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] Built target ig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp
+[ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ig_lio_c_msgs/srv/detail/covert_map__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ig_lio_c_msgs/srv/detail/re_loc__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ig_lio_c_msgs/srv/detail/save_map__type_support_c.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libig_lio_c_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target ig_lio_c_msgs__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target ig_lio_c_msgs[0m
+[ 76%] Built target ig_lio_c_msgs
+[35m[1mScanning dependencies of target ig_lio_c_msgs__py[0m
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target ig_lio_c_msgs__py
+[35m[1mScanning dependencies of target ig_lio_c_msgs__python[0m
+[ 80%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__python.dir/rosidl_generator_py/ig_lio_c_msgs/srv/_covert_map_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__python.dir/rosidl_generator_py/ig_lio_c_msgs/srv/_re_loc_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__python.dir/rosidl_generator_py/ig_lio_c_msgs/srv/_save_map_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/ig_lio_c_msgs/libig_lio_c_msgs__python.so[0m
+[ 87%] Built target ig_lio_c_msgs__python
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_c__pyext[0m
+[ 89%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ig_lio_c_msgs/_ig_lio_c_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 91%] Built target ig_lio_c_msgs__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 93%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ig_lio_c_msgs/_ig_lio_c_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] Built target ig_lio_c_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target ig_lio_c_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/ig_lio_c_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ig_lio_c_msgs/_ig_lio_c_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target ig_lio_c_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: "Release"
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/rosidl_interfaces/ig_lio_c_msgs
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/re_loc.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/save_map.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__type_support.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__functions.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__functions.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__struct.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__struct.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__functions.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__functions.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__functions.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__type_support.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__functions.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__struct.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__type_support.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/covert_map.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/library_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/library_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/dds_fastrtps
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_introspection_c.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_introspection_c.h
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__type_support.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__type_support.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__type_support.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/re_loc.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/covert_map.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/save_map.hpp
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__builder.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__traits.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__builder.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__struct.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__struct.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__builder.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__traits.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__traits.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__struct.hpp
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv
+-- Up-to-date: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__type_support.cpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__type_support.cpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__type_support.cpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/covert_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/include/ig_lio_c_msgs/srv/detail/re_loc__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/pythonpath.sh
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/pythonpath.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/__init__.py
+Compiling '/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/__init__.py'...
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/__init__.py
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_save_map_s.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_covert_map_s.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_save_map.py
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_re_loc.py
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_re_loc_s.c
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/srv/_covert_map.py
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/python3.8/site-packages/ig_lio_c_msgs/ig_lio_c_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__python.so
+-- Set runtime path of "/home/sentry/Wolf-Moon/install/ig_lio_c_msgs/lib/libig_lio_c_msgs__python.so" to ""
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap.idl
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap.idl
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc.idl
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap.srv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap_Request.msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/CovertMap_Response.msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap.srv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap_Request.msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/SaveMap_Response.msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc.srv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc_Request.msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/srv/ReLoc_Response.msg
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/package_run_dependencies/ig_lio_c_msgs
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/parent_prefix_path/ig_lio_c_msgs
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/path.sh
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/environment/path.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.bash
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.sh
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.zsh
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/local_setup.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/package.dsv
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ament_index/resource_index/packages/ig_lio_c_msgs
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgs__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgsConfig.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/cmake/ig_lio_c_msgsConfig-version.cmake
+-- Installing: /home/sentry/Wolf-Moon/install/ig_lio_c_msgs/share/ig_lio_c_msgs/package.xml

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sentry/Wolf-Moon/src/livox_ros_driver2-master
+CMAKE_SOURCE_DIR = /home/sentry/Wolf-Moon/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/sentry/Wolf-Moon/build/livox_ros_driver2
@@ -182,6 +182,6 @@ CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/depend: r
 CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
 CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
-	cd /home/sentry/Wolf-Moon/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sentry/Wolf-Moon/src/livox_ros_driver2-master /home/sentry/Wolf-Moon/src/livox_ros_driver2-master /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sentry/Wolf-Moon/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sentry/Wolf-Moon/src/livox_ros_driver2 /home/sentry/Wolf-Moon/src/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2 /home/sentry/Wolf-Moon/build/livox_ros_driver2/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/depend
 

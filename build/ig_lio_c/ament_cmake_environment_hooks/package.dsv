@@ -1,0 +1,4 @@
+source;share/ig_lio_c/local_setup.bash
+source;share/ig_lio_c/local_setup.dsv
+source;share/ig_lio_c/local_setup.sh
+source;share/ig_lio_c/local_setup.zsh

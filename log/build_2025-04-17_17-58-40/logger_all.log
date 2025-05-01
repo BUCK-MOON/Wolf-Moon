@@ -1,0 +1,978 @@
+[0.549s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.549s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd0ead5a730>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd0ead5a730>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd0ead5ac10>)
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.681s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sentry/Wolf-Moon'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'ros'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extensions ['cmake', 'python']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'cmake'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'python'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extensions ['python_setup_py']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty) by extension 'python_setup_py'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'colcon_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extensions ['ros']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'ros'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extensions ['cmake', 'python']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'cmake'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/OCTOMAP) by extension 'python'
+[0.723s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/OCTOMAP' with type 'cmake' and name 'octomap_dynamic_map'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extensions ['colcon_meta']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'ros'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extensions ['cmake', 'python']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'cmake'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'python'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extensions ['python_setup_py']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map) by extension 'python_setup_py'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extensions ['colcon_meta']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map) by extension 'ros'
+[0.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map' with type 'ros.ament_cmake' and name 'grid_map'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cmake_helpers) by extension 'ros'
+[0.726s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_cmake_helpers' with type 'ros.ament_cmake' and name 'grid_map_cmake_helpers'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_core) by extension 'ros'
+[0.727s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_core' with type 'ros.ament_cmake' and name 'grid_map_core'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_costmap_2d) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_costmap_2d' with type 'ros.ament_cmake' and name 'grid_map_costmap_2d'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extension 'ignore'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extension 'ignore_ament_install'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extensions ['colcon_pkg']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extensions ['colcon_meta']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extension 'colcon_meta'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extensions ['ros']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_cv) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_cv' with type 'ros.ament_cmake' and name 'grid_map_cv'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_demos) by extension 'ros'
+[0.730s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_demos' with type 'ros.ament_cmake' and name 'grid_map_demos'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extension 'ignore_ament_install'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extensions ['colcon_pkg']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extension 'colcon_pkg'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extensions ['colcon_meta']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extension 'colcon_meta'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extensions ['ros']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_filters) by extension 'ros'
+[0.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_filters' with type 'ros.ament_cmake' and name 'grid_map_filters'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_loader) by extension 'ros'
+[0.731s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_loader' with type 'ros.ament_cmake' and name 'grid_map_loader'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extension 'ignore_ament_install'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extension 'colcon_pkg'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_msgs) by extension 'ros'
+[0.732s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_msgs' with type 'ros.ament_cmake' and name 'grid_map_msgs'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extension 'ignore_ament_install'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extension 'colcon_pkg'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_octomap) by extension 'ros'
+[0.733s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_octomap' with type 'ros.ament_cmake' and name 'grid_map_octomap'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_pcl) by extension 'ros'
+[0.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_pcl' with type 'ros.ament_cmake' and name 'grid_map_pcl'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_ros) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_ros' with type 'ros.ament_cmake' and name 'grid_map_ros'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extension 'ignore_ament_install'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extensions ['colcon_pkg']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extension 'colcon_pkg'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extensions ['colcon_meta']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_rviz_plugin) by extension 'ros'
+[0.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_rviz_plugin' with type 'ros.ament_cmake' and name 'grid_map_rviz_plugin'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_sdf) by extension 'ros'
+[0.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_sdf' with type 'ros.ament_cmake' and name 'grid_map_sdf'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/grid_map_visualization) by extension 'ros'
+[0.744s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/grid_map/grid_map_visualization' with type 'ros.ament_cmake' and name 'grid_map_visualization'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'colcon_pkg'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extensions ['colcon_meta']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'colcon_meta'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'ros'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extensions ['cmake', 'python']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'cmake'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'python'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extensions ['python_setup_py']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/grid_map/tools) by extension 'python_setup_py'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'colcon_pkg'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extensions ['colcon_meta']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'colcon_meta'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'ros'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extensions ['cmake', 'python']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'cmake'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'python'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extensions ['python_setup_py']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2) by extension 'python_setup_py'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_behavior_tree) by extension 'ros'
+[0.745s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_behavior_tree' with type 'ros.ament_cmake' and name 'nav2_behavior_tree'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extensions ['ignore', 'ignore_ament_install']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extension 'ignore'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_common) by extension 'ros'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_common' with type 'ros.ament_cmake' and name 'nav2_common'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extension 'ignore'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extension 'ignore_ament_install'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extensions ['colcon_pkg']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extension 'colcon_pkg'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extensions ['colcon_meta']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extension 'colcon_meta'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_costmap_2d) by extension 'ros'
+[0.747s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_costmap_2d' with type 'ros.ament_cmake' and name 'nav2_costmap_2d'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extensions ['colcon_meta']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extension 'colcon_meta'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extensions ['ros']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_lifecycle_manager) by extension 'ros'
+[0.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_lifecycle_manager' with type 'ros.ament_cmake' and name 'nav2_lifecycle_manager'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extensions ['colcon_meta']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_map_server) by extension 'ros'
+[0.749s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_map_server' with type 'ros.ament_cmake' and name 'nav2_map_server'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extension 'ignore_ament_install'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extensions ['colcon_pkg']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extension 'colcon_meta'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extensions ['ros']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_msgs) by extension 'ros'
+[0.750s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_msgs' with type 'ros.ament_cmake' and name 'nav2_msgs'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extension 'ignore_ament_install'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extensions ['colcon_pkg']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extension 'colcon_meta'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extensions ['ros']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_util) by extension 'ros'
+[0.752s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_util' with type 'ros.ament_cmake' and name 'nav2_util'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ThirdParty/navigation2/nav2_voxel_grid) by extension 'ros'
+[0.752s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ThirdParty/navigation2/nav2_voxel_grid' with type 'ros.ament_cmake' and name 'nav2_voxel_grid'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim_interfaces) by extension 'ros'
+[0.753s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'ignore_ament_install'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['colcon_pkg']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'colcon_pkg'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['colcon_meta']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'colcon_meta'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv_bridge) by extension 'ros'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_msg_publisher) by extension 'ros'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_msg_publisher' with type 'ros.ament_python' and name 'fake_msg_publisher'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ig_lio_c_msgs) by extension 'ros'
+[0.755s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ig_lio_c_msgs' with type 'ros.ament_cmake' and name 'ig_lio_c_msgs'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.756s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_mapping) by extension 'ros'
+[0.757s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization_mapping' with type 'ros.ament_cmake' and name 'ig_lio_c'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_planning) by extension 'ros'
+[0.758s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_planning' with type 'ros.ament_cmake' and name 'navigation_planning'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extension 'ignore_ament_install'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extensions ['colcon_pkg']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extension 'colcon_pkg'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extensions ['colcon_meta']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extension 'colcon_meta'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extensions ['ros']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_decision_v2) by extension 'ros'
+[0.758s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sentry_decision_v2' with type 'ros.ament_cmake' and name 'sentry_decision_v2'
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.819s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/galactic
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.867s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cv_bridge' is in: /opt/ros/galactic
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cv_bridge
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'auto_aim_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/auto_aim_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/auto_aim_interfaces', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/auto_aim_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/cv_bridge', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cmake_helpers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_cmake_helpers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers', 'symlink_install': False, 'test_result_base': None}
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'cmake_target' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] DEBUG:colcon.colcon_core.verb:Building package 'ig_lio_c_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/ig_lio_c_msgs', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ig_lio_c_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'cmake_target' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.869s] Level 5:colcon.colcon_core.verb:set package 'nav2_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_common', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_common', 'symlink_install': False, 'test_result_base': None}
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'cmake_target' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'octomap_dynamic_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.870s] DEBUG:colcon.colcon_core.verb:Building package 'octomap_dynamic_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/octomap_dynamic_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/octomap_dynamic_map', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP', 'symlink_install': False, 'test_result_base': None}
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'cmake_target' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'fake_msg_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.870s] DEBUG:colcon.colcon_core.verb:Building package 'fake_msg_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/fake_msg_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/fake_msg_publisher', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/fake_msg_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'cmake_target' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.870s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_core', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core', 'symlink_install': False, 'test_result_base': None}
+[0.870s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'cmake_target' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.871s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_msgs', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.871s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_msgs', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'cmake_target' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'cmake_force_configure' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'ament_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'nav2_voxel_grid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.871s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_voxel_grid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_voxel_grid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_voxel_grid', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_voxel_grid', 'symlink_install': False, 'test_result_base': None}
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'cmake_target' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'cmake_force_configure' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'ament_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.872s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_cv', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cv', 'symlink_install': False, 'test_result_base': None}
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'cmake_target' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'cmake_clean_cache' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'cmake_clean_first' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'cmake_force_configure' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'ament_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'catkin_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_octomap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.872s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_octomap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_octomap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_octomap', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_octomap', 'symlink_install': False, 'test_result_base': None}
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'cmake_target' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'grid_map_sdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.872s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_sdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_sdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_sdf', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_sdf', 'symlink_install': False, 'test_result_base': None}
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'cmake_target' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'cmake_clean_cache' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'cmake_clean_first' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'cmake_force_configure' from command line to 'False'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'ament_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'catkin_cmake_args' from command line to 'None'
+[0.872s] Level 5:colcon.colcon_core.verb:set package 'nav2_util' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.872s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_util' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_util', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_util', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_util', 'symlink_install': False, 'test_result_base': None}
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'cmake_target' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'grid_map_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.873s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_ros', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_ros', 'symlink_install': False, 'test_result_base': None}
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'cmake_target' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'cmake_clean_cache' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'cmake_clean_first' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'cmake_force_configure' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'ament_cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'catkin_cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_behavior_tree' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.873s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_behavior_tree' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_behavior_tree', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_behavior_tree', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_behavior_tree', 'symlink_install': False, 'test_result_base': None}
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'cmake_target' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.873s] Level 5:colcon.colcon_core.verb:set package 'nav2_lifecycle_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.873s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_lifecycle_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_lifecycle_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_lifecycle_manager', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_lifecycle_manager', 'symlink_install': False, 'test_result_base': None}
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_target' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.874s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_map_server', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_map_server', 'symlink_install': False, 'test_result_base': None}
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'cmake_target' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'cmake_clean_first' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'cmake_force_configure' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'ament_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.874s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_filters', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_filters', 'symlink_install': False, 'test_result_base': None}
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'cmake_target' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'cmake_clean_first' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'cmake_force_configure' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'ament_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'grid_map_loader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.874s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_loader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_loader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_loader', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_loader', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'cmake_clean_first' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'cmake_force_configure' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'ament_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_pcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.875s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_pcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_pcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_pcl', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_pcl', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_rviz_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.875s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_rviz_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_rviz_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_rviz_plugin', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_rviz_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'cmake_target' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'grid_map_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.875s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_visualization', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'cmake_args' from command line to 'None'
+[0.875s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'cmake_target' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_costmap_2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/nav2_costmap_2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/nav2_costmap_2d', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_costmap_2d', 'symlink_install': False, 'test_result_base': None}
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'cmake_target' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'navigation_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/navigation_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/navigation_planning', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/navigation_planning', 'symlink_install': False, 'test_result_base': None}
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'cmake_target' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'cmake_clean_first' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'sentry_decision_v2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.876s] DEBUG:colcon.colcon_core.verb:Building package 'sentry_decision_v2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/sentry_decision_v2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/sentry_decision_v2', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/sentry_decision_v2', 'symlink_install': False, 'test_result_base': None}
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'cmake_target' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_costmap_2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.877s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_costmap_2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_costmap_2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_costmap_2d', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_costmap_2d', 'symlink_install': False, 'test_result_base': None}
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'cmake_target' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.877s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map_demos', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_demos', 'symlink_install': False, 'test_result_base': None}
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'cmake_target' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'ig_lio_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.877s] DEBUG:colcon.colcon_core.verb:Building package 'ig_lio_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/ig_lio_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/ig_lio_c', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/localization_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'cmake_target' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'grid_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.878s] DEBUG:colcon.colcon_core.verb:Building package 'grid_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sentry/Wolf-Moon/build/grid_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sentry/Wolf-Moon/install/grid_map', 'merge_install': False, 'path': '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map', 'symlink_install': False, 'test_result_base': None}
+[0.878s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_common' with build type 'ament_cmake'
+[0.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_common'
+[0.885s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers' with build type 'ament_cmake'
+[0.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers'
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.896s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/cv_bridge' with build type 'ament_cmake'
+[0.896s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/cv_bridge'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.901s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/auto_aim_interfaces' with build type 'ament_cmake'
+[0.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/auto_aim_interfaces'
+[0.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ig_lio_c_msgs' with build type 'ament_cmake'
+[0.907s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ig_lio_c_msgs'
+[0.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.908s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.912s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/livox_ros_driver2'
+[0.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.915s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP'
+[0.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_common
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/cv_bridge
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/auto_aim_interfaces -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/auto_aim_interfaces
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ig_lio_c_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/ig_lio_c_msgs
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/livox_ros_driver2
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/octomap_dynamic_map
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_cmake_helpers -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers -- -j12 -l12
+[1.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers -- -j12 -l12
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers
+[1.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grid_map_cmake_helpers)
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/grid_map_cmake_helpers
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers' for CMake module files
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers' for CMake config files
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('grid_map_cmake_helpers', 'cmake_prefix_path')
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/hook/cmake_prefix_path.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/hook/cmake_prefix_path.dsv'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/hook/cmake_prefix_path.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/lib/pkgconfig/grid_map_cmake_helpers.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/lib/python3.8/site-packages'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/bin'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.sh'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.bash'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.zsh'
+[1.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/colcon-core/packages/grid_map_cmake_helpers)
+[1.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grid_map_cmake_helpers)
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers' for CMake module files
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers' for CMake config files
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('grid_map_cmake_helpers', 'cmake_prefix_path')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/hook/cmake_prefix_path.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/hook/cmake_prefix_path.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/hook/cmake_prefix_path.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/bin'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/lib/pkgconfig/grid_map_cmake_helpers.pc'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/lib/python3.8/site-packages'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/bin'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.sh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.bash'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.zsh'
+[1.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers/share/colcon-core/packages/grid_map_cmake_helpers)
+[1.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core' with build type 'ament_cmake'
+[1.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core'
+[1.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_msgs' with build type 'ament_cmake'
+[1.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_msgs'
+[1.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_core': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_core
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_msgs
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_common
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_common -- -j12 -l12
+[1.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_common -- -j12 -l12
+[1.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_common
+[1.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_common)
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common' for CMake module files
+[1.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_common
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_common', 'cmake_prefix_path')
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/cmake_prefix_path.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/cmake_prefix_path.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/cmake_prefix_path.sh'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/lib'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/bin'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/lib/pkgconfig/nav2_common.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages'
+[1.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_common', 'pythonpath')
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/pythonpath.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/pythonpath.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/pythonpath.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/bin'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.dsv'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.sh'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.bash'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.zsh'
+[1.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/nav2_common/share/colcon-core/packages/nav2_common)
+[1.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_common)
+[1.865s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common' for CMake module files
+[1.866s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common' for CMake config files
+[1.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_common', 'cmake_prefix_path')
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/cmake_prefix_path.ps1'
+[1.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/cmake_prefix_path.dsv'
+[1.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/cmake_prefix_path.sh'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/lib'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/bin'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/lib/pkgconfig/nav2_common.pc'
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages'
+[1.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_common', 'pythonpath')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/pythonpath.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/pythonpath.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/hook/pythonpath.sh'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_common/bin'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.ps1'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.dsv'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.sh'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.bash'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/package.zsh'
+[1.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/nav2_common/share/colcon-core/packages/nav2_common)
+[1.873s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_msgs' with build type 'ament_cmake'
+[1.873s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_msgs'
+[1.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.878s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_voxel_grid' with build type 'ament_cmake'
+[1.878s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_voxel_grid'
+[1.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/nav2_msgs': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_msgs
+[1.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_voxel_grid
+[2.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_core -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_core
+[2.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_core': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_core -- -j12 -l12
+[2.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map' returned '0': /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/OCTOMAP -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/octomap_dynamic_map
+[2.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/octomap_dynamic_map': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/octomap_dynamic_map -- -j12 -l12
+[4.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ig_lio_c_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/ig_lio_c_msgs
+[4.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c_msgs -- -j12 -l12
+[4.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/grid_map/grid_map_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/grid_map_msgs
+[4.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sentry/Wolf-Moon/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/grid_map_cmake_helpers:/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/grid_map_msgs -- -j12 -l12
+[4.550s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[4.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[4.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/livox_ros_driver2' for CMake module files
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/livox_ros_driver2' for CMake config files
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/livox_ros_driver2/bin'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/livox_ros_driver2/lib/python3.8/site-packages'
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/livox_ros_driver2/bin'
+[4.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[4.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/livox_ros_driver2' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/livox_ros_driver2
+[4.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[4.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[4.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[4.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[4.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[4.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_msgs)
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_msgs' for CMake module files
+[4.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sentry/Wolf-Moon/build/nav2_msgs' returned '-2': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_msgs
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_msgs' for CMake config files
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_msgs/bin'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_msgs/lib/pkgconfig/nav2_msgs.pc'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/sentry/Wolf-Moon/install/nav2_msgs/bin'
+[4.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/package.ps1'
+[4.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/package.dsv'
+[4.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/package.sh'
+[4.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/package.bash'
+[4.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/package.zsh'
+[4.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sentry/Wolf-Moon/install/nav2_msgs/share/colcon-core/packages/nav2_msgs)
+[4.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[4.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.592s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.603s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.620s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.ps1'
+[4.623s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sentry/Wolf-Moon/install/_local_setup_util_ps1.py'
+[4.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.ps1'
+[4.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.sh'
+[4.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sentry/Wolf-Moon/install/_local_setup_util_sh.py'
+[4.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.sh'
+[4.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.bash'
+[4.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.bash'
+[4.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sentry/Wolf-Moon/install/local_setup.zsh'
+[4.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sentry/Wolf-Moon/install/setup.zsh'

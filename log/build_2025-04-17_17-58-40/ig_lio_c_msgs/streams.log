@@ -1,0 +1,88 @@
+[0.036s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ig_lio_c_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/ig_lio_c_msgs
+[0.259s] -- The C compiler identification is GNU 9.4.0
+[0.321s] -- The CXX compiler identification is GNU 9.4.0
+[0.328s] -- Check for working C compiler: /usr/bin/cc
+[0.390s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.393s] -- Detecting C compiler ABI info
+[0.464s] -- Detecting C compiler ABI info - done
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.541s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Detecting CXX compile features
+[0.652s] -- Detecting CXX compile features - done
+[0.655s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.686s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.686s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.752s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.807s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.891s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.928s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.098s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.144s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.186s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.465s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.576s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.580s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.667s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.668s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.668s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.668s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.740s] -- Found PythonExtra: .so  
+[3.022s] -- Configuring done
+[3.198s] -- Generating done
+[3.258s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/ig_lio_c_msgs
+[3.282s] Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/sentry/Wolf-Moon/src/ig_lio_c_msgs -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/ig_lio_c_msgs
+[3.283s] Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c_msgs -- -j12 -l12
+[3.436s] [35m[1mScanning dependencies of target ig_lio_c_msgs__cpp[0m
+[3.452s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.516s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.643s] Traceback (most recent call last):
+[3.643s] Traceback (most recent call last):
+[3.643s]   File "/opt/ros/galactic/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[3.643s]   File "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[3.643s]     from rosidl_generator_c import generate_c
+[3.644s]   File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[3.644s]     from rosidl_generator_cpp import generate_cpp
+[3.645s]   File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[3.646s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[3.646s]   File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[3.646s]     from rosidl_cmake import generate_files
+[3.646s]   File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 22, in <module>
+[3.646s]     from rosidl_parser.parser import parse_idl_file
+[3.646s]   File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[3.646s]     import em
+[3.646s]   File "/usr/lib/python3/dist-packages/em.py", line 1145, in <module>
+[3.647s]     from lark import Lark
+[3.647s]   File "/usr/lib/python3/dist-packages/lark/__init__.py", line 6, in <module>
+[3.647s]     from .lark import Lark
+[3.647s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 7, in <module>
+[3.647s]     class CommentToken(ExpansionToken):
+[3.647s] KeyboardInterrupt
+[3.647s]     from .load_grammar import load_grammar
+[3.647s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 856, in <module>
+[3.660s] make[2]: *** [CMakeFiles/ig_lio_c_msgs__cpp.dir/build.make:150: rosidl_generator_cpp/ig_lio_c_msgs/srv/covert_map.hpp] Interrupt
+[3.661s] make[1]: *** [CMakeFiles/Makefile2:442: CMakeFiles/ig_lio_c_msgs__cpp.dir/all] Interrupt
+[3.661s]     load_grammar = GrammarLoader().load_grammar
+[3.661s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 693, in __init__
+[3.661s]     self.parser = LALR_TraditionalLexer(lexer_conf, parser_conf)
+[3.661s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 96, in __init__
+[3.661s]     self.parser = LALR_Parser(parser_conf, debug=debug)
+[3.661s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 17, in __init__
+[3.662s]     analysis.compute_lalr()
+[3.662s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 286, in compute_lalr
+[3.662s]     self.compute_includes_lookback()
+[3.662s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_analysis.py", line 234, in compute_includes_lookback
+[3.662s]     if (rp2.rule == rp.rule) and rp2.is_satisfied:
+[3.662s]   File "/usr/lib/python3/dist-packages/lark/grammar.py", line 100, in __eq__
+[3.663s]     if not isinstance(other, Rule):
+[3.663s] KeyboardInterrupt
+[3.663s] make[2]: *** [CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/build.make:138: rosidl_generator_c/ig_lio_c_msgs/srv/covert_map.h] Interrupt
+[3.663s] make[1]: *** [CMakeFiles/Makefile2:498: CMakeFiles/ig_lio_c_msgs__rosidl_generator_c.dir/all] Interrupt
+[3.663s] make: *** [Makefile:141: all] Interrupt

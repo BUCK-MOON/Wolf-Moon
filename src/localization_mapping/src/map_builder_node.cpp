@@ -1,10 +1,11 @@
 #include "../include/map_builder_node.hpp"
 namespace IG_LIO
 {
-    MapBuilderNode::MapBuilderNode(const rclcpp::NodeOptions &options = rclcpp::NodeOptions()) : Node("map_builder", options)
+    MapBuilderNode::MapBuilderNode(const rclcpp::NodeOptions &options) : Node("map_builder", options)
     {
         // 初始化参数
         RCLCPP_INFO_STREAM(this->get_logger(), GREEN << "Starting map_builder node ..." << RESET);
+        param_respond();
         RCLCPP_INFO_STREAM(this->get_logger(), BLUE << "processing params ..." << RESET);
         // 初始化监听者
         RCLCPP_INFO_STREAM(this->get_logger(), BLUE << "processing subscribers ..." << RESET);
@@ -325,7 +326,7 @@ namespace IG_LIO
         global_path_pub_ = this->create_publisher<nav_msgs::msg::Path>("global_path", rclcpp::QoS(10).transient_local().keep_last(1));
 
         RCLCPP_INFO_STREAM(this->get_logger(), CYAN << "local cloud publish to "
-                   OccupancyGridConverterNode                                 << "local_cloud" << RESET);
+                                                    << "local_cloud" << RESET);
         RCLCPP_INFO_STREAM(this->get_logger(), CYAN << "body cloud data publish to "
                                                     << "body_cloud" << RESET);
         RCLCPP_INFO_STREAM(this->get_logger(), CYAN << "map cloud data publish to "
@@ -670,7 +671,7 @@ namespace IG_LIO
             shared_data_->pose_updated = true;
         }
 
-        if (current_state_.bg.norm() * 180.0 / M_PI > 2.0) // 如果陀螺仪零偏过大，则跳过地图更新。
+        if (current_state_.bg.norm() * 180.0 / M_PI > 4.0) // 如果陀螺仪零偏过大，则跳过地图更新。
         {
             RCLCPP_WARN_STREAM(this->get_logger(), YELLOW << "bg_norm too large, jump map process!" << RESET);
             return;

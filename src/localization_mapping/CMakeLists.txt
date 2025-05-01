@@ -1,35 +1,137 @@
 cmake_minimum_required(VERSION 3.8)
 project(ig_lio_c)
 set(CMAKE_CXX_STANDARD 17)
+cmake_policy(SET CMP0074 NEW)
 add_compile_options(-std=c++17 -Wall -Wextra -Wpedantic -O3)
 add_compile_definitions(SOPHUS_USE_BASIC_LOGGING)
 set(CMAKE_BUILD_TYPE Release)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake_modules)
 
+find_package(ament_cmake REQUIRED COMPONENTS)
+find_package(rclcpp REQUIRED)
+find_package(rclcpp_components REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(pcl_ros REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(livox_ros_driver2 REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(GTSAM REQUIRED)
+find_package(Sophus REQUIRED)
+find_package(PCL REQUIRED)
+find_package(grid_map_msgs REQUIRED)
+find_package(grid_map_core REQUIRED)
+find_package(grid_map_ros REQUIRED)
+find_package(grid_map_pcl REQUIRED)
+find_package(filters REQUIRED)
+find_package(grid_map_filters REQUIRED)
+find_package(ig_lio_c_msgs REQUIRED)
+find_package(nav2_util REQUIRED)
+find_package(TBB REQUIRED)
+find_package(nav2_map_server REQUIRED)
+find_package(GRAPHICSMAGICKCPP REQUIRED)
+find_package(Glog REQUIRED)
 
+set(dependencies
+  rclcpp
+  rclcpp_components
+  tf2
+  tf2_ros
+  pcl_ros
+  std_msgs
+  nav_msgs
+  livox_ros_driver2
+  geometry_msgs
+  grid_map_msgs
+  visualization_msgs
+  GTSAM
+  grid_map_core
+  grid_map_ros
+  grid_map_pcl
+  filters
+  ig_lio_c_msgs
+  nav2_util
+  TBB
+  grid_map_filters
+  nav2_map_server
+  GRAPHICSMAGICKCPP
+)
 
+set(LINK_DIR ${PROJECT_SOURCE_DIR}/../ThirdParty/OCTOMAP/lib)
 
+include_directories(
+  ${PROJECT_SOURCE_DIR}/include
+  ${EIGEN3_INCLUDE_DIRS}
+  ${Sophus_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
+)
 
+set(sources_mapping_node
+  src/ig_lio_c/ieskf.cpp
+  src/ig_lio_c/icp_localizer.cpp
+  src/ig_lio_c/imu_processor.cpp
+  src/ig_lio_c/iglio_builder.cpp
+  src/ig_lio_c/voxel_map.cpp
+  src/ig_lio_c/commons.cpp
+  src/map_builder_node.cpp
+)
 
+# map_builder_node
+add_executable(map_builder_node
+  ${sources_mapping_node}
+)
 
+ament_target_dependencies(map_builder_node
+  ${dependencies}
+)
 
+target_link_libraries(map_builder_node
+  ${Eigen3_LIBRARIES}
+  ${PCL_LIBRARIES}
+  ${LINK_DIR}/libdm_lib.so
+  gtsam
+  TBB::tbb
+)
 
+set(sources_converter_node
+  src/map_converter_node.cpp
+)
 
+add_executable(map_converter_node
+  ${sources_converter_node}
+)
 
+ament_target_dependencies(map_converter_node
+  ${dependencies}
+)
 
+target_link_libraries(map_converter_node
+  ${Eigen3_LIBRARIES}
+  ${PCL_LIBRARIES}
+  TBB::tbb
+)
 
+install(TARGETS
+  map_builder_node
+  map_converter_node
+  DESTINATION lib/${PROJECT_NAME}
+)
 
+install(DIRECTORY
+  launch
+  config
+  DESTINATION share/${PROJECT_NAME}
+)
 
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
-
-
-
-
-
-
-
-
-
+ament_package()
 
 
 

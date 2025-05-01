@@ -1,0 +1,148 @@
+[0.066s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_util': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_util
+[0.157s] -- The C compiler identification is GNU 9.4.0
+[0.237s] -- The CXX compiler identification is GNU 9.4.0
+[0.243s] -- Check for working C compiler: /usr/bin/cc
+[0.351s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.352s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.516s] -- Detecting CXX compiler ABI info
+[0.575s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.585s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.602s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.602s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.670s] -- Found nav2_common: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_common/share/nav2_common/cmake)
+[0.670s] -- Found nav2_msgs: 1.0.12 (/home/sentry/Wolf-Moon/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.715s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.856s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.957s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.251s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.333s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.337s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.362s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.363s] -- Looking for pthread.h
+[1.444s] -- Looking for pthread.h - found
+[1.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.509s] -- Looking for pthread_create in pthreads
+[1.557s] -- Looking for pthread_create in pthreads - not found
+[1.558s] -- Looking for pthread_create in pthread
+[1.629s] -- Looking for pthread_create in pthread - found
+[1.630s] -- Found Threads: TRUE  
+[1.949s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[1.955s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.958s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.975s] -- Found lifecycle_msgs: 1.0.3 (/opt/ros/galactic/share/lifecycle_msgs/cmake)
+[1.984s] -- Found rclcpp_lifecycle: 9.2.2 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)
+[1.998s] -- Found bondcpp: 3.0.1 (/opt/ros/galactic/share/bondcpp/cmake)
+[2.041s] -- Setting build type to Release as none was specified.
+[2.059s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: program_options 
+[2.061s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.062s] -- Found ament_cmake_pytest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_pytest/cmake)
+[2.064s] -- Found launch_testing_ament_cmake: 0.17.2 (/opt/ros/galactic/share/launch_testing_ament_cmake/cmake)
+[2.064s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.079s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.086s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.087s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.087s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.102s] -- Found PythonExtra: .so  
+[2.222s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.223s] -- Check if compiler accepts -pthread
+[2.271s] -- Check if compiler accepts -pthread - yes
+[2.298s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.300s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.300s] -- Configured cppcheck include dirs: /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_util/include
+[2.300s] -- Configured cppcheck exclude dirs and/or files: 
+[2.301s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.301s] -- Configured cpplint exclude dirs and/or files: 
+[2.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.302s] -- Added test 'lint_cmake' to check CMake code style
+[2.302s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.304s] -- Added test 'uncrustify' to check C / C++ code style
+[2.304s] -- Configured uncrustify additional arguments: 
+[2.304s] -- Added test 'xmllint' to check XML markup files
+[2.307s] -- Configuring done
+[2.394s] -- Generating done
+[2.427s] -- Build files have been written to: /home/sentry/Wolf-Moon/build/nav2_util
+[2.436s] Invoked command in '/home/sentry/Wolf-Moon/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake /home/sentry/Wolf-Moon/src/ThirdParty/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/sentry/Wolf-Moon/install/nav2_util
+[2.439s] Invoking command in '/home/sentry/Wolf-Moon/build/nav2_util': AMENT_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs:/home/sentry/Wolf-Moon/install/nav2_common:/opt/ros/galactic LD_LIBRARY_PATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/sentry/TUP2024-Sentry-Framework/src/IG_LIO_SLAM/ThirdParty/octomap-Dynamic_point_cloud_removal/lib:/opt/intel/openvino_2022/tools/compile_tool:/opt/intel/openvino_2022/runtime/3rdparty/hddl/lib:/opt/intel/openvino_2022/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/opencv4/lib PYTHONPATH=/home/sentry/Wolf-Moon/install/nav2_msgs/lib/python3.8/site-packages:/home/sentry/Wolf-Moon/install/nav2_common/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/opt/intel/openvino_2022/python/python3.8:/opt/intel/openvino_2022/python/python3 /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_util -- -j12 -l12
+[2.481s] [35m[1mScanning dependencies of target dump_params[0m
+[2.486s] [35m[1mScanning dependencies of target gtest[0m
+[2.487s] [35m[1mScanning dependencies of target gtest_main[0m
+[2.487s] [35m[1mScanning dependencies of target nav2_util_core[0m
+[2.503s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.506s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.507s] [  7%] [32mBuilding CXX object src/CMakeFiles/dump_params.dir/dump_params.cpp.o[0m
+[2.599s] [ 10%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[2.600s] [ 12%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[2.601s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[2.616s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[2.620s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[2.623s] [ 22%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[2.665s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[2.699s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[2.705s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[4.140s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.310s] [ 32%] Built target gtest_main
+[9.947s] [ 35%] [32m[1mLinking CXX executable dump_params[0m
+[10.103s] [ 35%] Built target dump_params
+[12.127s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.175s] [ 37%] Built target gtest
+[12.188s] [35m[1mScanning dependencies of target test_execution_timer[0m
+[12.205s] [ 40%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[13.159s] [ 42%] [32m[1mLinking CXX executable test_execution_timer[0m
+[13.215s] [ 42%] Built target test_execution_timer
+[13.297s] [ 45%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[13.431s] [ 45%] Built target nav2_util_core
+[13.441s] [35m[1mScanning dependencies of target test_node_utils[0m
+[13.442s] [35m[1mScanning dependencies of target test_lifecycle_node[0m
+[13.442s] [35m[1mScanning dependencies of target lifecycle_bringup[0m
+[13.443s] [35m[1mScanning dependencies of target test_service_client[0m
+[13.444s] [35m[1mScanning dependencies of target test_string_utils[0m
+[13.444s] [35m[1mScanning dependencies of target test_geometry_utils[0m
+[13.445s] [35m[1mScanning dependencies of target test_actions[0m
+[13.445s] [35m[1mScanning dependencies of target test_lifecycle_utils[0m
+[13.445s] [35m[1mScanning dependencies of target test_lifecycle_cli_node[0m
+[13.445s] [35m[1mScanning dependencies of target test_odometry_utils[0m
+[13.462s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[13.488s] [ 50%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[13.490s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[13.495s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[13.496s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[13.499s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[13.499s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[13.501s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[13.505s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[13.508s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[14.568s] [ 72%] [32m[1mLinking CXX executable test_string_utils[0m
+[14.825s] [ 72%] Built target test_string_utils
+[14.841s] [35m[1mScanning dependencies of target test_robot_utils[0m
+[14.900s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[17.109s] [ 77%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[17.292s] [ 77%] Built target lifecycle_bringup
+[17.455s] [ 80%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[17.707s] [ 80%] Built target test_lifecycle_utils
+[17.929s] [ 82%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[18.053s] [ 85%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[18.113s] [ 85%] Built target test_geometry_utils
+[18.326s] [ 85%] Built target test_lifecycle_node
+[18.421s] [ 87%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[18.698s] [ 87%] Built target test_lifecycle_cli_node
+[19.593s] [ 90%] [32m[1mLinking CXX executable test_node_utils[0m
+[19.596s] [ 92%] [32m[1mLinking CXX executable test_robot_utils[0m
+[19.848s] [ 92%] Built target test_node_utils
+[19.865s] [ 92%] Built target test_robot_utils
+[20.679s] [ 95%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[20.909s] [ 95%] Built target test_odometry_utils
+[24.958s] [ 97%] [32m[1mLinking CXX executable test_service_client[0m
+[25.081s] [ 97%] Built target test_service_client
+[28.622s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[28.772s] [100%] Built target test_actions

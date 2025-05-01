@@ -1,8 +1,0 @@
-[0.048s] Invoking command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12
-[0.389s] [ 25%] [32mBuilding CXX object CMakeFiles/receiver.dir/demo_receiver.cpp.o[0m
-[0.389s] [ 50%] [32mBuilding CXX object CMakeFiles/sender.dir/demo_sender.cpp.o[0m
-[3.083s] [ 75%] [32m[1mLinking CXX executable receiver[0m
-[3.448s] [ 75%] Built target receiver
-[5.410s] [100%] [32m[1mLinking CXX executable sender[0m
-[5.740s] [100%] Built target sender
-[5.803s] Invoked command in '/home/sentry/Wolf-Moon/build/SharedMemoryVideo' returned '0': /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/SharedMemoryVideo -- -j12 -l12

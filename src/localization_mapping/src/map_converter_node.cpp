@@ -63,7 +63,7 @@ namespace IG_LIO
     void MapConverterNode::initSubscribers()
     {
         point_cloud_subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-            "local_cloud", rclcpp::QoS(10).transient_local().keep_last(3), std::bind(&MapConverterNode::pointCloudCallback, this, std::placeholders::_1));
+            "local_cloud", rclcpp::QoS(10).transient_local().keep_last(1), std::bind(&MapConverterNode::pointCloudCallback, this, std::placeholders::_1));
         RCLCPP_INFO_STREAM(this->get_logger(), CYAN << "point cloud data subscribe from "
                                                     << "local_cloud" << RESET);
     }

@@ -1,0 +1,12 @@
+%YAML:1.0
+cache: 2
+exposure: 2000
+gain: 24
+balance:
+  blue: 1.47
+  green: 0.97
+  red: 1.47
+
+serialnumber:
+  left: "DA1851744"
+  right: "DA1851754"

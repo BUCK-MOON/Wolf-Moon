@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "group": "TEST",
+            "name": "O1",
+            "wayPointID": -1,
+            "weight": 400,
+            "start_time": -1,
+            "end_time": -1,
+            "minHP": -1,
+            "maxHP": -1,
+            "opHPmin": -1,
+            "opHPmax": -1,
+            "actions": [
+                "move_7",
+                "wait_5",
+                "move_8",
+                "wait_5"
+            ]
+        },
+        {
+            "id": 3,
+            "group": "hp",
+            "name": "O2",
+            "wayPointID": -1,
+            "weight": 500,
+            "start_time": -1,
+            "end_time": -1,
+            "minHP": -1,
+            "maxHP": 200,
+            "opHPmin": -1,
+            "opHPmax": -1,
+            "actions": [
+                "move_5",
+                "wait_2"
+            ]
+        }
+       
+
+    ]
+}

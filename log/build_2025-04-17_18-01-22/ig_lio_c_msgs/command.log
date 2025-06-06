@@ -1,4 +1,0 @@
-Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c_msgs -- -j12 -l12
-Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/ig_lio_c_msgs -- -j12 -l12
-Invoking command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/ig_lio_c_msgs
-Invoked command in '/home/sentry/Wolf-Moon/build/ig_lio_c_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/ig_lio_c_msgs

@@ -1,0 +1,5 @@
+%YAML:1.0
+debug: 0 #1为调试模式，0是上场模式，一旦程序读到0,就无法再转换模式//todo debug关掉便开始录制视频
+enemy: 1 #1,red、0,blue
+roi: 0
+max_armors_cnt: 5

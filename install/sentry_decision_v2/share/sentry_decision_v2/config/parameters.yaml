@@ -1,6 +1,0 @@
-decision_node:
-  ros__parameters:
-    use_sim_time: False
-    local_rate: 20.0
-    waypoints_file: "rmuc_waypoints.json"
-    decisions_file: "rmuc_decisions_test3.json"

@@ -1,8 +1,0 @@
-{
-  "package_name": "ig_lio_c_msgs",
-  "non_idl_tuples": [
-    "/home/sentry/Wolf-Moon/src/ig_lio_c_msgs:srv/CovertMap.srv",
-    "/home/sentry/Wolf-Moon/src/ig_lio_c_msgs:srv/SaveMap.srv",
-    "/home/sentry/Wolf-Moon/src/ig_lio_c_msgs:srv/ReLoc.srv"
-  ]
-}

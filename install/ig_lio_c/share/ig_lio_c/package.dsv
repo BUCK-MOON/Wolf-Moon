@@ -1,8 +1,0 @@
-source;share/ig_lio_c/hook/cmake_prefix_path.ps1
-source;share/ig_lio_c/hook/cmake_prefix_path.dsv
-source;share/ig_lio_c/hook/cmake_prefix_path.sh
-source;share/ig_lio_c/local_setup.bash
-source;share/ig_lio_c/local_setup.dsv
-source;share/ig_lio_c/local_setup.ps1
-source;share/ig_lio_c/local_setup.sh
-source;share/ig_lio_c/local_setup.zsh

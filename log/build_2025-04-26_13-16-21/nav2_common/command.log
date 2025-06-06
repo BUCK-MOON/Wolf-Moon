@@ -1,4 +1,0 @@
-Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_common -- -j12 -l12
-Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/sentry/Wolf-Moon/build/nav2_common -- -j12 -l12
-Invoking command in '/home/sentry/Wolf-Moon/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_common
-Invoked command in '/home/sentry/Wolf-Moon/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/sentry/Wolf-Moon/build/nav2_common

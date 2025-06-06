@@ -75,5 +75,6 @@
         "valarray": "cpp",
         "variant": "cpp",
         "*.ipp": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/sentry/Wolf-Moon/src/auto_aim_interfaces"
 }

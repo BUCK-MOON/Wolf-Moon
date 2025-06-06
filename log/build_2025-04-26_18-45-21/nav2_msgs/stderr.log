@@ -1,5 +1,0 @@
-make[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/build.make:718: CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/depend] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:495: CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/all] Interrupt
-make: *** wait: No child processes.  Stop.
-make: *** Waiting for unfinished jobs....
-make: *** wait: No child processes.  Stop.

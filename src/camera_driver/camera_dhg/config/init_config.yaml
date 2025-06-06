@@ -1,0 +1,12 @@
+%YAML:1.0
+cache: 2
+exposure: 7700
+gain: 10
+balance:
+  blue: 1.47
+  green: 0.47
+  red: 1.47
+
+
+
+

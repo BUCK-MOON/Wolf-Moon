@@ -1,4 +1,0 @@
-[ 18%] Built target gtest
-make[2]: *** [gtest/CMakeFiles/gtest_main.dir/build.make:97: gtest/CMakeFiles/gtest_main.dir/depend] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:210: gtest/CMakeFiles/gtest_main.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

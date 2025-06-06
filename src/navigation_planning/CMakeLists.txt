@@ -19,6 +19,7 @@ find_package(grid_map_msgs REQUIRED)
 find_package(grid_map_core REQUIRED)
 find_package(grid_map_ros REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 
 
@@ -35,6 +36,7 @@ set(dependencies
   grid_map_core
   grid_map_ros
   tf2_geometry_msgs
+  geometry_msgs
 )
 
 include_directories(
@@ -45,6 +47,8 @@ include_directories(
 
 
 set(sources_planner_node
+  src/dijkstra/map_processor.cpp
+  src/dijkstra/dijkstra_planner.cpp
   src/way_planner_node.cpp
 )
 

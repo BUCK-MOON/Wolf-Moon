@@ -1,5 +1,7 @@
 way_planner_node:
-  map_data:
-    yaml_path: 129_map.yaml
-    inflation_radius: 0.5    # 膨胀半径（米）
-    cost_scaling_factor: 10  # 衰减系数
+  ros__parameters:
+    dijkstra_planner:
+    
+    map_processor:
+      yaml_path: 129_map.yaml
+      robot_radius_: 0.3    # 膨胀半径（米）

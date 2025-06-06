@@ -1,0 +1,58 @@
+%YAML:1.0
+debug: 1 #1为调试模式，0是上场模式，一旦程序读到0,就无法再转换回模式
+# useImu: 1 #是否使用串口
+serial_save: 0.5
+
+# time_offset: -0.17 #-0.23664700 #0.047 #预测后时间补偿
+# 0.008107053732  0.6  -0.3055
+xyz_time_offset: 0.00
+yaw_time_offset: 0.00
+shoot_thres: 0.4700 #开火偏差容忍度
+crack_angle_small: 0.077  #开火角度//不能大于45度
+crack_angle_big: 0.10   #开火角度//不能大于45度+
+max_armor_distance: 15.000 #最远攻击距离
+
+
+###############################################
+
+xyz_offset: #相机坐标系补偿，。
+  x: 0.0
+  y: 0.0
+  z: 0.0
+angle_offset: #角度补偿
+  pitch: -1.0
+  yaw: 0.8
+  # pitch: -4.6
+  # yaw: 1.8
+
+
+################################################
+
+tracker:
+  max_match_distance: 1.77 #两帧之间的目标最大距离
+  max_match_yaw_diff: 1.05 #跳转装甲板最大值
+  tracking_thres: 1 #跟踪到成功容忍阈值
+  lost_time_thres: 1 #丢失时间容忍阈值
+
+#################################################
+
+##1.0 vision
+# ekf: 
+#   #过程噪声
+#   sigma2_q_xyz: 2 #大相信预测，对于实际变化响应慢；小相应更快，但受噪声影响更强
+#   sigma2_q_yaw: 100 #同上
+#   sigma2_q_r: 800.00 #同上
+#   #观测噪声
+#   r_xyz_factor: 0.050 #同上
+#   r_yaw: 0.020
+
+
+##rv_param
+ekf: 
+  #过程噪声
+  sigma2_q_xyz: 2.0 #大相信预测，对于实际变化响应慢；小相应更快，但受噪声影响更强
+  sigma2_q_yaw: 74.0 #同上
+  sigma2_q_r: 810 #同上
+  #观测噪声
+  r_xyz_factor: 0.070 #同上
+  r_yaw: 0.170

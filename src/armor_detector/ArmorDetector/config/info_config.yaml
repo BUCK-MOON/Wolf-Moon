@@ -1,0 +1,24 @@
+%YAML:1.0
+# Intrinsic_Matrix: !!opencv-matrix
+#   rows: 3
+#   cols: 3
+#   dt: d
+#   data: [1019.1172, 0.000000, 310.8,0.000000, 1017.723675, 269.64929,0.000000, 0.000000, 1.000000]
+# Distortion_Matrix: !!opencv-matrix
+#   rows: 1
+#   cols: 5
+#   dt: d
+#   data: [-0.197134,  0.106112, -0.000007, -0.000642, 0.000000]
+#     # data: [-0.058675,  0.056348, -0.026939, -0.006503, 0.000000]
+
+%YAML:1.0
+Intrinsic_Matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [878.88319, 0.000000, 318.02576,0.000000, 878.026845, 254.78477, 0.000000, 0.000000, 1.000000]
+Distortion_Matrix: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-0.025313, 0.117924, 0.0, 0.0, 0.000000]

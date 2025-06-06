@@ -1,0 +1,7 @@
+%YAML:1.0
+useCamera: 0 #0或1 OpenCV的解析器无法解析true和false
+videoPath: "/home/qbyl/T.mp4"
+cameraID: 0
+
+sleepTime: 11 #毫秒(ms)
+useQos: 0

@@ -1,6 +1,0 @@
-string pcd_path
-string map_file_name
-string image_format
-string map_mode
-float32 free_thresh
-float32 occupied_thresh

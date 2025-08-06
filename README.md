@@ -8,4 +8,5 @@ sudo rm -rf /opt/MVS/lib/32/libusb-1.0.so.0
 sudo rm -rf /opt/MVS/lib/64/libusb-1.0.so.0
 
 # 更新中，请将子模块同步到最新版本
+请在.bashrc加入以下语句
 export LD_LIBRARY_PATH=/home/tup/Wolf-Moon/src/ThirdParty/OCTOMAP/lib:$LD_LIBRARY_PATH

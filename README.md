@@ -1,4 +1,5 @@
-# TUP2024-Sentry-Framework
+# TUP2025-Sentry-Framework
+按照比赛要求设计的2025哨兵导航算法
 
 安装海康相机SDK后需要执行：
 
